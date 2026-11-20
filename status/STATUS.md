@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:08 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:18 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:08:15+00:00
-load 268.70 271.16 268.37
+now 2026-11-20T17:18:29+00:00
+load 267.27 267.41 267.52
 ```
 
 ## Progress
 
 ```
-latest_job 15868/183903
-built_ok 4668
-built_with_warnings 3529
+latest_job 17248/183903
+built_ok 5270
+built_with_warnings 4304
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [15856/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralHasSumEqIntegralIndicatorHasSumStatement (107s)
-⚠ [15857/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwinerMemISupRangeEqSumSmulStatement (118s)
-✔ [15858/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.FormalGroupNatMulSeriesProperties (116s)
-⚠ [15859/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntertwiningMapNeZeroOfIsotypicIrreducibleStatement (109s)
-✔ [15860/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.MvPowerSeriesIntegralBoundedClosure (117s)
-✔ [15861/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConvergentSubstOneVariableAndFormalAgreement (117s)
-⚠ [15862/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LinearEquivDescendsOfPreservesImageStatement (119s)
-⚠ [15863/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsAddMonoidHomOfLinearRelations (119s)
-⚠ [15864/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralContinuousMultilinearMapPiMeasureStatement (107s)
-⚠ [15865/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.AlgebraMapMkO (114s)
-⚠ [15866/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsIntegralCoeffInterpolationBivariateSeries (118s)
-⚠ [15867/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearIndependentTrace (111s)
-✔ [15868/183903] Built ReciprocityTheory.EigenFrames.EigenPf (119s)
-⚠ [15869/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalUnitaryOrbits.NormLeOfNear (94s)
-⚠ [15870/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TraceMatrixPiOperatorStatement (116s)
+✔ [17234/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.LinkedUnramifiedChains.CmpPrime (115s)
+✔ [17235/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.PowerSeriesApproximationModMaximal (111s)
+✔ [17236/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsHomogeneousLiftModKerPowSuccSup (112s)
+⚠ [17237/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Gordan (107s)
+⚠ [17238/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsNotMemMulMemIdealOfForallPrimePowSup (113s)
+⚠ [17239/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.HeightKerSectionLeOfCotangentGenerators (114s)
+⚠ [17240/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticRingOfIntegersMulMemSpanOneGenStatement (97s)
+✔ [17241/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.DerHom (118s)
+⚠ [17242/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.SpansOfDer (118s)
+⚠ [17243/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoSpan (113s)
+⚠ [17244/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RingKrullDimMvPowerSeriesFinField (118s)
+⚠ [17245/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.NnDefs (122s)
+⚠ [17246/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.IsUnitAddMem (97s)
+⚠ [17247/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoSurj (114s)
+✔ [17248/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.EqZeroOfHomogeneousAevalMemMaximalIdealPowSucc (117s)
 ```
