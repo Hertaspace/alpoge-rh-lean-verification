@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 16:27 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 16:37 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T16:27:11+00:00
-load 265.14 237.67 139.25
+now 2026-11-20T16:37:43+00:00
+load 267.41 300.59 230.73
 ```
 
 ## Progress
 
 ```
-latest_job 10181/183903
-built_ok 1747
-built_with_warnings 761
+latest_job 11683/183903
+built_ok 2686
+built_with_warnings 1324
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [10167/183903] Built Development.AutomorphicSpectrum.Proofs.AdelicProofs.UnitLogOrthogonalWeightConstant (111s)
-✔ [10168/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MinorDeterminants (110s)
-✔ [10169/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ProjectiveModulesGlueCover (103s)
-⚠ [10170/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CardLe (103s)
-⚠ [10171/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MatchStatement (106s)
-✔ [10172/183903] Built Formalism.SharpRestriction.Divisibility.RankTruncation.RkLemma (103s)
-✔ [10173/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.EffBase (104s)
-✔ [10174/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ProdMapMulSingleApply (105s)
-⚠ [10175/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SetIntegralDifferentiability (104s)
-✔ [10176/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.DenseIntegral (108s)
-✔ [10177/183903] Built GroundTheory.HeightsAndTheta.Heights.IterateExamples.Statements (108s)
-✔ [10178/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv (100s)
-✔ [10179/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationSheafGlueModules (110s)
-⚠ [10180/183903] Built Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsSplitGaussChars (123s)
-✔ [10181/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraSide (109s)
+✔ [11669/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SplitHomeoApply (110s)
+⚠ [11670/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPoint (119s)
+✔ [11671/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGLVecMulEqLastBasis (112s)
+✔ [11672/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LintegralUniformNearParameter (108s)
+✔ [11673/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.UniqueReducedOrbitRepresentative (105s)
+⚠ [11674/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial (104s)
+⚠ [11675/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzBilinear.InvNormSmulMemSphere (105s)
+✔ [11676/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzBilinear.PowMulExpLeHalfExp (105s)
+✔ [11677/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SquareNormBound (91s)
+✔ [11678/183903] Built Formalism.LocalToGlobal.IndefiniteReal.HaarTransfer.SobLeafP (96s)
+✔ [11679/183903] Built Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MollifiedIntegrability.GBaseA (104s)
+⚠ [11680/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsBumpWithNonzeroIntegral (110s)
+⚠ [11681/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierOneParameterIntegral (113s)
+✔ [11682/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoreR (114s)
+✔ [11683/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsCompactSupAddSubgroup (113s)
 ```
