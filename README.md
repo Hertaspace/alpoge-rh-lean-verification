@@ -5,7 +5,7 @@ In November 2026 Levent Alpöge released a note, [remark.pdf](https://alpo.ge/re
 - **Statement:** `RiemannHypothesis` is Mathlib's own definition, not one introduced by the project (see [Main theorems](#main-theorems)).
 - **Source:** the Lean project from `https://alpo.ge/lean.tar.gz.part01` … `part14`. We do not redistribute it. [`SHA256SUMS`](SHA256SUMS) lists the hashes of the parts we checked.
 - **Size:** 175,187 Lean files and about 17.4 million lines, built on Mathlib.
-- **Status:** build in progress. Live progress is in [`status/STATUS.md`](status/STATUS.md), refreshed every 10 minutes.
+- **Status:** build in progress since 20 November 2026, 16:12 UTC, on 256 cores. At the observed rate of about 140 build jobs per minute, the 183,903 jobs need roughly 20 hours. Live progress is in [`status/STATUS.md`](status/STATUS.md), refreshed every 10 minutes.
 
 ## Main theorems
 
