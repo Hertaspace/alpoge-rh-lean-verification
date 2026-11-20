@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:28 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:38 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:28:40+00:00
-load 270.61 269.95 269.14
+now 2026-11-20T17:38:53+00:00
+load 265.55 268.22 269.00
 ```
 
 ## Progress
 
 ```
-latest_job 18625/183903
-built_ok 5949
-built_with_warnings 5002
+latest_job 20003/183903
+built_ok 6591
+built_with_warnings 5738
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [18611/183903] Built ReciprocityTheory.SemistableReduction.TorusLexB (110s)
-⚠ [18612/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.LeadingCoeffNonnegOfEventuallyEvalNat (106s)
-⚠ [18613/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal (120s)
-⚠ [18614/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechComplexDirectLimit (88s)
-✔ [18615/183903] Built Formalism.FilteredPoleLength.ReducedBasisBounds.ReductionQuotient (106s)
-✔ [18616/183903] Built Formalism.FilteredPoleLength.ReducedBasisBounds.BetaSesquilinearity (104s)
-✔ [18617/183903] Built ReciprocityTheory.SemistableReduction.MeasurePreservingSphereMap (111s)
-✔ [18618/183903] Built ReciprocityTheory.SemistableReduction.AeBlockSphereEvalNeZero (110s)
-⚠ [18619/183903] Built ReciprocityTheory.SemistableReduction.IntCoresA (111s)
-✔ [18620/183903] Built ReciprocityTheory.SemistableReduction.SphereTorusA (113s)
-✔ [18621/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.IsUnivChart (108s)
-⚠ [18622/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.IntegralStatementPfA (118s)
-⚠ [18623/183903] Built Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.MvPolynomialIsHomogeneousComapWeighted (109s)
-✔ [18624/183903] Built GroundTheory.ArithmeticGeometry.ToricVarieties.Lattice (116s)
-✔ [18625/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationAtPrimeIsDomainIsIntegrallyClos (101s)
+✔ [19989/183903] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerRuleProductZero (97s)
+✔ [19990/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftOne (112s)
+⚠ [19991/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PullEquiv (116s)
+⚠ [19992/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.SurjectiveHMapZeroOfStaircase (123s)
+⚠ [19993/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtLinkInUniMOfExactAtMapLinearEquiv 
+✔ [19994/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.SkipSuccAbove (116s)
+⚠ [19995/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.ExistsVert (105s)
+✔ [19996/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ApplySmooth (113s)
+⚠ [19997/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftUp (112s)
+✔ [19998/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.BasicDeriv (115s)
+✔ [19999/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkDualExp (110s)
+⚠ [20000/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSym (112s)
+✔ [20001/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftZero (114s)
+✔ [20002/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.ExtDerivCongrNhds (120s)
+⚠ [20003/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.AltSmulRightComp (120s)
 ```
