@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 22:47 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 22:57 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T22:47:05+00:00
-load 269.93 271.60 272.64
+now 2026-11-20T22:57:17+00:00
+load 266.93 269.00 270.93
 ```
 
 ## Progress
 
 ```
-latest_job 59873/183903
-built_ok 26814
-built_with_warnings 25379
+latest_job 61163/183903
+built_ok 27432
+built_with_warnings 26051
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [59861/183903] Built Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PadicIntGLSmulMemPrincipalCongruenceFixed (124s)
-✔ [59862/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.HaarVolumes.TriDens (98s)
-⚠ [59863/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NcardMonicNatDegreeCoeffZeroNeZero (120s)
-⚠ [59864/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.ActsByFrameAct (127s)
-✔ [59865/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.WhittakerTermEqZero (113s)
-⚠ [59866/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsUnitOfIsUniUp (109s)
-⚠ [59867/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MonicIrreducibleInjectRegularCharacterOrbits (122s)
-⚠ [59868/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWhittakerDatumAndHalfLevelsStatement (122s)
-✔ [59869/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardLeCardMulCardSupport (120s)
-⚠ [59870/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlipSimilar (120s)
-✔ [59871/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsCharIffCoord (118s)
-✔ [59872/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsCharTraceOfMul (116s)
-✔ [59873/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardDoubleCosetMulCardInter (117s)
-⚠ [59874/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FinsumCentralIdempotentOfIrrCharacterEqSimple (111s)
-✔ [59875/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsMirabolicConjInvariantTwistedTailMeanFun (115s)
+⚠ [61149/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.InvariantTowerAlgebraMapInjectiveStatement (124s)
+⚠ [61150/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTEOf (120s)
+✔ [61151/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHSt (123s)
+⚠ [61152/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeierstrassPIntegralOfMulIntegralGoodReductionStatement (117s)
+✔ [61153/183903] Built Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsChartGOfBasis (227s)
+✔ [61154/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.AdditionAdditionRing (124s)
+⚠ [61155/183903] Built Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOneStatement (118s)
+⚠ [61156/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OmegaKSqSubSelfAddEqZeroStatement (121s)
+⚠ [61157/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.NormLeOneOfMonicTwo (127s)
+✔ [61158/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTZSumB (126s)
+⚠ [61159/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsotypicPartExteriorProductInflatedSurjection (108s)
+✔ [61160/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDensSt (127s)
+✔ [61161/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHBSt (122s)
+✔ [61162/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DataRigidTorsionOfDataRigid (114s)
+⚠ [61163/183903] Built Development.AutomorphicArithmetic.CyclotomicBounds.ImageMemOfGens (116s)
 ```
