@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 19:43 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 19:53 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T19:43:21+00:00
-load 272.70 271.02 269.48
+now 2026-11-20T19:53:34+00:00
+load 267.20 267.20 268.18
 ```
 
 ## Progress
 
 ```
-latest_job 36346/183903
-built_ok 14769
-built_with_warnings 13901
+latest_job 37672/183903
+built_ok 15505
+built_with_warnings 14491
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [36332/183903] Built Formalism.HermitianCurvature.StatementPB (130s)
-⚠ [36333/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.GramProductIdentities (133s)
-✔ [36334/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.IndOfNot (114s)
-✔ [36335/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.WordMonomial (114s)
-✔ [36336/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ZetaDegZero (109s)
-⚠ [36337/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.CasKIsSymmetricAndFormStatement (122s)
-✔ [36338/183903] Built Formalism.PieriBlockIdeals.BlockIdealBound5Derived (123s)
-⚠ [36339/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.PullLatticeTypedUnit (121s)
-⚠ [36340/183903] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QmColExp (130s)
-✔ [36341/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowFormPermutationSplit.DoubleRowIncreasing (123s)
-⚠ [36342/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowFormPermutationSplit.PermutedRowProductSplit (124s)
-⚠ [36343/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.EulerZetaGammaInvIdentity (140s)
-⚠ [36344/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.FreeOf2OfFourEntries (128s)
-✔ [36345/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.NotCdomAddRoot (109s)
-✔ [36346/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RationalRealBlocks.Bridge (128s)
+✔ [37658/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightKernels.StdCoordMapInjective (120s)
+✔ [37659/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.PListMonoRaise (91s)
+✔ [37660/183903] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ABArith (114s)
+⚠ [37661/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryComplementOpenDenseStatement (112s)
+⚠ [37662/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PoincareFormTwoSidedBound (140s)
+✔ [37663/183903] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.ThmSUniform (120s)
+✔ [37664/183903] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.PTruncPsh (113s)
+⚠ [37665/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.GoodOfMemSlots (117s)
+✔ [37666/183903] Built GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.InhabitantsExt (118s)
+⚠ [37667/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPshCongrOnStatement (116s)
+✔ [37668/183903] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementE (118s)
+✔ [37669/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.StatementD (124s)
+✔ [37670/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.NormIteratedFDerivCompLeOfIsOpen (106s)
+✔ [37671/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MainTermImpliesRowHypothesis (119s)
+✔ [37672/183903] Built ReciprocityTheory.AnalyticForms.LeviForms.RegChartB (116s)
 ```
