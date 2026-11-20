@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 21:56 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 22:06 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T21:56:05+00:00
-load 274.18 273.21 272.92
+now 2026-11-20T22:06:15+00:00
+load 268.21 271.39 272.03
 ```
 
 ## Progress
 
 ```
-latest_job 53374/183903
-built_ok 23628
-built_with_warnings 22069
+latest_job 54668/183903
+built_ok 24317
+built_with_warnings 22673
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [53360/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemOfForall (123s)
-⚠ [53361/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.RelIndexCongruenceSubgroupLeAbsNormPowStatement (123s)
-✔ [53362/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardSublatticesDefiniteQuotientNormalFormLe (113s)
-✔ [53363/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapIsometry (124s)
-✔ [53364/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.SignedBlockAntidiagWithLeadingMinorsEncardLe (117s)
-⚠ [53365/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitVolume.LocDensHG (112s)
-⚠ [53366/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.HighestWeights.ModelTau (119s)
-⚠ [53367/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.DirichletFourierMixedTwistMultipleStatement (107s)
-⚠ [53368/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReferenceLatticeMemOfMemInnerSpan (119s)
-⚠ [53369/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsStarStableIdealAbsorbingMinorsStatement (122s)
-⚠ [53370/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.IdeleGenerators.HolomorphicIrreducibility.UnitFam (114s)
-⚠ [53371/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.FlagFramesSameGradedDefinitePartLatticeEq (116s)
-⚠ [53372/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.SummableRegularizedEisensteinLatticeTermStatement (110s)
-⚠ [53373/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormGammaOneOfCoeffSeqStatement (122s)
-⚠ [53374/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.PeterssonCosetIntegralSumHeckeTAdjoint (123s)
+⚠ [54654/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.GenAmple (114s)
+✔ [54655/183903] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.GmMulEqOfResMulEq (127s)
+✔ [54656/183903] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.GtCoordCompatOfPull (129s)
+⚠ [54657/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosureStatement (110s)
+✔ [54658/183903] Built Development.AutomorphicArithmetic.ConductorsKronecker.kronecker (102s)
+⚠ [54659/183903] Built Formalism.SharpRestriction.Divisibility.GeneratorPowers.LBPull (126s)
+✔ [54660/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalGeneratorDivBaseUnitEqGeneric (114s)
+✔ [54661/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.MinkowskiDivisible (94s)
+⚠ [54662/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FullTorsionPullbackStatement (113s)
+⚠ [54663/183903] Built Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FirstCohomologyVanishesDescent (129s)
+⚠ [54664/183903] Built Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsLocalUnitOfWeight (135s)
+⚠ [54665/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CubeVal (115s)
+⚠ [54666/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsDescentOfIsReduced (132s)
+✔ [54667/183903] Built Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory (126s)
+⚠ [54668/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLineBundleHeightProperScheme (125s)
 ```
