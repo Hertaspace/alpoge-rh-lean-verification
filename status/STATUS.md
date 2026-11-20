@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 23:27 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:38 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T23:27:47+00:00
-load 285.01 275.45 273.59
+now 2026-11-20T23:37:59+00:00
+load 306.24 287.60 278.55
 ```
 
 ## Progress
 
 ```
-latest_job 64996/183903
-built_ok 29167
-built_with_warnings 28148
+latest_job 66273/183903
+built_ok 29697
+built_with_warnings 28894
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [64982/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.AtPBijective (111s)
-✔ [64983/183903] Built Development.DiscreteGroups.GlobalIrreducibility.LocTypeOfSerParamLe (131s)
-⚠ [64984/183903] Built Formalism.LocalToGlobal.Columns.AtTRank (126s)
-✔ [64985/183903] Built Formalism.LocalToGlobal.Columns.KernelArgumentHypothesisScalar (126s)
-✔ [64986/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.BesselSubgroupParameterMeasurePreservingImports (123s)
-⚠ [64987/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.QuantumMinorRowExpansionEigenFunctionalStatement (118s)
-⚠ [64988/183903] Built Formalism.LocalToGlobal.Columns.FiniteSumNonzeroLargeDepth (170s)
-✔ [64989/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.ExistsLieUnitaryElementSimpleRootImports (120s)
-⚠ [64990/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgHomExtOfConstantCoeffZero (115s)
-✔ [64991/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.HaarCompactLtTop (127s)
-⚠ [64992/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.KTypeLemma.VermaCone (120s)
-⚠ [64993/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoordsSecondKindFormPreservingGroupStatement (128s)
-⚠ [64994/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.TailMassLeOfMajorantLengthMomentBoundStatement (113s)
-✔ [64995/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsBlockAntidiagonalScaledPairingMatrix (118s)
-⚠ [64996/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.FrobeniusNontrivialOnInertQuadratic (133s)
+⚠ [66259/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.SlashSmulPos (132s)
+✔ [66260/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicAlgHomSubDvdOfXDvd (117s)
+⚠ [66261/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleTwistCoboundaryOnBallStatement (109s)
+⚠ [66262/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.WittOrthonormalBasis (122s)
+⚠ [66263/183903] Built Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClassSets.LevGapTop (143s)
+⚠ [66264/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPowStatement (126s)
+⚠ [66265/183903] Built Formalism.LocalRingCardinality.SpanPowerMembership.RangeInclEqSpan (153s)
+✔ [66266/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GaussNormAcrisRadiusPosDefinite (124s)
+⚠ [66267/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.BesselRootDilationNormalizesContractsUnipotentStatement (116s)
+⚠ [66268/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DcrisFiniteOfIsDR (112s)
+⚠ [66269/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistedPhiGammaModelSenWeightCountStatement (127s)
+✔ [66270/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfIsReflexive (130s)
+✔ [66271/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.TailIntegrals.ExponentShiftEqLevelExponent (125s)
+⚠ [66272/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.BudgetClassEstimate (118s)
+✔ [66273/183903] Built Formalism.MirabolicMackeyTheory.MirabolicMackeyProofs.AbsorbLocalConditionsOfExact (118s)
 ```
