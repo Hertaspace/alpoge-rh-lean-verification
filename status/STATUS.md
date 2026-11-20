@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 21:25 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 21:35 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T21:25:26+00:00
-load 278.61 276.49 272.91
+now 2026-11-20T21:35:37+00:00
+load 266.86 271.36 272.04
 ```
 
 ## Progress
 
 ```
-latest_job 49469/183903
-built_ok 21562
-built_with_warnings 20230
+latest_job 50781/183903
+built_ok 22302
+built_with_warnings 20806
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [49455/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.FirstLevelOfThreeVarParallelogram (108s)
-✔ [49456/183903] Built GroundTheory.PAdicHodge.BCrisRegular (356s)
-✔ [49457/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HostFieldFacts.HostFieldFacts (122s)
-✔ [49458/183903] Built ReciprocityTheory.ClassFieldTheory.LocalClassField.UnitsHerbrand (121s)
-✔ [49459/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicIndexEquality.ModQEqOneOfMemNormalizer (98s)
-⚠ [49460/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ArtinMapSecondEqJacobiSymOfModEq (121s)
-⚠ [49461/183903] Built Development.AutomorphicArithmetic.CyclotomicBounds.RootsOfUnity.NuQDUnit (117s)
-⚠ [49462/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsPolynomialRepGLComplexAlgebraicWeightEvalPoint (118s)
-✔ [49463/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTypeEmbeddings.EmbMemCmType (125s)
-✔ [49464/183903] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FormalHermitianActionPairing (125s)
-✔ [49465/183903] Built Formalism.FlagUnipotentLattices.FinalTr (112s)
-✔ [49466/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.OfChar (123s)
-✔ [49467/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingBound.Choose (116s)
-✔ [49468/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraicWeightSpanTranslatesFactorCommutant (122s)
-✔ [49469/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.EqOfPowEqOne (125s)
+✔ [50771/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsSide (110s)
+✔ [50772/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PSnapperSectionX (129s)
+⚠ [50773/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FiniteVerticalRecursion (122s)
+✔ [50774/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsDivPushSheetSum (114s)
+⚠ [50775/183903] Built Development.WeilBound.CoreStatements.HodgeTatePoints.TrivflagNef (124s)
+✔ [50776/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.TsenTheorem (112s)
+✔ [50777/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEq (123s)
+✔ [50778/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsFujitaGeneric (114s)
+✔ [50779/183903] Built GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.IsAlgebraicAdjoinRangeIff (106s)
+⚠ [50780/183903] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotIsSquareAdicCompletionStatement (119s)
+✔ [50781/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightComparison.POrbitCurve (106s)
+✔ [50782/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagHeightPolynomialWeightForm (127s)
+⚠ [50783/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOneStatement (106s)
+✔ [50784/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsTail (114s)
+⚠ [50785/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSumStatement (123s)
 ```
