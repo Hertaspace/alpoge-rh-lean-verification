@@ -1,26 +1,29 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 16:17 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 16:27 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T16:17:03+00:00
-load 151.64 57.32 23.65
+now 2026-11-20T16:27:11+00:00
+load 265.14 237.67 139.25
 ```
 
 ## Progress
 
 ```
-latest_job 8762/183903
-built_ok 1068
-built_with_warnings 23
-failed 0
-error_messages 0
+latest_job 10181/183903
+built_ok 1747
+built_with_warnings 761
+failed 1
+error_messages 2
 ```
 
 ## Errors (first 50)
 
 ```
+✖ [8763/183903] Building Statements (61s)
+error: src/Statements.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Bicategory/Extension.ir', invalid header
+error: Lean exited with code 1
 ```
 
 ## Axiom check
@@ -31,19 +34,19 @@ error_messages 0
 ## Log tail
 
 ```
-✔ [8711/183903] Built Mathlib.NumberTheory.FLT.Three (6.8s)
-✔ [8712/183903] Built Mathlib.NumberTheory.NumberField.Ideal.Asymptotics (7.3s)
-✔ [8714/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusIsCommMonObjSt (3.5s)
-✔ [8715/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.IsTorus (3.7s)
-✔ [8716/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme (3.9s)
-✔ [8717/183903] Built Mathlib.Analysis.Distribution.SchwartzSpace.Fourier (11s)
-✔ [8745/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.SemistableReductionPlusSplit (3.9s)
-✔ [8746/183903] Built Mathlib.NumberTheory.ModularForms.JacobiTheta.OneVariable (3.5s)
-✔ [8748/183903] Built Mathlib.NumberTheory.LSeries.DirichletContinuation (3.8s)
-✔ [8752/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.HomExtDvrSt (3.5s)
-✔ [8753/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.PlusConditionToZeroCondition (4.2s)
-✔ [8754/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.SemistableCompleteSplit (3.2s)
-✔ [8755/183903] Built Mathlib.Analysis.Distribution.TemperedDistribution (13s)
-⚠ [8761/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ContentBoundLevelIdeal (26s)
-⚠ [8762/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.IsPrecompleteOfBasis (15s)
+✔ [10167/183903] Built Development.AutomorphicSpectrum.Proofs.AdelicProofs.UnitLogOrthogonalWeightConstant (111s)
+✔ [10168/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MinorDeterminants (110s)
+✔ [10169/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ProjectiveModulesGlueCover (103s)
+⚠ [10170/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CardLe (103s)
+⚠ [10171/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MatchStatement (106s)
+✔ [10172/183903] Built Formalism.SharpRestriction.Divisibility.RankTruncation.RkLemma (103s)
+✔ [10173/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.EffBase (104s)
+✔ [10174/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ProdMapMulSingleApply (105s)
+⚠ [10175/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SetIntegralDifferentiability (104s)
+✔ [10176/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.DenseIntegral (108s)
+✔ [10177/183903] Built GroundTheory.HeightsAndTheta.Heights.IterateExamples.Statements (108s)
+✔ [10178/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv (100s)
+✔ [10179/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationSheafGlueModules (110s)
+⚠ [10180/183903] Built Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsSplitGaussChars (123s)
+✔ [10181/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraSide (109s)
 ```
