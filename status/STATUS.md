@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 18:21 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 18:31 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T18:21:23+00:00
-load 266.49 268.48 268.33
+now 2026-11-20T18:31:40+00:00
+load 271.26 271.87 270.60
 ```
 
 ## Progress
 
 ```
-latest_job 25654/183903
-built_ok 9511
-built_with_warnings 8468
+latest_job 27007/183903
+built_ok 10077
+built_with_warnings 9255
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [25648/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.EqOfFiniteOfClosedFibres (116s)
-⚠ [25649/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation (122s)
-⚠ [25650/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.StabilizerStableLatticeLeIntegralUnitsSubgroup (122s)
-✔ [25651/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRemovableHyperplane (113s)
-⚠ [25652/183903] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.AssocSetApplyOfPointwise (127s)
-✔ [25653/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgeFrameGram (121s)
-✔ [25654/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CovariantDbarLeibniz (120s)
-⚠ [25655/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.AdjacentSelfDualLatticesIndexSimpleStatement (102s)
-✔ [25656/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ParameterFunctionEqZeroOfComposable (117s)
-⚠ [25657/183903] Built GroundTheory.PAdicHodge.BCrisNewtonLift (122s)
-⚠ [25658/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityShiftLatticeVariablePowStatement (118s)
-⚠ [25659/183903] Built ReciprocityTheory.DualLattices.ProdDvdOfIso (103s)
-⚠ [25660/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernOneEqNegDdcLogDet (121s)
-✔ [25661/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.ColAbelA (116s)
-✔ [25662/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsParameterFunctionOfFibreDerivZero (120s)
+✔ [26993/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateSelfReciprocalCharpoly (94s)
+⚠ [26994/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NcardSumBinaryFormNeZero (118s)
+✔ [26995/183903] Built Formalism.WeaklyAdmissibleFiltrations.CrystallineStableLifts.ExistsPeriodRingDataHolds (107s)
+⚠ [26996/183903] Built Formalism.WeaklyAdmissibleFiltrations.CrystallineStableLifts.WachCol (107s)
+✔ [26997/183903] Built Formalism.WachLatticeTwists.WachProductBases.NontrivialWachExample (122s)
+⚠ [26998/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HaarFibreUniqueness.Development (120s)
+✔ [26999/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfMemAllPowers (97s)
+✔ [27000/183903] Built Formalism.PeriodIntegrals.GaugeGap (116s)
+⚠ [27001/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalJacobianType.BoxMulA (117s)
+⚠ [27002/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.DisintegrationDensityContinuousStatement (119s)
+⚠ [27003/183903] Built CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SecondCountableQuotients.ModExists (99s)
+✔ [27004/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsCompactOpenUnitsSubgroupContinuousSqrt (116s)
+⚠ [27005/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFibreFamilyEqAtContinuityPointStatement (114s)
+✔ [27006/183903] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.TheoremCIiiMulti (114s)
+⚠ [27007/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DisintegrationInjectiveOpenMapStatement (122s)
 ```
