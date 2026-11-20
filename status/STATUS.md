@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 18:52 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 19:02 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T18:52:14+00:00
-load 267.51 268.46 269.26
+now 2026-11-20T19:02:26+00:00
+load 265.98 268.40 269.01
 ```
 
 ## Progress
 
 ```
-latest_job 29705/183903
-built_ok 11455
-built_with_warnings 10575
+latest_job 31035/183903
+built_ok 12088
+built_with_warnings 11272
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [29691/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsUnitTraceFormDiscrUnramifiedExt (120s)
-✔ [29692/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsReducedOfLieReg (123s)
-✔ [29693/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardSubspacesSupEqTop (114s)
-⚠ [29694/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedDictionaryPartBStatement (109s)
-⚠ [29695/183903] Built Development.WeilBound.CoreStatements.AmpleLineBundles.SquareZeroDeformationAdditivity (102s)
-✔ [29696/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFinite (115s)
-⚠ [29697/183903] Built Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvariantSubspaceMobiusInverseOneProdIcoStatement (119s)
-✔ [29698/183903] Built GroundTheory.LocalFields.SeparableClosureValuation (120s)
-✔ [29699/183903] Built GroundTheory.LocalFields.UnramifiedGalois (121s)
-✔ [29700/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleFiniteCoeffTendstoAndBounded (112s)
-✔ [29701/183903] Built GroundTheory.AutomorphicForms.DixmierMalliavinHaarDensity (94s)
-✔ [29702/183903] Built GroundTheory.AutomorphicForms.QuotientKernel (116s)
-✔ [29703/183903] Built GroundTheory.AutomorphicForms.MultiplicityOne.OpenSubgroupRep (115s)
-⚠ [29704/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFinite (114s)
-⚠ [29705/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEq (114s)
+✔ [31021/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeCollarMass (97s)
+✔ [31022/183903] Built GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.CycEvalAddOfFinite (118s)
+✔ [31023/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeEuclMass (100s)
+✔ [31024/183903] Built GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PBlowUpModel (122s)
+✔ [31025/183903] Built GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.WithBotLtOfAddOneLe (118s)
+✔ [31026/183903] Built GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.ExceptionalDeg (120s)
+✔ [31027/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StChartDehomogPrime (114s)
+✔ [31028/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StConeChartGram (117s)
+✔ [31029/183903] Built GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.PConeMassOfFibre (119s)
+✔ [31030/183903] Built GroundTheory.HeightsAndTheta.Heights.ChowForms.PChartNorm (120s)
+✔ [31031/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceDim (117s)
+✔ [31032/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLelongLimit (116s)
+✔ [31033/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLelongMassNearSmall (112s)
+✔ [31034/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRegMassNearSmall (113s)
+✔ [31035/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLogNormEnergyDensNonneg (111s)
 ```
