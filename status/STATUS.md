@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 16:47 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 16:58 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T16:47:51+00:00
-load 269.60 273.43 249.52
+now 2026-11-20T16:58:02+00:00
+load 284.02 288.00 267.31
 ```
 
 ## Progress
 
 ```
-latest_job 13085/183903
-built_ok 3405
-built_with_warnings 2007
+latest_job 14482/183903
+built_ok 4191
+built_with_warnings 2618
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [13071/183903] Built GroundTheory.AutomorphicForms.GL2Classical.Iwasawa (111s)
-✔ [13072/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.ExcTerm (108s)
-✔ [13073/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExistsFarFromPoints (112s)
-⚠ [13074/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StalkGenerizationGermCompat (108s)
-⚠ [13075/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MonomialFrameSpan.DetSubmatrixFun (102s)
-✔ [13076/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.MpUncurry (109s)
-⚠ [13077/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI (137s)
-✔ [13078/183903] Built Formalism.SharpRestriction.CuspSpanNormBounds.BridgeLevelGenA (118s)
-⚠ [13079/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OrbitPowerSeriesCoefficients.ExpSum (104s)
-✔ [13080/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.StrictlyUpperRank (111s)
-✔ [13081/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHPrimeB (109s)
-⚠ [13082/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TopologicalKrullDimAddOneLeOfSsubset (114s)
-✔ [13083/183903] Built GroundTheory.AutomorphicForms.ArchimedeanWhittaker.WronskianEqZeroOfModerate (119s)
-✔ [13084/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.MSqMainA (113s)
-⚠ [13085/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AntidiagTwistedNorm (111s)
+⚠ [14468/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoTsumDivPow (108s)
+✔ [14469/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.KeyLemmaStatement (104s)
+⚠ [14470/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.RConvFExistsPfAbs (109s)
+⚠ [14471/183903] Built Formalism.SharpRestriction.AdmissibleParameterJoins.SfromGLt (94s)
+✔ [14472/183903] Built Formalism.LandauZeroFreeBounds.Statement (97s)
+⚠ [14473/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.CoefCExpEntrySummable (97s)
+✔ [14474/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EvalDet (100s)
+✔ [14475/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.CutFold (103s)
+⚠ [14476/183903] Built Formalism.LocalRingCardinality.SpanPowerMembership.LeOfEventuallyDown (103s)
+✔ [14477/183903] Built Formalism.PeriodIntegrals.TransferenceCoverRad (98s)
+⚠ [14478/183903] Built Lemmata.NatMulIsIntegral.ExistsNatMulIsIntegral (105s)
+⚠ [14479/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsMulSubOneMemPow (100s)
+⚠ [14480/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.FundamentalDomainPiBasis (102s)
+✔ [14481/183903] Built Formalism.SizeWindowBrackets.TraceSquareAndDiagBounds (98s)
+⚠ [14482/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.LieAveraging.LsSetresAvg (106s)
 ```
