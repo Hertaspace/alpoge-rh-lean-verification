@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 23:07 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:17 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T23:07:26+00:00
-load 269.62 269.57 270.50
+now 2026-11-20T23:17:39+00:00
+load 272.94 272.28 271.89
 ```
 
 ## Progress
 
 ```
-latest_job 62446/183903
-built_ok 28040
-built_with_warnings 26728
+latest_job 63728/183903
+built_ok 28633
+built_with_warnings 27414
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [62434/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XSPullback (135s)
-⚠ [62435/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianLocalRingHens (120s)
-✔ [62436/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsIntCoordChange (113s)
-✔ [62437/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PPtsPosDensIntegrable (126s)
-✔ [62438/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PotFinCons (126s)
-✔ [62439/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatHens (123s)
-⚠ [62440/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.SplitTorusExtensionDescendsStatement (121s)
-⚠ [62441/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagChainArithVariety (120s)
-⚠ [62442/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArithVarietyDedekindConstants (131s)
-⚠ [62443/183903] Built Development.AbelianVarietyTheory.Definitions.Degenerations.ShortSquareFormIff (121s)
-⚠ [62444/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationLiftSmoothOverFieldStatement (122s)
-⚠ [62445/183903] Built Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsSplitExtDatumOfSplitTorusExtensionStatement (124s)
-⚠ [62446/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement (122s)
-⚠ [62447/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.HodgeCptMorphismCompatStatement (130s)
-✔ [62448/183903] Built Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.IsSemiAbelianUnit (105s)
+⚠ [63714/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockTriVecMulEqSinglePred (127s)
+⚠ [63715/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusConstantsPiAdicFiltrationModEllStatement (102s)
+⚠ [63716/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SymmetricPositionCharMultiplicitySuccEqStatement (124s)
+✔ [63717/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PartialDerivativeMinors.PMinorAff (116s)
+✔ [63718/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.Development (121s)
+⚠ [63719/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.H1LatticeRankGrowth (105s)
+⚠ [63720/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryScalarMulIntegralLocalToGlobalStatement (116s)
+✔ [63721/183903] Built Formalism.LocalToGlobal.ExponentGrids.SecondComplementClosedValuation (114s)
+⚠ [63722/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMultOneDimOf (122s)
+✔ [63723/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GoodEigSumSupComplEigSumEqTop (123s)
+✔ [63724/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicLevelIntegersMemClosureLevels (101s)
+⚠ [63725/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsScalarMulIntegralOfConjIntegralGeneratorsStatement (123s)
+⚠ [63726/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralFormLatticeEqSumLocalisedLattices (129s)
+⚠ [63727/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PrimeLeSuccOfDvdMinkM (118s)
+⚠ [63728/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RationalFormEqSumLocalisationProjections (128s)
 ```
