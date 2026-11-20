@@ -69,6 +69,14 @@ lake build
 
 Started 20 November 2026, 16:12 UTC. Result: in progress.
 
+**Incident during the first pass.** At about 16:16 UTC the module `Statements` failed with
+
+```
+error: src/Statements.lean:1:0: failed to read file '.../mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Bicategory/Extension.ir', invalid header
+```
+
+This is an error reading a compiled Mathlib file, not an error in the project. The file has a valid header when inspected afterwards, and `lake env lean src/Statements.lean` then succeeded in 11 s. The likely cause is that the file was read while it was being rewritten, during the partial recompilation of Mathlib described above. Because `Main` imports `Statements`, the first pass cannot build `Main`. A second `lake build` after the first pass ends rebuilds every module that failed or was skipped, and the results below refer to that second pass.
+
 ## Axioms
 
 Pending.
