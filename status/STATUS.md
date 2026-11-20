@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 19:22 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 19:33 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T19:22:52+00:00
-load 269.69 270.51 270.14
+now 2026-11-20T19:33:07+00:00
+load 267.50 265.97 268.04
 ```
 
 ## Progress
 
 ```
-latest_job 33710/183903
-built_ok 13442
-built_with_warnings 12593
+latest_job 35033/183903
+built_ok 14252
+built_with_warnings 13106
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [33698/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFixingActsAsFrobeniusPowerResidueStatement (105s)
-⚠ [33699/183903] Built ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.LocalFieldAutomorphisms.MemRangeOfAevalRatEqZero (120s)
-✔ [33700/183903] Built ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.LocalFieldAutomorphisms.ValuationIntCastLtOneIff (121s)
-⚠ [33701/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.FiniteContinuousCrossedHomomorphisms (115s)
-✔ [33702/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitTZpow (124s)
-⚠ [33703/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRootOfUnityFixedDvdWeilGroupDegreeStatement (113s)
-⚠ [33704/183903] Built ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.Transport (115s)
-⚠ [33705/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFinBasisSubsetOfIsField (117s)
-⚠ [33706/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFinsetFixingIffPreservesSubgroupOrbitStatement (110s)
-⚠ [33707/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMonicBasePolynomialRootNearDecompositionStatement (123s)
-⚠ [33708/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankMulLeFinrankDdROfSpans (121s)
-⚠ [33709/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimitiveElementStabilizerFinsetStatement (113s)
-⚠ [33710/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.FinitelyManyOpenSubgroupsBoundedIndex (118s)
-⚠ [33711/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.TraceChart (114s)
-⚠ [33712/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FontaineFormalismTensorEquiv (129s)
+✔ [35019/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StBoundingKaehler (114s)
+✔ [35020/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListTailLogSmooth (115s)
+✔ [35021/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.EnergySum (119s)
+✔ [35022/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StProductBounds (118s)
+✔ [35023/183903] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.PChartComparison (131s)
+✔ [35024/183903] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.ProjLineChartsNotSubsetBall (121s)
+✔ [35025/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramSize (127s)
+✔ [35026/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StLemmaETailLog (118s)
+✔ [35027/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListMonoRaise (116s)
+⚠ [35028/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.CaCplModfree (123s)
+✔ [35029/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StDivisorNull (120s)
+✔ [35030/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.TailDimZero (119s)
+✔ [35031/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListProductMass (118s)
+✔ [35032/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.KaehlerBound (121s)
+✔ [35033/183903] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.PIntegralPointOfAlgebraicDomain (125s)
 ```
