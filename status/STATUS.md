@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 20:44 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 20:54 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T20:44:35+00:00
-load 268.36 268.32 269.28
+now 2026-11-20T20:54:47+00:00
+load 268.63 271.02 270.10
 ```
 
 ## Progress
 
 ```
-latest_job 44262/183903
-built_ok 18757
-built_with_warnings 17829
+latest_job 45560/183903
+built_ok 19418
+built_with_warnings 18466
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [44248/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsRangeOfMonicRootStatement (122s)
-⚠ [44249/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHenseStatement (124s)
-✔ [44250/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangePrimePowMemIsotypicDegreePolySpan (126s)
-⚠ [44251/183903] Built Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.ThmEPrim (133s)
-⚠ [44252/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.HahnSeriesEqOfQExpansionSumAboveEventuallyEqStatement (125s)
-⚠ [44253/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPadicIntRingHomCongrToZModPow (116s)
-⚠ [44254/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCocycleLiftOfCompatible (118s)
-✔ [44255/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsVariablePowSmulEqZeroOfFiniteLength (130s)
-✔ [44256/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemPhiModuleLatticeOfAdicSeriesPrimePowTerms (121s)
-⚠ [44257/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsTorsionPairingEqInvUniformizer (120s)
-⚠ [44258/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsoTrivialProjBundleProdFibreStatement (90s)
-✔ [44259/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrimePowSmulConnectionSeriesTermMemLattice (123s)
-⚠ [44260/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrimePowSmulDescentPhiMemLatticeOfOrbitBound (124s)
-⚠ [44261/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRatStatement (116s)
-✔ [44262/183903] Built Development.EtaleCohomology.TateTwists.ExistsEtaleMonoMuTwistQuotientOfRootListsLocally (106s)
+✔ [45546/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RealFieldComparison.JmMulApply (127s)
+✔ [45547/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.IdemLiftOfSteps (120s)
+✔ [45548/183903] Built Formalism.LocalRingCardinality.HostCls (145s)
+✔ [45549/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeMultiplicity.EncardLeOfFinset (123s)
+⚠ [45550/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodularity.ConstructionD (121s)
+✔ [45551/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeAutomorphismFiniteness.IndSetFinite (116s)
+✔ [45552/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.GlobWIff (125s)
+✔ [45553/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianFrameExistence.FrameHypothesesRankZero (123s)
+✔ [45554/183903] Built Formalism.GL3MeanSquares.GlobalBoundRefinementResults (119s)
+✔ [45555/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicClassFiniteness.DictPlan (113s)
+✔ [45556/183903] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HeckeLEntireAndNonzeroAtOne (122s)
+⚠ [45557/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GelfandTsetlinLowering.RowsZStrictMono (111s)
+⚠ [45558/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodularity.ConstructionB (125s)
+✔ [45559/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinPartEqOneOfFibres (122s)
+✔ [45560/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CMFieldExponentialBounds.primesex (120s)
 ```
