@@ -1,19 +1,21 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 16:16 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 16:17 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T16:16:00+00:00
-load 32.81 25.04 11.87
+now 2026-11-20T16:17:03+00:00
+load 151.64 57.32 23.65
 ```
 
 ## Progress
 
 ```
-✔ [8712/183903]
-built_lines 1057
-error_lines 0
+latest_job 8762/183903
+built_ok 1068
+built_with_warnings 23
+failed 0
+error_messages 0
 ```
 
 ## Errors (first 50)
@@ -29,34 +31,19 @@ error_lines 0
 ## Log tail
 
 ```
-  omit hϖ in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-warning: src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/ConstantCoeffResidueUXPow.lean:357:0: automatically included section variable(s) unused in theorem `Formalism.MainNotions.N.FrobeniusPowerSeries.V2`:
-  [IsAdicComplete (IsLocalRing.maximalIdeal O) O]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [IsAdicComplete (IsLocalRing.maximalIdeal O) O] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-⚠ [8706/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.DenBound (4.4s)
-warning: src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/DenBound.lean:35:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
-If you'd rather continue using `push_neg` in your project, you can implement it as follows:
-```
-open Lean.Parser.Tactic in
-macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
-  `(tactic| push $cfg:optConfig Not $[$loc]?)
-```
-warning: src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/DenBound.lean:63:12: `ENat.coe_toNat` has been deprecated: Use `ENat.natCast_toNat` instead
-✔ [8707/183903] Built Mathlib.AlgebraicGeometry.Group.Abelian (15s)
-⚠ [8708/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.SmoothDecayOfWeighted (4.4s)
-warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SmoothDecayOfWeighted.lean:37:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P5.HerC.Fou.inv_sq_le`:
-  [InnerProductSpace ℝ V]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [InnerProductSpace ℝ V] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-✔ [8709/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.MomentIntegrable (4.4s)
-✔ [8710/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusAff (3.5s)
 ✔ [8711/183903] Built Mathlib.NumberTheory.FLT.Three (6.8s)
 ✔ [8712/183903] Built Mathlib.NumberTheory.NumberField.Ideal.Asymptotics (7.3s)
+✔ [8714/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusIsCommMonObjSt (3.5s)
+✔ [8715/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.IsTorus (3.7s)
+✔ [8716/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme (3.9s)
+✔ [8717/183903] Built Mathlib.Analysis.Distribution.SchwartzSpace.Fourier (11s)
+✔ [8745/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.SemistableReductionPlusSplit (3.9s)
+✔ [8746/183903] Built Mathlib.NumberTheory.ModularForms.JacobiTheta.OneVariable (3.5s)
+✔ [8748/183903] Built Mathlib.NumberTheory.LSeries.DirichletContinuation (3.8s)
+✔ [8752/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.HomExtDvrSt (3.5s)
+✔ [8753/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.PlusConditionToZeroCondition (4.2s)
+✔ [8754/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.SemistableCompleteSplit (3.2s)
+✔ [8755/183903] Built Mathlib.Analysis.Distribution.TemperedDistribution (13s)
+⚠ [8761/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ContentBoundLevelIdeal (26s)
+⚠ [8762/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.IsPrecompleteOfBasis (15s)
 ```
