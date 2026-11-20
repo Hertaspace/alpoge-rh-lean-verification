@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 23:48 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:58 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T23:48:08+00:00
-load 266.37 270.83 273.63
+now 2026-11-20T23:58:18+00:00
+load 274.34 271.79 272.66
 ```
 
 ## Progress
 
 ```
-latest_job 67567/183903
-built_ok 30292
-built_with_warnings 29593
+latest_job 68826/183903
+built_ok 30812
+built_with_warnings 30332
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [67553/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorSquareEquivOfBaseChangeFieldStatement (118s)
-⚠ [67554/183903] Built Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.AnalyticTorusPointBaseEqHolUnifEx (132s)
-⚠ [67555/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrderedCechToCatCochainsOneCoboundaryCommStatement (109s)
-⚠ [67556/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SurjectiveDeformationAffineSectionsStatement (120s)
-✔ [67557/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperH2SumOfCupsExact (127s)
-⚠ [67558/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrderedCechToCatCochainsZeroCoboundaryCommStatement (115s)
-⚠ [67559/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftingObstructionBocksteinAddStatement (127s)
-⚠ [67560/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SurjectiveAppTopIntegralModelSquareStatement (110s)
-⚠ [67561/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsGroupIsoCubicalIsoOfTripleMapIdStatement (119s)
-✔ [67562/183903] Built GroundTheory.ProfiniteCohomology.RestrictedRamification.BaseChangeMackey (191s)
-✔ [67563/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.AdjointnessSeriesTransportFrames (121s)
-⚠ [67564/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmallExtensionElementMulZeroClassEqZero (126s)
-✔ [67565/183903] Built Development.WeilBound.CoreStatements.EqualVolumeCompactOpens.LocalToAdelic (138s)
-⚠ [67566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoContinuationOfFunctionalEquationStatement (125s)
-⚠ [67567/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsBaseChangeCompatibleGlobalOneForms (120s)
+✔ [68812/183903] Built Formalism.SharpRestriction.GrowthBounds.SumRescaleTySTwo (103s)
+⚠ [68813/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PositiveHomogeneousPotentialStatement (118s)
+⚠ [68814/183903] Built Formalism.LocalToGlobal.CharacterGerms.RowTiePAllStart (108s)
+⚠ [68815/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.PshDoublePositivePotentialStatement (128s)
+⚠ [68816/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsDecompletionFrameOfLatticeStatement (106s)
+✔ [68817/183903] Built Formalism.LocalToGlobal.CharacterGerms.RaiseSecondFirstEqZero (118s)
+⚠ [68818/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetEigenFramePlurisubharmonicStatement (111s)
+⚠ [68819/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ResidualSelmerBaseChangeCoefficientFieldStatement (124s)
+✔ [68820/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TorsionLeftExactFunctorKernelSquareMatrix (130s)
+⚠ [68821/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFinsetPrimePowTorsionQuotient (115s)
+⚠ [68822/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ClassNumberRootDiscFactorLeHHZ (155s)
+⚠ [68823/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.RegularizedWeightPshAndBoundsStatement (126s)
+✔ [68824/183903] Built Formalism.LocalToGlobal.CharacterGerms.RankMaximalSelfCore (129s)
+⚠ [68825/183903] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PAPrimeLeviCharts (126s)
+⚠ [68826/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteH1PeriodDatumStatement (111s)
 ```
