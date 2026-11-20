@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 16:58 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:08 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T16:58:02+00:00
-load 284.02 288.00 267.31
+now 2026-11-20T17:08:15+00:00
+load 268.70 271.16 268.37
 ```
 
 ## Progress
 
 ```
-latest_job 14482/183903
-built_ok 4191
-built_with_warnings 2618
+latest_job 15868/183903
+built_ok 4668
+built_with_warnings 3529
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [14468/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoTsumDivPow (108s)
-✔ [14469/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.KeyLemmaStatement (104s)
-⚠ [14470/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.RConvFExistsPfAbs (109s)
-⚠ [14471/183903] Built Formalism.SharpRestriction.AdmissibleParameterJoins.SfromGLt (94s)
-✔ [14472/183903] Built Formalism.LandauZeroFreeBounds.Statement (97s)
-⚠ [14473/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.CoefCExpEntrySummable (97s)
-✔ [14474/183903] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EvalDet (100s)
-✔ [14475/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.CutFold (103s)
-⚠ [14476/183903] Built Formalism.LocalRingCardinality.SpanPowerMembership.LeOfEventuallyDown (103s)
-✔ [14477/183903] Built Formalism.PeriodIntegrals.TransferenceCoverRad (98s)
-⚠ [14478/183903] Built Lemmata.NatMulIsIntegral.ExistsNatMulIsIntegral (105s)
-⚠ [14479/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsMulSubOneMemPow (100s)
-⚠ [14480/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.FundamentalDomainPiBasis (102s)
-✔ [14481/183903] Built Formalism.SizeWindowBrackets.TraceSquareAndDiagBounds (98s)
-⚠ [14482/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.LieAveraging.LsSetresAvg (106s)
+⚠ [15856/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralHasSumEqIntegralIndicatorHasSumStatement (107s)
+⚠ [15857/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwinerMemISupRangeEqSumSmulStatement (118s)
+✔ [15858/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.FormalGroupNatMulSeriesProperties (116s)
+⚠ [15859/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntertwiningMapNeZeroOfIsotypicIrreducibleStatement (109s)
+✔ [15860/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.MvPowerSeriesIntegralBoundedClosure (117s)
+✔ [15861/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConvergentSubstOneVariableAndFormalAgreement (117s)
+⚠ [15862/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LinearEquivDescendsOfPreservesImageStatement (119s)
+⚠ [15863/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsAddMonoidHomOfLinearRelations (119s)
+⚠ [15864/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralContinuousMultilinearMapPiMeasureStatement (107s)
+⚠ [15865/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.AlgebraMapMkO (114s)
+⚠ [15866/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsIntegralCoeffInterpolationBivariateSeries (118s)
+⚠ [15867/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearIndependentTrace (111s)
+✔ [15868/183903] Built ReciprocityTheory.EigenFrames.EigenPf (119s)
+⚠ [15869/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalUnitaryOrbits.NormLeOfNear (94s)
+⚠ [15870/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TraceMatrixPiOperatorStatement (116s)
 ```
