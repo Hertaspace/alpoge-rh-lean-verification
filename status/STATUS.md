@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:18 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:28 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:18:29+00:00
-load 267.27 267.41 267.52
+now 2026-11-20T17:28:40+00:00
+load 270.61 269.95 269.14
 ```
 
 ## Progress
 
 ```
-latest_job 17248/183903
-built_ok 5270
-built_with_warnings 4304
+latest_job 18625/183903
+built_ok 5949
+built_with_warnings 5002
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [17234/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.LinkedUnramifiedChains.CmpPrime (115s)
-✔ [17235/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.PowerSeriesApproximationModMaximal (111s)
-✔ [17236/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsHomogeneousLiftModKerPowSuccSup (112s)
-⚠ [17237/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Gordan (107s)
-⚠ [17238/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsNotMemMulMemIdealOfForallPrimePowSup (113s)
-⚠ [17239/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.HeightKerSectionLeOfCotangentGenerators (114s)
-⚠ [17240/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticRingOfIntegersMulMemSpanOneGenStatement (97s)
-✔ [17241/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.DerHom (118s)
-⚠ [17242/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.SpansOfDer (118s)
-⚠ [17243/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoSpan (113s)
-⚠ [17244/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RingKrullDimMvPowerSeriesFinField (118s)
-⚠ [17245/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.NnDefs (122s)
-⚠ [17246/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.IsUnitAddMem (97s)
-⚠ [17247/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoSurj (114s)
-✔ [17248/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.EqZeroOfHomogeneousAevalMemMaximalIdealPowSucc (117s)
+⚠ [18611/183903] Built ReciprocityTheory.SemistableReduction.TorusLexB (110s)
+⚠ [18612/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.LeadingCoeffNonnegOfEventuallyEvalNat (106s)
+⚠ [18613/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal (120s)
+⚠ [18614/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechComplexDirectLimit (88s)
+✔ [18615/183903] Built Formalism.FilteredPoleLength.ReducedBasisBounds.ReductionQuotient (106s)
+✔ [18616/183903] Built Formalism.FilteredPoleLength.ReducedBasisBounds.BetaSesquilinearity (104s)
+✔ [18617/183903] Built ReciprocityTheory.SemistableReduction.MeasurePreservingSphereMap (111s)
+✔ [18618/183903] Built ReciprocityTheory.SemistableReduction.AeBlockSphereEvalNeZero (110s)
+⚠ [18619/183903] Built ReciprocityTheory.SemistableReduction.IntCoresA (111s)
+✔ [18620/183903] Built ReciprocityTheory.SemistableReduction.SphereTorusA (113s)
+✔ [18621/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.IsUnivChart (108s)
+⚠ [18622/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.IntegralStatementPfA (118s)
+⚠ [18623/183903] Built Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.MvPolynomialIsHomogeneousComapWeighted (109s)
+✔ [18624/183903] Built GroundTheory.ArithmeticGeometry.ToricVarieties.Lattice (116s)
+✔ [18625/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationAtPrimeIsDomainIsIntegrallyClos (101s)
 ```
