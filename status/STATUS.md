@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 18:42 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 18:52 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T18:42:02+00:00
-load 278.02 270.48 269.77
+now 2026-11-20T18:52:14+00:00
+load 267.51 268.46 269.26
 ```
 
 ## Progress
 
 ```
-latest_job 28374/183903
-built_ok 10873
-built_with_warnings 9826
+latest_job 29705/183903
+built_ok 11455
+built_with_warnings 10575
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [28360/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.ExistsLinearEquivQuotientByOrderTwoCoords (113s)
-✔ [28361/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Detprod (114s)
-✔ [28362/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.ExistsDeterminantPairPullback (117s)
-✔ [28363/183903] Built Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.GenPieces (118s)
-✔ [28364/183903] Built Formalism.DistinguishedUnitIdeals.WordConsts (111s)
-✔ [28365/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.OElRep (116s)
-✔ [28366/183903] Built Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.InertiaRamification.ResDeg (108s)
-⚠ [28367/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.InertPrimeTeichmuller.DvdPowQSub (116s)
-⚠ [28368/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.ExistsDeterminantPairMapOfAlgHom (117s)
-⚠ [28369/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Coprod (121s)
-✔ [28370/183903] Built Formalism.DistinguishedUnitIdeals.LemmaCFull (115s)
-⚠ [28371/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittLogarithm.CoefWfIff (118s)
-✔ [28372/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittEndomorphism.FlogConstantCoeff (112s)
-⚠ [28373/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.AdicExtensionMatrices.NearOfAdjoin (128s)
-✔ [28374/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.BernoulliNumbers.Primmem (119s)
+⚠ [29691/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsUnitTraceFormDiscrUnramifiedExt (120s)
+✔ [29692/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsReducedOfLieReg (123s)
+✔ [29693/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardSubspacesSupEqTop (114s)
+⚠ [29694/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedDictionaryPartBStatement (109s)
+⚠ [29695/183903] Built Development.WeilBound.CoreStatements.AmpleLineBundles.SquareZeroDeformationAdditivity (102s)
+✔ [29696/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFinite (115s)
+⚠ [29697/183903] Built Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvariantSubspaceMobiusInverseOneProdIcoStatement (119s)
+✔ [29698/183903] Built GroundTheory.LocalFields.SeparableClosureValuation (120s)
+✔ [29699/183903] Built GroundTheory.LocalFields.UnramifiedGalois (121s)
+✔ [29700/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleFiniteCoeffTendstoAndBounded (112s)
+✔ [29701/183903] Built GroundTheory.AutomorphicForms.DixmierMalliavinHaarDensity (94s)
+✔ [29702/183903] Built GroundTheory.AutomorphicForms.QuotientKernel (116s)
+✔ [29703/183903] Built GroundTheory.AutomorphicForms.MultiplicityOne.OpenSubgroupRep (115s)
+⚠ [29704/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFinite (114s)
+⚠ [29705/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEq (114s)
 ```
