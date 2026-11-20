@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:38 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:49 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:38:53+00:00
-load 265.55 268.22 269.00
+now 2026-11-20T17:49:07+00:00
+load 264.56 265.43 267.05
 ```
 
 ## Progress
 
 ```
-latest_job 20003/183903
-built_ok 6591
-built_with_warnings 5738
+latest_job 21370/183903
+built_ok 7394
+built_with_warnings 6302
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [19989/183903] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerRuleProductZero (97s)
-✔ [19990/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftOne (112s)
-⚠ [19991/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PullEquiv (116s)
-⚠ [19992/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.SurjectiveHMapZeroOfStaircase (123s)
-⚠ [19993/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtLinkInUniMOfExactAtMapLinearEquiv 
-✔ [19994/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.SkipSuccAbove (116s)
-⚠ [19995/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.ExistsVert (105s)
-✔ [19996/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ApplySmooth (113s)
-⚠ [19997/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftUp (112s)
-✔ [19998/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.BasicDeriv (115s)
-✔ [19999/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkDualExp (110s)
-⚠ [20000/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSym (112s)
-✔ [20001/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftZero (114s)
-✔ [20002/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.ExtDerivCongrNhds (120s)
-⚠ [20003/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.AltSmulRightComp (120s)
+⚠ [21356/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PNormRead (119s)
+⚠ [21357/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSameNormRing (117s)
+✔ [21358/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PMatchVal (113s)
+⚠ [21359/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSecChart (106s)
+✔ [21360/183903] Built Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeChainHolds (104s)
+⚠ [21361/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PIdemCover (117s)
+⚠ [21362/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PMatchPart (114s)
+✔ [21363/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemisimpleTraceForm.TraceFormNondegenerateBaseChange (99s)
+✔ [21364/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PPermMap (116s)
+⚠ [21365/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PTelescope (115s)
+✔ [21366/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.POrdCount (115s)
+⚠ [21367/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PCharts (111s)
+⚠ [21368/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PCountOut (116s)
+⚠ [21369/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSmoothClosed (114s)
+⚠ [21370/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PGaussLin (121s)
 ```
