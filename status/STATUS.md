@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:59 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 18:10 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:59:36+00:00
-load 266.89 267.31 267.09
+now 2026-11-20T18:10:09+00:00
+load 269.18 269.55 268.41
 ```
 
 ## Progress
 
 ```
-latest_job 22767/183903
-built_ok 8032
-built_with_warnings 7060
+latest_job 24167/183903
+built_ok 8678
+built_with_warnings 7814
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [22753/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.EigenLift (116s)
-✔ [22754/183903] Built Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ExpSNegMulExpS (116s)
-✔ [22755/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationOfInjectiveCokernelKilled (110s)
-⚠ [22756/183903] Built ReciprocityTheory.SemistableReduction.BWPoly (104s)
-⚠ [22757/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.GaugeBilinearTermEqNegDoubleSum (117s)
-✔ [22758/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CokernelTorsionOfFiniteLengthModElement (103s)
-✔ [22759/183903] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TsumIdealMulAbsNormCpowEqExpTsum (120s)
-⚠ [22760/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RayLSeriesEulerProductStatement (118s)
-✔ [22761/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.GaugeExp (116s)
-⚠ [22762/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLeftInverseOfFibrewiseInjectiveStatement (104s)
-⚠ [22763/183903] Built Formalism.SharpRestriction.Divisibility.GeneratorPowers.CPfSym (121s)
-✔ [22764/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.GaussTailOfCardLe (127s)
-⚠ [22765/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PreimageGenericFiberIsOpenStatement (106s)
-⚠ [22766/183903] Built ReciprocityTheory.ThetaQuasiPeriods.NormInvSmulMemSphere (104s)
-✔ [22767/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiscrIsUnit (112s)
+✔ [24153/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSerreSFlatAscent (122s)
+✔ [24154/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.VanishingCechResidue (118s)
+✔ [24155/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericFreenessClosed (117s)
+✔ [24156/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PNormalLocalDepthTwo (121s)
+✔ [24157/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmooth (112s)
+✔ [24158/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFiniteModuloEliminate (114s)
+✔ [24159/183903] Built Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.Rdata (114s)
+✔ [24160/183903] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.WeightedUnfolding (116s)
+✔ [24161/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PBranchContainsNormalPoint (110s)
+✔ [24162/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProjectionInjectiveOffHypersurface (114s)
+✔ [24163/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAffineCompletionNormal (99s)
+⚠ [24164/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.StrongApproximation.UnitaryTransvectionZeroSecondMemClosure (117s)
+✔ [24165/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PDerivationCotangentIndependent (120s)
+⚠ [24166/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockDegreeOne.OmEDiagMonomial (104s)
+⚠ [24167/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ValuesMemOfLocal (141s)
 ```
