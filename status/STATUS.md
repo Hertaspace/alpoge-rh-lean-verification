@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 19:33 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 19:43 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T19:33:07+00:00
-load 267.50 265.97 268.04
+now 2026-11-20T19:43:21+00:00
+load 272.70 271.02 269.48
 ```
 
 ## Progress
 
 ```
-latest_job 35033/183903
-built_ok 14252
-built_with_warnings 13106
+latest_job 36346/183903
+built_ok 14769
+built_with_warnings 13901
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [35019/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StBoundingKaehler (114s)
-✔ [35020/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListTailLogSmooth (115s)
-✔ [35021/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.EnergySum (119s)
-✔ [35022/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StProductBounds (118s)
-✔ [35023/183903] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.PChartComparison (131s)
-✔ [35024/183903] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.ProjLineChartsNotSubsetBall (121s)
-✔ [35025/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramSize (127s)
-✔ [35026/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StLemmaETailLog (118s)
-✔ [35027/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListMonoRaise (116s)
-⚠ [35028/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.CaCplModfree (123s)
-✔ [35029/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StDivisorNull (120s)
-✔ [35030/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.TailDimZero (119s)
-✔ [35031/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.StListProductMass (118s)
-✔ [35032/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.KaehlerBound (121s)
-✔ [35033/183903] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.PIntegralPointOfAlgebraicDomain (125s)
+✔ [36332/183903] Built Formalism.HermitianCurvature.StatementPB (130s)
+⚠ [36333/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.GramProductIdentities (133s)
+✔ [36334/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.IndOfNot (114s)
+✔ [36335/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.WordMonomial (114s)
+✔ [36336/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ZetaDegZero (109s)
+⚠ [36337/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.CasKIsSymmetricAndFormStatement (122s)
+✔ [36338/183903] Built Formalism.PieriBlockIdeals.BlockIdealBound5Derived (123s)
+⚠ [36339/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.PullLatticeTypedUnit (121s)
+⚠ [36340/183903] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QmColExp (130s)
+✔ [36341/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowFormPermutationSplit.DoubleRowIncreasing (123s)
+⚠ [36342/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowFormPermutationSplit.PermutedRowProductSplit (124s)
+⚠ [36343/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.EulerZetaGammaInvIdentity (140s)
+⚠ [36344/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.FreeOf2OfFourEntries (128s)
+✔ [36345/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.NotCdomAddRoot (109s)
+✔ [36346/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RationalRealBlocks.Bridge (128s)
 ```
