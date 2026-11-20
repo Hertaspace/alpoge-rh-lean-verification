@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 17:49 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 17:59 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T17:49:07+00:00
-load 264.56 265.43 267.05
+now 2026-11-20T17:59:36+00:00
+load 266.89 267.31 267.09
 ```
 
 ## Progress
 
 ```
-latest_job 21370/183903
-built_ok 7394
-built_with_warnings 6302
+latest_job 22767/183903
+built_ok 8032
+built_with_warnings 7060
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [21356/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PNormRead (119s)
-⚠ [21357/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSameNormRing (117s)
-✔ [21358/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PMatchVal (113s)
-⚠ [21359/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSecChart (106s)
-✔ [21360/183903] Built Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeChainHolds (104s)
-⚠ [21361/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PIdemCover (117s)
-⚠ [21362/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PMatchPart (114s)
-✔ [21363/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemisimpleTraceForm.TraceFormNondegenerateBaseChange (99s)
-✔ [21364/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PPermMap (116s)
-⚠ [21365/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PTelescope (115s)
-✔ [21366/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.POrdCount (115s)
-⚠ [21367/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PCharts (111s)
-⚠ [21368/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PCountOut (116s)
-⚠ [21369/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PSmoothClosed (114s)
-⚠ [21370/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PGaussLin (121s)
+✔ [22753/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.EigenLift (116s)
+✔ [22754/183903] Built Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ExpSNegMulExpS (116s)
+✔ [22755/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationOfInjectiveCokernelKilled (110s)
+⚠ [22756/183903] Built ReciprocityTheory.SemistableReduction.BWPoly (104s)
+⚠ [22757/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.GaugeBilinearTermEqNegDoubleSum (117s)
+✔ [22758/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CokernelTorsionOfFiniteLengthModElement (103s)
+✔ [22759/183903] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TsumIdealMulAbsNormCpowEqExpTsum (120s)
+⚠ [22760/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RayLSeriesEulerProductStatement (118s)
+✔ [22761/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.GaugeExp (116s)
+⚠ [22762/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLeftInverseOfFibrewiseInjectiveStatement (104s)
+⚠ [22763/183903] Built Formalism.SharpRestriction.Divisibility.GeneratorPowers.CPfSym (121s)
+✔ [22764/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.GaussTailOfCardLe (127s)
+⚠ [22765/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PreimageGenericFiberIsOpenStatement (106s)
+⚠ [22766/183903] Built ReciprocityTheory.ThetaQuasiPeriods.NormInvSmulMemSphere (104s)
+✔ [22767/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiscrIsUnit (112s)
 ```
