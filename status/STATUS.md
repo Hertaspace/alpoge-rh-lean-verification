@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 21:35 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 21:45 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T21:35:37+00:00
-load 266.86 271.36 272.04
+now 2026-11-20T21:45:52+00:00
+load 270.94 274.75 273.60
 ```
 
 ## Progress
 
 ```
-latest_job 50781/183903
-built_ok 22302
-built_with_warnings 20806
+latest_job 52079/183903
+built_ok 22953
+built_with_warnings 21453
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [50771/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsSide (110s)
-✔ [50772/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PSnapperSectionX (129s)
-⚠ [50773/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FiniteVerticalRecursion (122s)
-✔ [50774/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsDivPushSheetSum (114s)
-⚠ [50775/183903] Built Development.WeilBound.CoreStatements.HodgeTatePoints.TrivflagNef (124s)
-✔ [50776/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.TsenTheorem (112s)
-✔ [50777/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEq (123s)
-✔ [50778/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsFujitaGeneric (114s)
-✔ [50779/183903] Built GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.IsAlgebraicAdjoinRangeIff (106s)
-⚠ [50780/183903] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotIsSquareAdicCompletionStatement (119s)
-✔ [50781/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightComparison.POrbitCurve (106s)
-✔ [50782/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagHeightPolynomialWeightForm (127s)
-⚠ [50783/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOneStatement (106s)
-✔ [50784/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsTail (114s)
-⚠ [50785/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSumStatement (123s)
+⚠ [52069/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogResolutionCoversComplexPointsStatement (117s)
+⚠ [52070/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LiftSystemComplexConjugation (122s)
+✔ [52071/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.RootOriginWeightComparisonShift (124s)
+✔ [52072/183903] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsPivotMinorFlag (119s)
+✔ [52073/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.BiholomorphicLiftSystem (125s)
+✔ [52074/183903] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsBirationalRatioClosure (118s)
+✔ [52075/183903] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.DetLineSmooth (123s)
+⚠ [52076/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagonalMinorVanishingStatement (108s)
+✔ [52077/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.AnalyticOfImmersionComposition (123s)
+✔ [52078/183903] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsHodgeFlagMinorTrdeg (121s)
+✔ [52079/183903] Built GroundTheory.HeightsAndTheta.Heights.FieldsOfNumbers.PSemilocalIntegral (134s)
+⚠ [52080/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.SamePotBlock (119s)
+✔ [52081/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LeviPullEq (116s)
+⚠ [52082/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogResolutionFunctorialHolomorphicStatement (110s)
+⚠ [52083/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ComplexPointsDenseNonvanishingStatement (116s)
 ```
