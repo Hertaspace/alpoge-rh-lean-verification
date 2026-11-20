@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 23:17 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:27 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T23:17:39+00:00
-load 272.94 272.28 271.89
+now 2026-11-20T23:27:47+00:00
+load 285.01 275.45 273.59
 ```
 
 ## Progress
 
 ```
-latest_job 63728/183903
-built_ok 28633
-built_with_warnings 27414
+latest_job 64996/183903
+built_ok 29167
+built_with_warnings 28148
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [63714/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockTriVecMulEqSinglePred (127s)
-⚠ [63715/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusConstantsPiAdicFiltrationModEllStatement (102s)
-⚠ [63716/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SymmetricPositionCharMultiplicitySuccEqStatement (124s)
-✔ [63717/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PartialDerivativeMinors.PMinorAff (116s)
-✔ [63718/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.Development (121s)
-⚠ [63719/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.H1LatticeRankGrowth (105s)
-⚠ [63720/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryScalarMulIntegralLocalToGlobalStatement (116s)
-✔ [63721/183903] Built Formalism.LocalToGlobal.ExponentGrids.SecondComplementClosedValuation (114s)
-⚠ [63722/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMultOneDimOf (122s)
-✔ [63723/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GoodEigSumSupComplEigSumEqTop (123s)
-✔ [63724/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicLevelIntegersMemClosureLevels (101s)
-⚠ [63725/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsScalarMulIntegralOfConjIntegralGeneratorsStatement (123s)
-⚠ [63726/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralFormLatticeEqSumLocalisedLattices (129s)
-⚠ [63727/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PrimeLeSuccOfDvdMinkM (118s)
-⚠ [63728/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RationalFormEqSumLocalisationProjections (128s)
+✔ [64982/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.AtPBijective (111s)
+✔ [64983/183903] Built Development.DiscreteGroups.GlobalIrreducibility.LocTypeOfSerParamLe (131s)
+⚠ [64984/183903] Built Formalism.LocalToGlobal.Columns.AtTRank (126s)
+✔ [64985/183903] Built Formalism.LocalToGlobal.Columns.KernelArgumentHypothesisScalar (126s)
+✔ [64986/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.BesselSubgroupParameterMeasurePreservingImports (123s)
+⚠ [64987/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.QuantumMinorRowExpansionEigenFunctionalStatement (118s)
+⚠ [64988/183903] Built Formalism.LocalToGlobal.Columns.FiniteSumNonzeroLargeDepth (170s)
+✔ [64989/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.ExistsLieUnitaryElementSimpleRootImports (120s)
+⚠ [64990/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgHomExtOfConstantCoeffZero (115s)
+✔ [64991/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.HaarCompactLtTop (127s)
+⚠ [64992/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.KTypeLemma.VermaCone (120s)
+⚠ [64993/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoordsSecondKindFormPreservingGroupStatement (128s)
+⚠ [64994/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.TailMassLeOfMajorantLengthMomentBoundStatement (113s)
+✔ [64995/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsBlockAntidiagonalScaledPairingMatrix (118s)
+⚠ [64996/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.FrobeniusNontrivialOnInertQuadratic (133s)
 ```
