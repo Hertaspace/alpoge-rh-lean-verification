@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 20:34 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 20:44 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T20:34:25+00:00
-load 269.47 271.26 270.69
+now 2026-11-20T20:44:35+00:00
+load 268.36 268.32 269.28
 ```
 
 ## Progress
 
 ```
-latest_job 42957/183903
-built_ok 18015
-built_with_warnings 17266
+latest_job 44262/183903
+built_ok 18757
+built_with_warnings 17829
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [42943/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.RelevantPrimeOrbitClosure (122s)
-⚠ [42944/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.DedekindConstantsDegreeOne (116s)
-✔ [42945/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.GeoDefs (116s)
-✔ [42946/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.InOpenOfThickeningMorphism (117s)
-⚠ [42947/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.FourierCubeVolume (126s)
-✔ [42948/183903] Built Development.AutomorphicSpectrum.Statements.GeometryStatements.HodgeLatticeFlagBoundAllPlaces (125s)
-⚠ [42949/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.DifferentiableOnStarStar (105s)
-✔ [42950/183903] Built Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsPreFamilyOfLatticeFamilyTwo (127s)
-✔ [42951/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LevelActionOverlapLeSourceChart (116s)
-✔ [42952/183903] Built Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.JetRangeLevelFactor (103s)
-✔ [42953/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.PolynomialNormSquareSmooth (124s)
-✔ [42954/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FlagHeightBoundArithVar (123s)
-⚠ [42955/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.EmbeddingFactorsThroughCmType (120s)
-⚠ [42956/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassSchemeStatement (120s)
-✔ [42957/183903] Built Development.AutomorphicSpectrum.Statements.GeometryStatements.TrivFlagHodgeStatement (125s)
+⚠ [44248/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsRangeOfMonicRootStatement (122s)
+⚠ [44249/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHenseStatement (124s)
+✔ [44250/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangePrimePowMemIsotypicDegreePolySpan (126s)
+⚠ [44251/183903] Built Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.ThmEPrim (133s)
+⚠ [44252/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.HahnSeriesEqOfQExpansionSumAboveEventuallyEqStatement (125s)
+⚠ [44253/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPadicIntRingHomCongrToZModPow (116s)
+⚠ [44254/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCocycleLiftOfCompatible (118s)
+✔ [44255/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsVariablePowSmulEqZeroOfFiniteLength (130s)
+✔ [44256/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemPhiModuleLatticeOfAdicSeriesPrimePowTerms (121s)
+⚠ [44257/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsTorsionPairingEqInvUniformizer (120s)
+⚠ [44258/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsoTrivialProjBundleProdFibreStatement (90s)
+✔ [44259/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrimePowSmulConnectionSeriesTermMemLattice (123s)
+⚠ [44260/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrimePowSmulDescentPhiMemLatticeOfOrbitBound (124s)
+⚠ [44261/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRatStatement (116s)
+✔ [44262/183903] Built Development.EtaleCohomology.TateTwists.ExistsEtaleMonoMuTwistQuotientOfRootListsLocally (106s)
 ```
