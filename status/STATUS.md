@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 21:15 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 21:25 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T21:15:13+00:00
-load 273.50 270.78 270.54
+now 2026-11-20T21:25:26+00:00
+load 278.61 276.49 272.91
 ```
 
 ## Progress
 
 ```
-latest_job 48175/183903
-built_ok 20849
-built_with_warnings 19650
+latest_job 49469/183903
+built_ok 21562
+built_with_warnings 20230
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [48166/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.IsBlockDiagMapGenBlock (126s)
-✔ [48167/183903] Built Development.AutomorphicSpectrum.Definitions.MetricPeriods.IsPeriodOn (127s)
-✔ [48168/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.NonvanishingPointsDense (129s)
-✔ [48169/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsTer (125s)
-✔ [48170/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PBlockImageMetrics (132s)
-✔ [48171/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PSmallGenTwist (114s)
-✔ [48172/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XSDivcyclehomloc (122s)
-✔ [48173/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.RhoFactorialProductEq (125s)
-✔ [48174/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PChartConstantsDetermined (120s)
-✔ [48175/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PGenDegTwist (120s)
-✔ [48176/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsResolutionDegree (113s)
-✔ [48177/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PSpanStepHomog (117s)
-✔ [48178/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PSectionRingFinite (123s)
-✔ [48179/183903] Built GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsBisAlt (125s)
-✔ [48180/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.SymmetricFormPolynomialCoeff (122s)
+✔ [49455/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.FirstLevelOfThreeVarParallelogram (108s)
+✔ [49456/183903] Built GroundTheory.PAdicHodge.BCrisRegular (356s)
+✔ [49457/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HostFieldFacts.HostFieldFacts (122s)
+✔ [49458/183903] Built ReciprocityTheory.ClassFieldTheory.LocalClassField.UnitsHerbrand (121s)
+✔ [49459/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicIndexEquality.ModQEqOneOfMemNormalizer (98s)
+⚠ [49460/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ArtinMapSecondEqJacobiSymOfModEq (121s)
+⚠ [49461/183903] Built Development.AutomorphicArithmetic.CyclotomicBounds.RootsOfUnity.NuQDUnit (117s)
+⚠ [49462/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsPolynomialRepGLComplexAlgebraicWeightEvalPoint (118s)
+✔ [49463/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTypeEmbeddings.EmbMemCmType (125s)
+✔ [49464/183903] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FormalHermitianActionPairing (125s)
+✔ [49465/183903] Built Formalism.FlagUnipotentLattices.FinalTr (112s)
+✔ [49466/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.OfChar (123s)
+✔ [49467/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingBound.Choose (116s)
+✔ [49468/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraicWeightSpanTranslatesFactorCommutant (122s)
+✔ [49469/183903] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.EqOfPowEqOne (125s)
 ```
