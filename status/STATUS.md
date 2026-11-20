@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 18:10 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 18:21 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T18:10:09+00:00
-load 269.18 269.55 268.41
+now 2026-11-20T18:21:23+00:00
+load 266.49 268.48 268.33
 ```
 
 ## Progress
 
 ```
-latest_job 24167/183903
-built_ok 8678
-built_with_warnings 7814
+latest_job 25654/183903
+built_ok 9511
+built_with_warnings 8468
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [24153/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSerreSFlatAscent (122s)
-✔ [24154/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.VanishingCechResidue (118s)
-✔ [24155/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericFreenessClosed (117s)
-✔ [24156/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PNormalLocalDepthTwo (121s)
-✔ [24157/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmooth (112s)
-✔ [24158/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFiniteModuloEliminate (114s)
-✔ [24159/183903] Built Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.Rdata (114s)
-✔ [24160/183903] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.WeightedUnfolding (116s)
-✔ [24161/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PBranchContainsNormalPoint (110s)
-✔ [24162/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProjectionInjectiveOffHypersurface (114s)
-✔ [24163/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAffineCompletionNormal (99s)
-⚠ [24164/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.StrongApproximation.UnitaryTransvectionZeroSecondMemClosure (117s)
-✔ [24165/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PDerivationCotangentIndependent (120s)
-⚠ [24166/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockDegreeOne.OmEDiagMonomial (104s)
-⚠ [24167/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ValuesMemOfLocal (141s)
+⚠ [25648/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.EqOfFiniteOfClosedFibres (116s)
+⚠ [25649/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation (122s)
+⚠ [25650/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.StabilizerStableLatticeLeIntegralUnitsSubgroup (122s)
+✔ [25651/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRemovableHyperplane (113s)
+⚠ [25652/183903] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.AssocSetApplyOfPointwise (127s)
+✔ [25653/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgeFrameGram (121s)
+✔ [25654/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CovariantDbarLeibniz (120s)
+⚠ [25655/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.AdjacentSelfDualLatticesIndexSimpleStatement (102s)
+✔ [25656/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ParameterFunctionEqZeroOfComposable (117s)
+⚠ [25657/183903] Built GroundTheory.PAdicHodge.BCrisNewtonLift (122s)
+⚠ [25658/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityShiftLatticeVariablePowStatement (118s)
+⚠ [25659/183903] Built ReciprocityTheory.DualLattices.ProdDvdOfIso (103s)
+⚠ [25660/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernOneEqNegDdcLogDet (121s)
+✔ [25661/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.ColAbelA (116s)
+✔ [25662/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsParameterFunctionOfFibreDerivZero (120s)
 ```
