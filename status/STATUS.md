@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 20:54 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 21:05 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T20:54:47+00:00
-load 268.63 271.02 270.10
+now 2026-11-20T21:04:58+00:00
+load 267.01 269.85 270.29
 ```
 
 ## Progress
 
 ```
-latest_job 45560/183903
-built_ok 19418
-built_with_warnings 18466
+latest_job 46858/183903
+built_ok 20157
+built_with_warnings 19031
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [45546/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RealFieldComparison.JmMulApply (127s)
-✔ [45547/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.IdemLiftOfSteps (120s)
-✔ [45548/183903] Built Formalism.LocalRingCardinality.HostCls (145s)
-✔ [45549/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeMultiplicity.EncardLeOfFinset (123s)
-⚠ [45550/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodularity.ConstructionD (121s)
-✔ [45551/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeAutomorphismFiniteness.IndSetFinite (116s)
-✔ [45552/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.GlobWIff (125s)
-✔ [45553/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianFrameExistence.FrameHypothesesRankZero (123s)
-✔ [45554/183903] Built Formalism.GL3MeanSquares.GlobalBoundRefinementResults (119s)
-✔ [45555/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicClassFiniteness.DictPlan (113s)
-✔ [45556/183903] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HeckeLEntireAndNonzeroAtOne (122s)
-⚠ [45557/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GelfandTsetlinLowering.RowsZStrictMono (111s)
-⚠ [45558/183903] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodularity.ConstructionB (125s)
-✔ [45559/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinPartEqOneOfFibres (122s)
-✔ [45560/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CMFieldExponentialBounds.primesex (120s)
+⚠ [46855/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWeilRepSL2HermitianBlockStatement (116s)
+✔ [46856/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.KleimanNefness.AlgDim (109s)
+⚠ [46857/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.OoFiniteHom (135s)
+⚠ [46858/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProjPointIdealMemProjComponentsOfIsProjPureDim (121s)
+⚠ [46859/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.HighestWeightIntegral (119s)
+⚠ [46860/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFormOfCompatibleFractionsStatement (122s)
+⚠ [46861/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryOrbitalIntegralLiftLastBasisReduceStatement (120s)
+✔ [46862/183903] Built GroundTheory.HeightsAndTheta.Heights.Intersections.NotLtLtOfMemMinimalPrimes (124s)
+✔ [46863/183903] Built GroundTheory.HeightsAndTheta.Heights.Intersections.PRFormula (125s)
+✔ [46864/183903] Built GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PTwinJoinTwoModels (109s)
+⚠ [46865/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieChartOfSmoothChart (123s)
+✔ [46866/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatAcyclic (121s)
+✔ [46867/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatDatumUniquenessOnSimplyConnected (112s)
+⚠ [46868/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.FiniteOpenHomsToFiniteGroup (134s)
+⚠ [46869/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GreenFunctionCharacterSum (122s)
 ```
