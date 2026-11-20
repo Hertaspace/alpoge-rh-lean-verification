@@ -56,7 +56,9 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | source scan | no `sorry`, `axiom`, `native_decide`, `implemented_by`, `@[extern]`, or file and process IO in the 175,187 files | passed (details in [`VERIFICATION.md`](VERIFICATION.md)) |
 | `lake build` | the whole project and everything it imports compile | in progress |
 | `lake env lean CheckAxioms.lean` | the axioms of the five theorems above | pending |
-| `lake comparator --paranoid` | the theorems have exactly the statements above, and their proofs are replayed by six kernels | planned |
+| comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | planned |
+| clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | planned |
+| independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | planned |
 
 A sound result lists only `propext`, `Classical.choice` and `Quot.sound` for each theorem. [`VERIFICATION.md`](VERIFICATION.md) records the environment, the commands and the outputs, and `verification/` contains the scripts.
 

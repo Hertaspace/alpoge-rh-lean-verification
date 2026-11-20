@@ -65,7 +65,7 @@ lake exe cache get
 lake build
 ```
 
-`lake exe cache get` downloaded all 8,690 Mathlib cache files, but 2,531 of them failed to decompress, so the build also recompiles that part of Mathlib from source. This makes the build slower but does not weaken it.
+`lake exe cache get` downloaded all 8,690 Mathlib cache files, but 2,531 of them failed to decompress. The files were not corrupt: the decompressor `leantar` hit the limit of 1,024 open files per process (`os error 24`). Lake therefore recompiles that part of Mathlib from source. This makes the build slower but does not weaken it.
 
 Started 20 November 2026, 16:12 UTC. Result: in progress.
 
@@ -81,6 +81,22 @@ This is an error reading a compiled Mathlib file, not an error in the project. T
 
 Pending.
 
-## Comparator replay
+## Planned checks after the build
 
-Planned, with the same `lake comparator --paranoid` setup used for [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean).
+Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
+
+| Tool | Version |
+|---|---|
+| [comparator](https://github.com/leanprover/comparator) | tag `v4.33.0` (`3927ad383f20`), run with Lean 4.33.1 |
+| [lean4export](https://github.com/leanprover/lean4export) | tag `v4.33.0` (`15f6055e299a`), built with Lean 4.33.1, export format 3.1.0 |
+| [lean4lean](https://github.com/digama0/lean4lean) | `67f63b0c8189`, built with Lean 4.33.1 |
+| Lean paranoid and default kernels, nanoda 0.4.17, con-leche, con-ron | as bundled with Lean 4.35.0-rc2, reading export format 3.1.0 |
+
+1. **comparator.** The challenge module [`verification/Challenge.lean`](verification/Challenge.lean) imports only Mathlib. It copies the four definitions of `src/Statements.lean` verbatim and states the five theorems of `src/Main.lean` with `sorry`. [`verification/comparator.json`](verification/comparator.json) names the five theorems and permits only `propext`, `Quot.sound` and `Classical.choice`. It has no `definition_names` entry, so every constant the statements use, definition bodies included, must be identical in the challenge and in `Main`. comparator then replays the proofs in the Lean 4.33.1 kernel.
+2. **Clean-room comparison of the statements.** comparator reads the challenge and the solution from the same compiled Mathlib, so it cannot detect a modified copy of Mathlib inside the project. The challenge is therefore also compiled in a separate project that contains only Mathlib, at the same commit and with the official Mathlib cache. The two exports of the challenge must be byte-identical.
+3. **Scans of the compiled environment.** Every constant of a project module in the import closure of `Main` is checked for declared axioms, direct uses of `sorryAx`, and dependence on any axiom other than the three standard ones.
+4. **Independent kernels.** The import closure of `Main` is exported and replayed by Lean's paranoid and default kernels, nanoda, con-leche and con-ron. Lean 4.33.1's `leanchecker --fresh Main` also replays it from the compiled files.
+
+These tools were tested on small Lean 4.33.1 projects before use. A correct toy proof was accepted by comparator and by every kernel. comparator rejected a toy whose definition was changed (`Const does not match between challenge and target`), one with an extra axiom (`Illegal axiom detected: 'cheat'`) and one with `sorry` (`Illegal axiom detected: 'sorryAx'`). An export edited to claim `2 + 2 = 5` was rejected by all five export kernels.
+
+Caveats. The kernels bundled with Lean 4.35.0-rc2 are a later release than the project's Lean 4.33.1, although they read the same export format. The lean4lean bundled with 4.35.0-rc2 cannot read a 4.33.1 export, because it expects the constant `Decidable.intro`, which first appears in Lean 4.35. Upstream lean4lean built with 4.33.1 is used instead. The sandbox that comparator normally uses (Landlock, through landrun) is not enforced in the container of the build server, so the checkers run unsandboxed. The project is compiled without a sandbox in any case.

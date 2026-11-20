@@ -1,0 +1,9 @@
+SCAN START 2026-11-20T16:43:32+00:00 imports=[ToyMain BadAxiomMain BadSorryMain] prefixes=[ToyMain BadAxiomMain BadSorryMain ToyStatements]
+/home/ubuntu/rh-alpoge/tools/smoke/out/smoke.scan.lean:73:23: error: unexpected token ':='; expected term
+/home/ubuntu/rh-alpoge/tools/smoke/out/smoke.scan.lean:87:0: error: elaboration function for `«command#rh_scan_»` has not been implemented
+Command exited with non-zero status 1
+	Command being timed: "lake env lean --tstack=400000 /home/ubuntu/rh-alpoge/tools/smoke/out/smoke.scan.lean"
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.87
+	Maximum resident set size (kbytes): 1084836
+SCAN EXIT 1 2026-11-20T16:43:34+00:00
+--- report head
