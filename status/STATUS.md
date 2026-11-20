@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 20:14 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 20:24 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T20:13:59+00:00
-load 281.73 272.00 269.64
+now 2026-11-20T20:24:13+00:00
+load 267.55 272.20 270.67
 ```
 
 ## Progress
 
 ```
-latest_job 40318/183903
-built_ok 16776
-built_with_warnings 15866
+latest_job 41638/183903
+built_ok 17341
+built_with_warnings 16621
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [40304/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPshCompAnalytic (114s)
-⚠ [40305/183903] Built Formalism.LocalToGlobal.CharacterGerms.BlockMembershipSelfConjugate (119s)
-✔ [40306/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightKernels.ExistsSmulEqSmulOfFinrankOne (127s)
-✔ [40307/183903] Built GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.InhabitantsExtDelta (112s)
-✔ [40308/183903] Built ReciprocityTheory.DualLattices.NsmulKerZero (117s)
-⚠ [40309/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.FrobeniusFibreCurves.LogarithmicSubstitution.InVarAddInVarNeZero (134s)
-⚠ [40310/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FontaineAinfLocalDomainXiAdicOrder (110s)
-✔ [40311/183903] Built ReciprocityTheory.DualLattices.DualPairInh (113s)
-⚠ [40312/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.RowDataAdaptedChainData (121s)
-⚠ [40313/183903] Built ReciprocityTheory.DualLattices.AinfTower (108s)
-✔ [40314/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.PGluedLocal (117s)
-⚠ [40315/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MainTermImpliesRowHypothesisStatement (125s)
-✔ [40316/183903] Built GroundTheory.HeightsAndTheta.Heights.AnalyticLimit.PBoundingKaehler (109s)
-⚠ [40317/183903] Built Development.AutomorphicSpectrum.Definitions.MetricPeriods.IsEmptyZeroPieces (109s)
-⚠ [40318/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BisimplicialAlexanderWhitneyHomotopyEquiv (124s)
+✔ [41624/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PAmbUnitary (112s)
+✔ [41625/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PParseval (112s)
+✔ [41626/183903] Built GroundTheory.HeightsAndTheta.Heights.FlagBundles.PZonalKernelPairing (122s)
+✔ [41627/183903] Built GroundTheory.HeightsAndTheta.Heights.FactorialBounds.PSupOfOrthonormalSum (122s)
+✔ [41628/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PLinChange (121s)
+✔ [41629/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PUnitaryInv (117s)
+✔ [41630/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PAmbChart (121s)
+⚠ [41631/183903] Built Development.WeilBound.CoreStatements.HodgeTatePoints.HtatHtBc (126s)
+✔ [41632/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.L2Inner (117s)
+✔ [41633/183903] Built GroundTheory.HeightsAndTheta.Heights.FubiniStudyInvariance.PDefinite (116s)
+✔ [41634/183903] Built GroundTheory.HeightsAndTheta.Heights.FlagBundles.PZonalHeightReduction (130s)
+✔ [41635/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PBranchInCurveComponent (114s)
+✔ [41636/183903] Built GroundTheory.HeightsAndTheta.Heights.FactorialBounds.PTorsionEquidistribution (127s)
+✔ [41637/183903] Built GroundTheory.HeightsAndTheta.Heights.StrongApproximation.Statements (126s)
+✔ [41638/183903] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PCMHeightAddDim (109s)
 ```
