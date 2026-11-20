@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 22:57 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:07 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T22:57:17+00:00
-load 266.93 269.00 270.93
+now 2026-11-20T23:07:26+00:00
+load 269.62 269.57 270.50
 ```
 
 ## Progress
 
 ```
-latest_job 61163/183903
-built_ok 27432
-built_with_warnings 26051
+latest_job 62446/183903
+built_ok 28040
+built_with_warnings 26728
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [61149/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.InvariantTowerAlgebraMapInjectiveStatement (124s)
-⚠ [61150/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTEOf (120s)
-✔ [61151/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHSt (123s)
-⚠ [61152/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeierstrassPIntegralOfMulIntegralGoodReductionStatement (117s)
-✔ [61153/183903] Built Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsChartGOfBasis (227s)
-✔ [61154/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.AdditionAdditionRing (124s)
-⚠ [61155/183903] Built Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOneStatement (118s)
-⚠ [61156/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OmegaKSqSubSelfAddEqZeroStatement (121s)
-⚠ [61157/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.WeierstrassSubstitution.NormLeOneOfMonicTwo (127s)
-✔ [61158/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTZSumB (126s)
-⚠ [61159/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsotypicPartExteriorProductInflatedSurjection (108s)
-✔ [61160/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDensSt (127s)
-✔ [61161/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHBSt (122s)
-✔ [61162/183903] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.DataRigidTorsionOfDataRigid (114s)
-⚠ [61163/183903] Built Development.AutomorphicArithmetic.CyclotomicBounds.ImageMemOfGens (116s)
+⚠ [62434/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XSPullback (135s)
+⚠ [62435/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianLocalRingHens (120s)
+✔ [62436/183903] Built GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsIntCoordChange (113s)
+✔ [62437/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PPtsPosDensIntegrable (126s)
+✔ [62438/183903] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PotFinCons (126s)
+✔ [62439/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatHens (123s)
+⚠ [62440/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.SplitTorusExtensionDescendsStatement (121s)
+⚠ [62441/183903] Built Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagChainArithVariety (120s)
+⚠ [62442/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArithVarietyDedekindConstants (131s)
+⚠ [62443/183903] Built Development.AbelianVarietyTheory.Definitions.Degenerations.ShortSquareFormIff (121s)
+⚠ [62444/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationLiftSmoothOverFieldStatement (122s)
+⚠ [62445/183903] Built Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsSplitExtDatumOfSplitTorusExtensionStatement (124s)
+⚠ [62446/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement (122s)
+⚠ [62447/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.HodgeCptMorphismCompatStatement (130s)
+✔ [62448/183903] Built Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.IsSemiAbelianUnit (105s)
 ```
