@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-20 23:38 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-20 23:48 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-20T23:37:59+00:00
-load 306.24 287.60 278.55
+now 2026-11-20T23:48:08+00:00
+load 266.37 270.83 273.63
 ```
 
 ## Progress
 
 ```
-latest_job 66273/183903
-built_ok 29697
-built_with_warnings 28894
+latest_job 67567/183903
+built_ok 30292
+built_with_warnings 29593
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [66259/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.SlashSmulPos (132s)
-✔ [66260/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicAlgHomSubDvdOfXDvd (117s)
-⚠ [66261/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleTwistCoboundaryOnBallStatement (109s)
-⚠ [66262/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.WittOrthonormalBasis (122s)
-⚠ [66263/183903] Built Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClassSets.LevGapTop (143s)
-⚠ [66264/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPowStatement (126s)
-⚠ [66265/183903] Built Formalism.LocalRingCardinality.SpanPowerMembership.RangeInclEqSpan (153s)
-✔ [66266/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GaussNormAcrisRadiusPosDefinite (124s)
-⚠ [66267/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.BesselRootDilationNormalizesContractsUnipotentStatement (116s)
-⚠ [66268/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DcrisFiniteOfIsDR (112s)
-⚠ [66269/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistedPhiGammaModelSenWeightCountStatement (127s)
-✔ [66270/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfIsReflexive (130s)
-✔ [66271/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.TailIntegrals.ExponentShiftEqLevelExponent (125s)
-⚠ [66272/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.BudgetClassEstimate (118s)
-✔ [66273/183903] Built Formalism.MirabolicMackeyTheory.MirabolicMackeyProofs.AbsorbLocalConditionsOfExact (118s)
+⚠ [67553/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorSquareEquivOfBaseChangeFieldStatement (118s)
+⚠ [67554/183903] Built Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.AnalyticTorusPointBaseEqHolUnifEx (132s)
+⚠ [67555/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrderedCechToCatCochainsOneCoboundaryCommStatement (109s)
+⚠ [67556/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SurjectiveDeformationAffineSectionsStatement (120s)
+✔ [67557/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperH2SumOfCupsExact (127s)
+⚠ [67558/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrderedCechToCatCochainsZeroCoboundaryCommStatement (115s)
+⚠ [67559/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftingObstructionBocksteinAddStatement (127s)
+⚠ [67560/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SurjectiveAppTopIntegralModelSquareStatement (110s)
+⚠ [67561/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsGroupIsoCubicalIsoOfTripleMapIdStatement (119s)
+✔ [67562/183903] Built GroundTheory.ProfiniteCohomology.RestrictedRamification.BaseChangeMackey (191s)
+✔ [67563/183903] Built Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.AdjointnessSeriesTransportFrames (121s)
+⚠ [67564/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmallExtensionElementMulZeroClassEqZero (126s)
+✔ [67565/183903] Built Development.WeilBound.CoreStatements.EqualVolumeCompactOpens.LocalToAdelic (138s)
+⚠ [67566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoContinuationOfFunctionalEquationStatement (125s)
+⚠ [67567/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsBaseChangeCompatibleGlobalOneForms (120s)
 ```
