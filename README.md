@@ -111,6 +111,17 @@ This compiles all 175,187 files of the project. Expect many hours even on a larg
 lake env lean ../CheckAxioms.lean
 ```
 
+## Related work
+
+Andrew Sutherland (MIT) runs an independent check of the same archive at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/), also with Claude Code. His archive has the same SHA-256 as ours (`9631b4f0…`). As of 20 November 2026, 22:05 UTC, that page reports:
+
+- all 175,187 modules compile, and the Mathlib build files are byte-identical to the official cache,
+- `#print axioms` gives only `propext`, `Classical.choice` and `Quot.sound` for the five theorems,
+- `leanchecker`, nanoda and con-leche accept, and lean4lean accepts after five modules are rerun with a raised timeout,
+- Lean's default and paranoid kernels on the export, and the kernel stage of `lake comparator`, are still running.
+
+That run compiles each file by calling `lean` directly. This repository uses a plain `lake build`, so the two runs are independent in environment and in build method. Once our build finishes we will compare the hash of our `Main.olean` and the hashes of all compiled project files with the manifest published there.
+
 ## How this work was produced
 
 The checks were set up and run by a large language model agent (Claude) under human direction. We are not affiliated with the author of the proof. Independent verification is welcome. If you find a problem, please [open an issue](https://github.com/Hertaspace/alpoge-rh-lean-verification/issues) with the command, environment and relevant output.
