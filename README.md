@@ -57,6 +57,7 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | `lake build` | the whole project and everything it imports compile | **passed**: 183,903 jobs, in two passes because of a memory-mapping limit of the build server (see [`VERIFICATION.md`](VERIFICATION.md#build)) |
 | `lake env lean CheckAxioms.lean` | the axioms of the five theorems above | **passed**: `[propext, Classical.choice, Quot.sound]` for each of the five |
 | `Main.olean` | our compiled main module against the MIT run | **identical**, SHA-256 `9146dfb4…` |
+| scan of the compiled environment | all 1,945,519 constants of the 175,187 project modules: declared axioms, `sorry`, and dependence on non-standard axioms | **passed**: none of each |
 | comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | running |
 | clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | running |
 | independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | running |

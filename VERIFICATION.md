@@ -163,7 +163,17 @@ These are the three standard axioms of Lean and Mathlib. No `sorryAx` and no axi
 
 ## Checks after the build
 
-Started 21 November 2026, 22:09 UTC, with [`verification/run-all.sh`](verification/run-all.sh). Results: in progress.
+Started 21 November 2026, 22:09 UTC, with [`verification/run-all.sh`](verification/run-all.sh), which runs checks 1 to 4 below concurrently.
+
+**Scan of the compiled environment (check 3): passed.** [`verification/scan_template.lean`](verification/scan_template.lean), run with `import Main` over every constant whose module lies in one of the project's top-level directories, finished at 22:52 UTC (40 min, 101 GB peak memory):
+
+```
+scanned 1945519 constants (1588253 theorems) from 175187 project modules in the import closure; project axioms: 0 []; constants mentioning sorryAx directly: 0 []; constants depending on an axiom other than propext, Classical.choice, Quot.sound: 0 [];
+```
+
+All 175,187 project modules are in the import closure of `Main`. None declares an axiom, none uses `sorry`, and no constant in them depends on an axiom other than the three standard ones.
+
+Checks 1, 2 and 4: in progress.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
 
