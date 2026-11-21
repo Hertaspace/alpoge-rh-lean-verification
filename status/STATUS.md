@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 07:09 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 07:19 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T07:09:14+00:00
-load 265.64 268.61 269.70
+now 2026-11-21T07:19:28+00:00
+load 271.40 272.13 271.52
 ```
 
 ## Progress
 
 ```
-latest_job 120200/183903
-built_ok 51277
-built_with_warnings 61231
+latest_job 121307/183903
+built_ok 51661
+built_with_warnings 61954
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [120190/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.IsProperOfProj (115s)
-⚠ [120191/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PullbackCoverStarCompat (125s)
-⚠ [120192/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EigensystemCarriedByFiniteTypeOfMeetsLevelRowsStatement (153s)
-⚠ [120193/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PeterssonIntegralFormulaStatement (144s)
-✔ [120194/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FormsRestrictOpenBijective (125s)
-⚠ [120195/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.MultiplicityMapRealTranslateEqRightTranslation (157s)
-✔ [120196/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseLevelGoodFormsDimsAgreePartwise (141s)
-⚠ [120197/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CovGlue (131s)
-⚠ [120198/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodIntegrableBoundedByProductOfNormsStatement (154s)
-⚠ [120199/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictPullBijectiveOfForall (121s)
-⚠ [120200/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.SuppFwd (146s)
-✔ [120201/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.DifferentialFormsCech.CoverRefinementHodge.FormToCOBijectiveI (136s)
-✔ [120202/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DoubleComplexLeadSurjective (126s)
-⚠ [120203/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CapMPull (130s)
-⚠ [120204/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.OmMapEqMOm (135s)
+⚠ [121293/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexConjNeZero (160s)
+⚠ [121294/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralIdeleMajorantFiniteStatement (151s)
+⚠ [121295/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaLiftSubmoduleComapStableSecondMemberStatement (147s)
+✔ [121296/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PHeckeRatioPoly (118s)
+✔ [121297/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PJPolyLeading (118s)
+⚠ [121298/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RankinSelbergLocalSecondStatement (117s)
+⚠ [121299/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.PseudoCoefficientUnitaryPqStatement (129s)
+⚠ [121300/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.UnfoldingCompactness.UnfoldCore (127s)
+✔ [121301/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.UnfoldingCompactness.IsClosedSiegelStabiliser (128s)
+⚠ [121302/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumNormSphericalZetaKernelGLTrivialRepStatement (131s)
+⚠ [121303/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipotentMemIffWeightRaising (163s)
+✔ [121304/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewHermitianDetNeZero (154s)
+⚠ [121305/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.AnalyticOnUJOfWordBound (137s)
+⚠ [121306/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.DiscreteSeriesCharacterFormulaStatement (133s)
+⚠ [121307/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PrimitiveFrobeniusFixed.PrimCase (140s)
 ```
