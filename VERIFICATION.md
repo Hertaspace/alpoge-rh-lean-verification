@@ -123,6 +123,8 @@ These comparisons with the independent run at [math.mit.edu/~drew/grh](https://m
 
 The two variants differ in the embedded string `/home/ubuntu/rh-alpoge/lean/src/…/JSmoothB.lean` versus `src/…/JSmoothB.lean`. The build is therefore deterministic, and a byte comparison of `.olean` files across machines is only meaningful for files that do not record a path. Exports, which contain only kernel declarations, are compared instead.
 
+After the build we hashed all 175,187 project `.olean` files. Every file in the MIT manifest is present in our build and vice versa. 76,968 are byte-identical and 98,219 differ, which is consistent with the sample above. `Main.olean` is among the identical ones (next paragraph).
+
 **`Main.olean`.** After the build, our `Main.olean` has SHA-256 `9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad`, the same as in the MIT manifest. `src/Main.lean` contains no term that records its source path, so the file is comparable across machines.
 
 **Statements.** The challenge module (the five statements, with `sorry` as proofs) was compiled in our Mathlib-only project and exported with lean4export `v4.33.0`. The MIT export of its challenge module differs from ours byte for byte, because exports number every name and expression in order of first use and the two runs pass different lists of root constants. [`verification/compare_exports.py`](verification/compare_exports.py) resolves the numbering, hashes every expression structurally and compares the declarations by name:
