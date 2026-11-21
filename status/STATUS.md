@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 12:49 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 12:59 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 15
-now 2026-11-21T12:49:00+00:00
-load 267.39 267.37 268.76
+mem_used_GB 19
+now 2026-11-21T12:59:19+00:00
+load 265.59 266.68 268.10
 ```
 
 ## Progress
 
 ```
-latest_job 153601/183903
-built_ok 63078
-built_with_warnings 82318
-failed 107
-error_messages 211
+latest_job 154576/183903
+built_ok 63317
+built_with_warnings 82923
+failed 115
+error_messages 226
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [153593/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.BesselStepLineComponentMemHomLatticeStatement (184s)
-⚠ [153594/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SeeSawIteratedIntegralLawLastStepsOfLocalFactoriStatement (209s)
-⚠ [153595/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionPeriodsFiniteQuotientStatement (169s)
-✔ [153596/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DepthOscillationLeAtTwoCmField (193s)
-⚠ [153597/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalSystemCommonRefinementStatement (167s)
-⚠ [153598/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.IsIntegralBlowupOfSmoothStatement (179s)
-⚠ [153599/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefficientBoundTupleStatement (225s)
-⚠ [153600/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.JacobiToBesselPiecesFiniteAdelicLatticesStatement (188s)
-⚠ [153601/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualModulusShiftHomLatticeOwnAnnihilatorStatement (190s)
-⚠ [153602/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.BesselCoreLatticeMeetsLineOfZIdealStatement (192s)
-⚠ [153603/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.JacobiToBesselPiecesMutualAnnihilatorsStatement (163s)
-⚠ [153604/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SeesawPairPlaneDescentSixthStatement (170s)
-⚠ [153605/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.JacobiToBesselCorePieceNonzeroVacuumStatement (210s)
-✔ [153606/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.BadStOfBadW (226s)
-⚠ [153607/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.LastSeesawLatticesNonzeroLineVacuaStatement (198s)
+✔ [154563/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniformisedFibreOfFramedComplexPoint (197s)
+⚠ [154564/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.FirstCoupledStepAdelicDatumLawTargetLevelStatement (178s)
+✔ [154565/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCombinationIffOfSameVecs (194s)
+⚠ [154566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFlagBundlePointCarryingOfLocal (162s)
+⚠ [154567/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasMarkingPreservingTransportOfRankZero (197s)
+✔ [154568/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocPtCompClosedPoint (197s)
+⚠ [154569/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitFrameOddLatticeLeftStatement (214s)
+⚠ [154570/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConstantFunctionNormalCompactification (200s)
+⚠ [154571/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.RealAtSuccIffDecompositionValues (160s)
+✔ [154572/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegralGeometricallyConnectedOpenModuli (205s)
+✔ [154573/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVecEquiv (199s)
+⚠ [154574/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.BesselJacobiSuperdiagonalEntriesAtPlace (179s)
+✖ [154575/183903] Building Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IndexBoundCoefficientFieldOfExactSmallField (254s)
+⚠ [154576/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SeesawPlaceLawsGiveFiniteIntegralLawsStatement (195s)
+✔ [154577/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDerivAt0CompLinear (198s)
 ```
