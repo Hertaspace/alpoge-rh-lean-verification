@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 21:13 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 21:23 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 401
-now 2026-11-21T21:13:07+00:00
-load 33.43 34.11 34.49
+mem_used_GB 167
+now 2026-11-21T21:23:19+00:00
+load 18.88 27.35 31.62
 ```
 
 ## Progress
 
 ```
-latest_job 183511/183903
-built_ok 3364
-built_with_warnings 103802
+latest_job 183845/183903
+built_ok 3475
+built_with_warnings 104020
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-✔ [183498/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LinkOntoOfOntoAll (74s)
-✔ [183499/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RowEBigGap (46s)
-✔ [183500/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.AdmissibleRanksAtMember (49s)
-✔ [183501/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PkValOfBWit (57s)
-✔ [183502/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsLinkedOfEq (49s)
-✔ [183503/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SidePtPartOfPack (70s)
-✔ [183504/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TwistsAtLinked (50s)
-✔ [183505/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.BwitFrameTwists (52s)
-✔ [183506/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ColsStdOfBWit (46s)
-✔ [183507/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TSFinConjMatch (51s)
-✔ [183508/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelCharacterMatchesWitnessAltBis (51s)
-✔ [183509/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.IdELevelMatchOfBwit (46s)
-✔ [183510/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevTruePackB (50s)
-✔ [183511/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.XiChrEqCols (53s)
-✔ [183512/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.QplacesOfBWit (52s)
+⚠ [183832/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OneCentralPinStatement (53s)
+⚠ [183833/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.DatExistsStatement (42s)
+⚠ [183834/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsBareFormOfSaturation (68s)
+⚠ [183835/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MemberSizesStatement (47s)
+✔ [183836/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ConjBaseOfSteps (49s)
+⚠ [183837/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ScalarCommutation.SpecData (66s)
+⚠ [183838/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CoveringRankOfDescentSteps (44s)
+✔ [183839/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.CovLink (32s)
+⚠ [183840/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelsStatement (43s)
+⚠ [183841/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsWeilBlockNeAtMember (65s)
+⚠ [183842/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LawsLinksOfGeoRowsColsStatement (54s)
+⚠ [183843/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevGBaseOfBWitStatement (45s)
+⚠ [183844/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsBaseLatticeOfPrime (88s)
+✔ [183845/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PuNZMember (46s)
+⚠ [183846/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HilbertSamuelLowerBoundOfComponents (96s)
 ```
