@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 02:31 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 02:42 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T02:31:55+00:00
-load 270.35 269.48 269.88
+now 2026-11-21T02:42:10+00:00
+load 274.29 271.81 270.69
 ```
 
 ## Progress
 
 ```
-latest_job 87819/183903
-built_ok 38680
-built_with_warnings 41453
+latest_job 89069/183903
+built_ok 39171
+built_with_warnings 42211
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [87805/183903] Built Formalism.AdmissibleDesigns.TheoremN5OfNormalizedItems (133s)
-✔ [87806/183903] Built GroundTheory.AutomorphicForms.MultiplicityOne.NormOne (115s)
-⚠ [87807/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.AlternatingFormLatticeCompatibleStatement (127s)
-⚠ [87808/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.AdaptedFrameChangeUnitaryStatement (132s)
-✔ [87809/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.DifferentialFormsCech.CoverRefinementHodge.CovRefine (119s)
-✔ [87810/183903] Built Development.WeilBound.CoreStatements.VolumeEquality.BaseUnifConj (131s)
-✔ [87811/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.LevelMembershipPackage (115s)
-⚠ [87812/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.EmbeddingInverseRootImaginaryStatement (131s)
-⚠ [87813/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ArchimedeanUnitarySurjectiveStatement (126s)
-⚠ [87814/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.HodgeSurjectivity.EtaleChartBaseChange.DivisorCoverOfChartLaws (120s)
-✔ [87815/183903] Built Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusFactorisation.FrobeniusIteratePoint (139s)
-⚠ [87816/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.SkewHermitianFormExistsStatement (128s)
-⚠ [87817/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.NormSqEqAdaptedFrameSumStatement (115s)
-⚠ [87818/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemBOfSub (124s)
-⚠ [87819/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FormConsMul (124s)
+✔ [89055/183903] Built Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.RedContinuous (121s)
+✔ [89056/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.ConsumerC (137s)
+⚠ [89057/183903] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SelfDualLatticePairingDual (124s)
+✔ [89058/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemCompletedOrderOfLocalCongruenceSplit (129s)
+✔ [89059/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachIntegralComplexCocycleClassFinite (144s)
+⚠ [89060/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryAdelicCharacterTrivialOfLocalStatement (110s)
+⚠ [89061/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightInvariantEqSmulLeftInvariantProbabilityStatement (110s)
+✔ [89062/183903] Built Formalism.LocalToGlobal.IndefiniteReal.FixNLeMulRight (124s)
+✔ [89063/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsSplitFrameSelfDualLatticeCompletion (128s)
+⚠ [89064/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsSplitSupportedUnitaryComponentStatement (114s)
+⚠ [89065/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankReductionRangeAddCorankStatement (123s)
+⚠ [89066/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.CardSubspacesKerTransposeEqCardRangeStatement (126s)
+⚠ [89067/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ValApplySubLtOne (127s)
+⚠ [89068/183903] Built Formalism.LocalToGlobal.IndefiniteReal.FinitePlaces.CharDual (139s)
+⚠ [89069/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GlIntegralInvMulOfLatticeMapEqStatement (115s)
 ```
