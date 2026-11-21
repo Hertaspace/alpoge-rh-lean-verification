@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 14:12 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 14:22 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 17
-now 2026-11-21T14:12:07+00:00
-load 274.34 270.81 268.96
+mem_used_GB 11
+now 2026-11-21T14:22:32+00:00
+load 265.21 268.04 268.76
 ```
 
 ## Progress
 
 ```
-latest_job 162835/183903
-built_ok 64909
-built_with_warnings 87120
-failed 163
-error_messages 312
+latest_job 164374/183903
+built_ok 65107
+built_with_warnings 87745
+failed 166
+error_messages 318
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [162825/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.MovedVacuumJetAlgebraicCombination (275s)
-⚠ [162826/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFormsMapOfDividedPowerDerivation (169s)
-⚠ [162827/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineBundleLiftObstructionEqOfCohomologous (188s)
-⚠ [162828/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemePresentedBySystemStatement (191s)
-⚠ [162829/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeOfHyp (156s)
-⚠ [162830/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFamilyReductionLiftsLineBundleStatement (185s)
-✖ [162831/183903] Building Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.StandardModuleBottomDatumExists (270s)
-⚠ [162832/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBundleExtensionTranslateOpen (205s)
-⚠ [162833/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDegreeTwoObstructionClassStatement (188s)
-⚠ [162834/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalLiftOfDefectCoboundaryStatement (163s)
-⚠ [162835/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsStandardSmoothRetractOfSmoothStatement (186s)
-⚠ [162836/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomSpecPointsLevelsStatement (164s)
-⚠ [162837/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdditiveFamilyOfPullbackFiniteSurjectiveStatement (202s)
-⚠ [162838/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonBaseChangePolarizedAbelianSchemeOfGe (207s)
-⚠ [162839/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjugateThetaLiftsIsConjugateCuspExpansionStatement (261s)
+⚠ [164362/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalIntegralClosureUnitDegreeStatement (180s)
+✔ [164363/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarSubdivisionCellsFiniteCoverUpToAut (193s)
+⚠ [164364/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegenerationRescaleTauBimultExistsStatement (182s)
+✔ [164365/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CentreDepthLeStarDepthOfCell (182s)
+✔ [164366/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarSubdivisionCellMemStarConeOrCentreless (196s)
+⚠ [164367/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarDepthLeStrictnessGapOffCentresStatement (181s)
+⚠ [164368/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MaxMultiplicityLtTop (191s)
+⚠ [164369/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymmetricDataComparePolarisedUpToFunctionStatement (162s)
+⚠ [164370/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericEighthPowerUniformisedIsPolarisedStatement (187s)
+⚠ [164371/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteEtaleCoverChartAtFieldPointStatement (189s)
+⚠ [164372/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomEvenDefectBimultiplicativePeriodsStatement (177s)
+⚠ [164373/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerLiftCompProjection (183s)
+⚠ [164374/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.IntegerLatticeDominatesStatement (181s)
+⚠ [164375/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedCuspidalHolomorphicLeSpanAlgebraicCuspSecStatement (233s)
+⚠ [164376/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIsoCarriesSharpPointsToConjugatesStatement (184s)
 ```
