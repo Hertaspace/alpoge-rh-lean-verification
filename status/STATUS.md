@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 08:11 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 08:21 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T08:11:28+00:00
-load 267.81 270.93 270.93
+now 2026-11-21T08:21:46+00:00
+load 263.35 266.20 268.57
 ```
 
 ## Progress
 
 ```
-latest_job 126967/183903
-built_ok 53768
-built_with_warnings 65506
+latest_job 128076/183903
+built_ok 54149
+built_with_warnings 66234
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [126956/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsWeilDatumOneParameterGeneratorCommutatorsStatement (114s)
-⚠ [126957/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ParabolicInductionColumnFalseStatement (144s)
-✔ [126958/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutHLAsm (128s)
-✔ [126959/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FockVectorMixedLaplacianKilledLoweringKilled (125s)
-✔ [126960/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.ProperLeftVariablesDomain (135s)
-⚠ [126961/183903] Built Development.WeilBound.CoreStatements.BranchingTraces.BranchingComatrices.OneLeDiff (146s)
-⚠ [126962/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RtTangent (134s)
-✔ [126963/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.ExactLim (150s)
-⚠ [126964/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.PartialBesselSmoothCompactSupport (136s)
-⚠ [126965/183903] Built Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.DeterminantOneCharacters.DeterminantOneConditionHolds (157s)
-⚠ [126966/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.RdVZeroOfVanish (137s)
-⚠ [126967/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Conclusion41OfHyp (180s)
-⚠ [126968/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsBasisAtTransport (159s)
-✔ [126969/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.CsRapidAll (151s)
-⚠ [126970/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnipotentRadicalStabiliserScalesRestrictionStatement (123s)
+✔ [128063/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsOrthogonalIdempotentSectionsIndicatingComp (155s)
+⚠ [128064/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ResiduePerfectAndCharStatement (135s)
+⚠ [128065/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecialFibreNotInClosure (120s)
+⚠ [128066/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqualizerSectionsClosedIdeal (143s)
+✔ [128067/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveLineChartFamiliesAgreeOnOverlap (139s)
+⚠ [128068/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalizationAwayDescentRangeStatement (138s)
+⚠ [128069/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDiscreteValuationRingOfIsAboveStatement (142s)
+⚠ [128070/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericFibreOpenCoordsStatement (150s)
+⚠ [128071/183903] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.UniformisationTripleLinearTorsionIso (118s)
+✔ [128072/183903] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.SymFrameClause (135s)
+⚠ [128073/183903] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AbelianSchemeTorsionRepresentationStatement (140s)
+⚠ [128074/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaActionDeterminantRootStatement (169s)
+⚠ [128075/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsSimInducing (136s)
+✔ [128076/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisRepresentationTateModuleBaseChangeEqOneIff (122s)
+⚠ [128077/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormEtaProductFormLeAtUnitFrameStatement (143s)
 ```
