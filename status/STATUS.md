@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 10:35 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 10:46 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T10:35:42+00:00
-load 264.50 269.38 270.11
+now 2026-11-21T10:46:12+00:00
+load 269.49 273.32 272.21
 ```
 
 ## Progress
 
 ```
-latest_job 141548/183903
-built_ok 58873
-built_with_warnings 74982
+latest_job 142546/183903
+built_ok 59216
+built_with_warnings 75635
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [141536/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerLocalIdealMem (161s)
-⚠ [141537/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdeleWithGivenOrders (156s)
-⚠ [141538/183903] Built Development.WeilBound.ThetaLifts.LeviDeterminants.CharacterAdmissibility.DetNeHerm (171s)
-⚠ [141539/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.SignedLocalTermDefectIffUnsignedLocalTermStatement (129s)
-⚠ [141540/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLocalIdealOfCountLeOrder (159s)
-⚠ [141541/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SeesawTypeBTripleHypothesisForm (167s)
-⚠ [141542/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferentStatement (153s)
-⚠ [141543/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsPlaceIsoReadingComponentsCharactersStatement (149s)
-⚠ [141544/183903] Built Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.CoefficientSpans (139s)
-✔ [141545/183903] Built Development.AutomorphicArithmetic.LocalEmbeddings.ComplEquivEvW (150s)
-✔ [141546/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnitIffOrderZero (161s)
-✔ [141547/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedCharValueProduct (161s)
-✔ [141548/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGoodRationalSchroedingerModel (155s)
-✔ [141549/183903] Built Development.WeilBound.ThetaLifts.CartanFactorisation.ExistsEnlarge (142s)
-⚠ [141550/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorLocalVanishStatement (125s)
+✔ [142532/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.UnitarySchrodingerLemmas.BlockHeightDeterminants.HWInfA (217s)
+⚠ [142533/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.WignerMapsThreePlacesExistsStatement (118s)
+⚠ [142534/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.HolomorphicDiscInAffineOpenStatement (136s)
+⚠ [142535/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.PHtDesc (162s)
+⚠ [142536/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CrystallineTowers.BcCover (165s)
+⚠ [142537/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CrystallineTowers.NegVan (168s)
+⚠ [142538/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.NonFieldTypeVanishingStatement (116s)
+✔ [142539/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtOfBuilt (144s)
+✔ [142540/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitCOfCXiAt (140s)
+✔ [142541/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.PLacConj (153s)
+✔ [142542/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.KernelDatumLatticeTargetSideTrueChains (146s)
+✔ [142543/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.PGapLac (154s)
+⚠ [142544/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsJointEigenDecompositionCommutingSymmetricOStatement (145s)
+⚠ [142545/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.PTotCont (167s)
+⚠ [142546/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.SeedFinOddOf (159s)
 ```
