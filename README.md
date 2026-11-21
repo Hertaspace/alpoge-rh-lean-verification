@@ -5,7 +5,7 @@ In November 2026 Levent Alpöge released a note, [remark.pdf](https://alpo.ge/re
 - **Statement:** `RiemannHypothesis` is Mathlib's own definition, not one introduced by the project (see [Main theorems](#main-theorems)).
 - **Source:** the Lean project from `https://alpo.ge/lean.tar.gz.part01` … `part14`. We do not redistribute it. [`SHA256SUMS`](SHA256SUMS) lists the hashes of the parts we checked.
 - **Size:** 175,187 Lean files and about 17.4 million lines, built on Mathlib.
-- **Status:** build in progress since 20 November 2026, 16:12 UTC, on 256 cores. At the observed rate of about 140 build jobs per minute, the 183,903 jobs need roughly 20 hours. Live progress is in [`status/STATUS.md`](status/STATUS.md), refreshed every 10 minutes.
+- **Status:** the whole project compiles (`Build completed successfully (183903 jobs).`, 21 November 2026, 22:02 UTC), and all five theorems depend only on `propext`, `Classical.choice` and `Quot.sound`. Our `Main.olean` is byte-identical to the one of the MIT run. The independent checks (comparator, clean-room statement check, kernels) are running.
 
 ## Main theorems
 
@@ -54,11 +54,12 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | Check | What it checks | Result |
 |---|---|---|
 | source scan | no `sorry`, `axiom`, `native_decide`, `implemented_by`, `@[extern]`, or file and process IO in the 175,187 files | passed (details in [`VERIFICATION.md`](VERIFICATION.md)) |
-| `lake build` | the whole project and everything it imports compile | in progress |
-| `lake env lean CheckAxioms.lean` | the axioms of the five theorems above | pending |
-| comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | planned |
-| clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | planned |
-| independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | planned |
+| `lake build` | the whole project and everything it imports compile | **passed**: 183,903 jobs, in two passes because of a memory-mapping limit of the build server (see [`VERIFICATION.md`](VERIFICATION.md#build)) |
+| `lake env lean CheckAxioms.lean` | the axioms of the five theorems above | **passed**: `[propext, Classical.choice, Quot.sound]` for each of the five |
+| `Main.olean` | our compiled main module against the MIT run | **identical**, SHA-256 `9146dfb4…` |
+| comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | running |
+| clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | running |
+| independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | running |
 
 A sound result lists only `propext`, `Classical.choice` and `Quot.sound` for each theorem. [`VERIFICATION.md`](VERIFICATION.md) records the environment, the commands and the outputs, and `verification/` contains the scripts.
 
@@ -103,7 +104,9 @@ lake exe cache get
 lake build
 ```
 
-This compiles all 175,187 files of the project. Expect many hours even on a large machine. Plan for a lot of disk space for the compiled files.
+This compiles all 175,187 files of the project. On our 256-core server it took about 30 hours in total, and the compiled project files take 107 GB.
+
+If modules near the end of the build fail with `failed to read file`, `std::bad_alloc` or `out of memory` although the machine has free memory, the cause is probably the per-process limit on memory mappings (`vm.max_map_count`, often 65530). Raise it with `sudo sysctl -w vm.max_map_count=1048576` if you can. Inside a container where you cannot, build [`verification/no_fixed_file_mmap.c`](verification/no_fixed_file_mmap.c) and rerun `lake build` with `LD_PRELOAD` pointing to it, as in [`verification/build-pass2.sh`](verification/build-pass2.sh).
 
 **Step 5. See which axioms the proofs use.** Copy [`CheckAxioms.lean`](CheckAxioms.lean) next to the `lean/` directory and run
 
@@ -120,7 +123,7 @@ Andrew Sutherland (MIT) runs an independent check of the same archive at [math.m
 - `leanchecker`, nanoda and con-leche accept, and lean4lean accepts after five modules are rerun with a raised timeout,
 - Lean's default and paranoid kernels on the export, and the kernel stage of `lake comparator`, are still running.
 
-That run compiles each file by calling `lean` directly. This repository uses a plain `lake build`, so the two runs are independent in environment and in build method. Once our build finishes we will compare the hash of our `Main.olean` and the hashes of all compiled project files with the manifest published there.
+That run compiles each file by calling `lean` directly. This repository uses a plain `lake build`, so the two runs are independent in environment and in build method. Our `Main.olean` has the same SHA-256 as the one in the manifest published there. The comparison of all compiled project files is in [`VERIFICATION.md`](VERIFICATION.md#cross-checks-with-the-mit-run).
 
 ## How this work was produced
 

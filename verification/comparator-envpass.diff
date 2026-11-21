@@ -1,0 +1,8 @@
+128c128
+<     envPass := #["PATH", "HOME", "LEAN_ABORT_ON_PANIC"]
+---
+>     envPass := #["PATH", "HOME", "LEAN_ABORT_ON_PANIC", "LD_PRELOAD", "NOMMAP_THRESHOLD"]
+146c146
+<     envPass := #["PATH", "HOME", "LEAN_PATH", "LEAN_ABORT_ON_PANIC"]
+---
+>     envPass := #["PATH", "HOME", "LEAN_PATH", "LEAN_ABORT_ON_PANIC", "LD_PRELOAD", "NOMMAP_THRESHOLD"]

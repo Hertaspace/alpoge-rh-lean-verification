@@ -67,7 +67,14 @@ lake build
 
 `lake exe cache get` downloaded all 8,690 Mathlib cache files, but 2,531 of them failed to decompress. The files were not corrupt: the decompressor `leantar` hit the limit of 1,024 open files per process (`os error 24`). Lake therefore recompiles that part of Mathlib from source. This makes the build slower but does not weaken it.
 
-Started 20 November 2026, 16:12 UTC. Result: in progress.
+Result: **success.** The second pass ended with `Build completed successfully (183903 jobs).`
+
+| Pass | Started (UTC) | Wall-clock time | Result |
+|---|---|---|---|
+| 1, plain `lake build` | 20 Nov, 16:12 | 25 h 19 min | 167,624 jobs built, 242 failed, `error: build failed` |
+| 2, `lake build` with the shim below | 21 Nov, 17:32 | 4 h 30 min | 8,577 modules rebuilt, 0 failed, `Build completed successfully (183903 jobs).` |
+
+Every one of the 242 failures of the first pass is an error in reading a file or allocating memory, not an error in a proof. In 210 of them Lean reports `failed to read file` for an imported `.olean` or `.ir` file (one of these is the `invalid header` incident described next). The remaining 32 end with `std::bad_alloc`, `INTERNAL PANIC: out of memory` or `failed to create thread`. We checked the output of every failed job for one of these messages. Apart from the `Statements` incident, all of them come from the map-count limit explained below. In the second pass the largest single process used 99.6 GB (maximum resident set size reported by `time -v`).
 
 **Incident during the first pass.** At about 16:16 UTC the module `Statements` failed with
 
@@ -95,11 +102,11 @@ The shim does not change the compiled output. Built with Lake's exact arguments,
 | `Formalism/LocalToGlobal/Divisibility/DivisionHeightBoundColumns` | `3f70cbef237cfe0f` | `3f70cbef237cfe0f` |
 | `Development/…/AllTrueFamilyGeometry` | fails (map limit) | `3b69583eb2b65f1e`, 41 s, 14.6 GB peak memory |
 
-The first pass continues without the shim and builds every module below the limit. A second `lake build` then runs with the shim and with `LEAN_NUM_THREADS=32`, which limits Lake's parallelism so that the extra heap memory stays well below the 2 TB of the server. It rebuilds every module that failed or was skipped in the first pass, including `Statements` and `Main`. Script: [`verification/build-pass2.sh`](verification/build-pass2.sh).
+The first pass continued without the shim and built every module below the limit. A second `lake build` then ran with the shim and with `LEAN_NUM_THREADS=32`, which limits Lake's parallelism so that the extra heap memory stays well below the 2 TB of the server. It rebuilt every module that failed or was skipped in the first pass, including `Statements` and `Main`, without a single failure. Script: [`verification/build-pass2.sh`](verification/build-pass2.sh).
 
 ## Cross-checks with the MIT run
 
-These comparisons with the independent run at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/) were made on 21 November 2026, while our build was still running. The MIT files used (`SHA256SUMS`, `project-oleans.sha256`, `comparator.json`, `Audit.lean`, `challenge.ndjson.zst`) were downloaded from that page. The hashes of `comparator.json`, `Audit.lean` and `challenge.ndjson.zst` match the page's `SHA256SUMS`.
+These comparisons with the independent run at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/) were made on 21 November 2026, while our build was still running, except for the comparison of `Main.olean`, made after it. The MIT files used (`SHA256SUMS`, `project-oleans.sha256`, `comparator.json`, `Audit.lean`, `challenge.ndjson.zst`) were downloaded from that page. The hashes of `comparator.json`, `Audit.lean` and `challenge.ndjson.zst` match the page's `SHA256SUMS`.
 
 **Archive.** Both runs used an archive with SHA-256 `9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc`.
 
@@ -115,6 +122,8 @@ These comparisons with the independent run at [math.mit.edu/~drew/grh](https://m
 | MIT manifest | `1f3c1efc0eb85d07` |
 
 The two variants differ in the embedded string `/home/ubuntu/rh-alpoge/lean/src/…/JSmoothB.lean` versus `src/…/JSmoothB.lean`. The build is therefore deterministic, and a byte comparison of `.olean` files across machines is only meaningful for files that do not record a path. Exports, which contain only kernel declarations, are compared instead.
+
+**`Main.olean`.** After the build, our `Main.olean` has SHA-256 `9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad`, the same as in the MIT manifest. `src/Main.lean` contains no term that records its source path, so the file is comparable across machines.
 
 **Statements.** The challenge module (the five statements, with `sorry` as proofs) was compiled in our Mathlib-only project and exported with lean4export `v4.33.0`. The MIT export of its challenge module differs from ours byte for byte, because exports number every name and expression in order of first use and the two runs pass different lists of root constants. [`verification/compare_exports.py`](verification/compare_exports.py) resolves the numbering, hashes every expression structurally and compares the declarations by name:
 
@@ -135,9 +144,24 @@ The four differing declarations are challenge theorems whose statements are iden
 
 ## Axioms
 
-Pending.
+After the second pass, `lake env lean ../CheckAxioms.lean` ([`CheckAxioms.lean`](CheckAxioms.lean)) printed, on 21 November 2026 at 22:06 UTC:
 
-## Planned checks after the build
+```
+'riemannHypothesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'riemannZeta_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_ne_zero_of_half_lt_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_eq_zero_re_of_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+riemannHypothesis : RiemannHypothesis
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+```
+
+These are the three standard axioms of Lean and Mathlib. No `sorryAx` and no axiom declared by the project appears. The last lines confirm that `RiemannHypothesis` is Mathlib's definition, unchanged.
+
+## Checks after the build
+
+Started 21 November 2026, 22:09 UTC, with [`verification/run-all.sh`](verification/run-all.sh). Results: in progress.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
 
@@ -156,3 +180,5 @@ Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-
 These tools were tested on small Lean 4.33.1 projects before use. A correct toy proof was accepted by comparator and by every kernel. comparator rejected a toy whose definition was changed (`Const does not match between challenge and target`), one with an extra axiom (`Illegal axiom detected: 'cheat'`) and one with `sorry` (`Illegal axiom detected: 'sorryAx'`). An export edited to claim `2 + 2 = 5` was rejected by all five export kernels.
 
 Caveats. The kernels bundled with Lean 4.35.0-rc2 are a later release than the project's Lean 4.33.1, although they read the same export format. The lean4lean bundled with 4.35.0-rc2 cannot read a 4.33.1 export, because it expects the constant `Decidable.intro`, which first appears in Lean 4.35. Upstream lean4lean built with 4.33.1 is used instead. The sandbox that comparator normally uses (Landlock, through landrun) is not enforced in the container of the build server, so the checkers run unsandboxed. The project is compiled without a sandbox in any case.
+
+The map-count limit also affects every tool that loads `Main` from its compiled files, so all of them run with the shim of the [Build](#build) section. comparator passes only a fixed list of environment variables to the programs it starts, so we added `LD_PRELOAD` and `NOMMAP_THRESHOLD` to that list ([`verification/comparator-envpass.diff`](verification/comparator-envpass.diff)). The change touches only the environment, not what comparator checks.
