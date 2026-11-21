@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 07:39 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 07:50 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T07:39:53+00:00
-load 267.98 269.84 269.83
+now 2026-11-21T07:50:06+00:00
+load 267.39 269.85 269.79
 ```
 
 ## Progress
 
 ```
-latest_job 123554/183903
-built_ok 52516
-built_with_warnings 63346
+latest_job 124648/183903
+built_ok 52927
+built_with_warnings 64028
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [123540/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsCharacter (140s)
-✔ [123541/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormalisedThetaConstantOfUniversalOriginValue (153s)
-✔ [123542/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.DualFamilyCounting.GlueExistsOfLastDual (117s)
-✔ [123543/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalDescendedBundleNoetherian (143s)
-✔ [123544/183903] Built Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.SmulMemRatForms (205s)
-⚠ [123545/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.UnifMetricScalar (159s)
-✔ [123546/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.LamIndLenDeg (159s)
-✔ [123547/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsCmCurveHomOfPureTypeVectorAnyLevel (126s)
-⚠ [123548/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsExtBaseChange (160s)
-⚠ [123549/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeterssonNormComponentAddLeOfGramFrameStatement (120s)
-⚠ [123550/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GoodMetricLocalTransgressionFormulaStatement (119s)
-⚠ [123551/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaUniformisationComplexAbelianVarietiesStatement (129s)
-⚠ [123552/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsTorsionPairRepresentative (135s)
-✔ [123553/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHalfOfAuxiliarySplitLevel (140s)
-✔ [123554/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.KeyFormulaIffClauses (130s)
+⚠ [124634/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KernelRationalityOfReciprocityStatement (150s)
+⚠ [124635/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightInvariantUnderStabilizerStatement (159s)
+⚠ [124636/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.LocalZetaSumsAbsolutelyConvergentUniformStatement (142s)
+✔ [124637/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.EisensteinSeriesG2.SiegelGrowthForms.IsGrowFormEvAt (148s)
+⚠ [124638/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRationalPointSwappingFirstColumnsStatement (159s)
+⚠ [124639/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanInvolutionSystemsConjArchimedeanUnitaryStatement (156s)
+⚠ [124640/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineStabilizerOrthogonalUniqueStatement (159s)
+⚠ [124641/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.JacquetHomLeviTgtBound (157s)
+⚠ [124642/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCmStatement (124s)
+⚠ [124643/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.OddResidueBounds.ThmBcOfPsiBound (172s)
+✔ [124644/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GlobalZetaIntegralConvergence (121s)
+✔ [124645/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.ParabolicBlockForms.CosBijPf (125s)
+⚠ [124646/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledPairEmbeddingBlockDiagonalStatement (153s)
+✔ [124647/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellCharacterDistinct (157s)
+⚠ [124648/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipotentStabilizerDoubleCosetStatement (156s)
 ```
