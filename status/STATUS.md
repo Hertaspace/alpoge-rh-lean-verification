@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 15:24 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 15:35 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 15
-now 2026-11-21T15:24:44+00:00
-load 266.15 269.67 269.70
+mem_used_GB 17
+now 2026-11-21T15:35:11+00:00
+load 265.02 267.45 268.99
 ```
 
 ## Progress
 
 ```
-latest_job 170968/183903
-built_ok 66339
-built_with_warnings 91395
-failed 187
-error_messages 356
+latest_job 172161/183903
+built_ok 66524
+built_with_warnings 92019
+failed 188
+error_messages 358
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [170953/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVectorFieldLiftsAffineCoverSmoothGroupStatement (202s)
-✔ [170954/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarrisTaylorLieSpreadFromIdentityPoint (194s)
-✔ [170955/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompOfIsFilLift (202s)
-⚠ [170956/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairDivisorClassSum (216s)
-⚠ [170957/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticVolumeLeCount (232s)
-⚠ [170958/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AppellHumbertFrameLogDerivativeQuasiPeriodicStatement (208s)
-⚠ [170959/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAuxiliarySetLocalConditionsStatement (190s)
-⚠ [170960/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarrisTaylorPrimeToPLevelLiftSquareZero (198s)
-⚠ [170961/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftSummandLieResidueCharZero (201s)
-✔ [170962/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RealFockThetaLiftVanishingOfGeneratingVectors (259s)
-✔ [170963/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaChernClassBaseChange (211s)
-✔ [170964/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRingHomMatrixLiftOfOrderActionExponential (184s)
-⚠ [170966/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PlacedBesselCompatibilityStatement (257s)
-⚠ [170967/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularizedMetricLowerBound (221s)
-⚠ [170968/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemiPositivePullbackGenericallyEtaleStatement (199s)
+✔ [172149/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentMumfordBundleQuotient (202s)
+✔ [172150/183903] Built Development.WeilBound.CoreStatements.VolumeEquality.SheetPiecesExistence (207s)
+⚠ [172152/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilCommutatorPairingTorsionGeometricPointStatement (160s)
+⚠ [172153/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsAdjointNefSeparateEtaleFibre (195s)
+✔ [172154/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.KTrivModelOfTrivLocus (194s)
+✔ [172155/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDivClosure (201s)
+⚠ [172156/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTheoremOfSquareSemiAbelianGenericAbelianStatement (186s)
+⚠ [172157/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.HasDerivAtThetaIntegralInterchange (190s)
+⚠ [172158/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmDefiniteLieIndexIdealEqNormIdealStatement (219s)
+⚠ [172159/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TangentBasisTorsionCharsStatement (214s)
+⚠ [172160/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveAxesDescendFieldStatement (181s)
+⚠ [172161/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.CuspIntersectionLimitStatement (189s)
+⚠ [172162/183903] Built Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.FibLamC (201s)
+✔ [172164/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThickeningTowerCechH1Uniform (189s)
+⚠ [172165/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatFiniteTwistedKernelOverAffineParameter (202s)
 ```
