@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 13:09 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 13:20 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 13
-now 2026-11-21T13:09:47+00:00
-load 265.64 267.86 268.14
+mem_used_GB 17
+now 2026-11-21T13:20:11+00:00
+load 265.16 265.89 266.93
 ```
 
 ## Progress
 
 ```
-latest_job 155507/183903
-built_ok 63566
-built_with_warnings 83508
-failed 125
-error_messages 245
+latest_job 156519/183903
+built_ok 63813
+built_with_warnings 84082
+failed 130
+error_messages 255
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [155495/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NonemptySabMapOfCompatibleStatement (180s)
-⚠ [155496/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelFamilyClassifyingMapUniqueStatement (168s)
-⚠ [155497/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.DetLatticeTuplesAgreeingAwayFromPlace (164s)
-⚠ [155498/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DvdOfValuationLeAllDvrStatement (186s)
-⚠ [155499/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SectionsRestrictAlongBaseChangeStatement (182s)
-⚠ [155500/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrincipalDescentFiniteEtaleSurjectiveStatement (188s)
-⚠ [155501/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.SeesawUnfoldingFundamentalDomain (187s)
-⚠ [155502/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MaxThetaVanishingGlobalStatement (168s)
-⚠ [155503/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataLocalSmoothVectorStatement (161s)
-⚠ [155504/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BlowupTwistedBundleIsoStatement (187s)
-⚠ [155505/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleCharacterTwistStatement (161s)
-⚠ [155506/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolarisationBaseFunctionPropertiesStatement (178s)
-⚠ [155507/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SmoothGenericOfIsoStatement (181s)
-✔ [155508/183903] Built Development.WeilBound.CoreStatements.TorusUniformisation.SiegelCompactSupport.SiegProperSt (186s)
-⚠ [155509/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FerrandGlueFlatArtinianFibreProductStatement (198s)
+⚠ [156508/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianDegreeAdelicSum (195s)
+✔ [156509/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedLocalLatticeTheta (198s)
+✔ [156510/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MetricPullbackGramAndInvariance (193s)
+⚠ [156511/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompatibleReductionSystemMapImmersion (196s)
+✔ [156512/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPositiveHermitianFormDomain (189s)
+⚠ [156513/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsAffineDomainFrameHasDRStatement (185s)
+⚠ [156514/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.KaehlerPotentialComparisonDomain (189s)
+✔ [156515/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsModificationExtendingMapFromOpen (209s)
+⚠ [156516/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReadFnCInfAtOfSmooth (163s)
+✔ [156517/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LemmaBTHolds (188s)
+✔ [156518/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsAffineRefinementLieEmbedding (192s)
+⚠ [156519/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.DualLatticeBaseChangeStatement (185s)
+✔ [156520/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PluckerCoordMatrixGenerates (193s)
+⚠ [156521/183903] Built Development.WeilBound.CoreStatements.HomogeneousNonvanishing.LatticeIntegrallyClosedTorsion (183s)
+⚠ [156522/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DividesOfNormBoundedPoints (192s)
 ```
