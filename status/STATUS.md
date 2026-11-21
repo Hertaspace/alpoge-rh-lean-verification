@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 19:10 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 19:20 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 326
-now 2026-11-21T19:10:40+00:00
-load 34.73 35.04 34.89
+mem_used_GB 295
+now 2026-11-21T19:20:54+00:00
+load 34.63 34.84 34.81
 ```
 
 ## Progress
 
 ```
-latest_job 157586/158308
-built_ok 1526
-built_with_warnings 88443
+latest_job 159169/159776
+built_ok 1639
+built_with_warnings 89292
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-✔ [157572/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.Imports (47s)
-⚠ [157573/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.IdeleModuleSectionMul (50s)
-⚠ [157574/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ContinuousPInfCoord (51s)
-✔ [157575/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ImportsAlt (50s)
-⚠ [157576/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaussSumFiltrations.EvenPos (49s)
-⚠ [157577/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ExistsDecayBoundTwo (60s)
-✔ [157578/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.IdeleGenerators.NormCongruenceUnits.SeedIII (51s)
-✔ [157579/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.TemperedLocalComponents.CongruenceNumberRankThree (56s)
-⚠ [157580/158306] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.BorelHarmonicForms.ImportsVariant
-⚠ [157581/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.ModuleStructureOfCommuting (57s)
-⚠ [157582/158306] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.GaussSumFiltrations.ExistsRatDetPos
-⚠ [157583/158308] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ContinuousPInfApply (58s)
-✔ [157584/158308] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.BaseChangeUnits.ComplexBaseChangeOfLiterature (52s)
-✔ [157585/158308] Built Development.AutomorphicArithmetic.Foundations.Convolution.CentreSplitting.ParEx (50s)
-✔ [157586/158308] Built Development.AutomorphicArithmetic.Foundations.Convolution.BlockHeckeSlices.CuspidalNormBounds.DatDatum (52s)
+⚠ [159127/159776] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EmbTwo
+⚠ [159128/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.UnipotentBlockMatrices.ClosedKernelMinors.BlkInvVal
+⚠ [159131/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.UnipotentBlockMatrices.ClosedKernelMinors.TensInterp
+⚠ [159134/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.IwahoriHeckeInjectivity.AmpGrp
+⚠ [159140/159776] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrrCases
+⚠ [159151/159776] Built PositivityTheory.AutomorphicForms.PublishedInputs.RealGaloisRepresentations.IwahoriSphericalTransfer.GaloisRepRestrictionLocalCompletion (47s)
+⚠ [159152/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.ChebyshevNormEstimates.CuspPart
+✔ [159156/159776] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.CobordismLinearRelations.RelOnto (51s)
+⚠ [159157/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.HeightTwoBlocks.ZeroLine
+⚠ [159158/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.HeightTwoBlocks.SliceRep
+⚠ [159159/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.ScatOnSpan
+⚠ [159160/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.UnipotentBlockMatrices.ClosedKernelMinors.BumpEx
+⚠ [159164/159776] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.ContAdj
+⚠ [159168/159776] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsValuationEqOfIneFixes
+⚠ [159169/159776] Built PositivityTheory.AutomorphicForms.PublishedInputs.RealGaloisRepresentations.IwahoriSphericalTransfer.BcDualOfPolarized (47s)
 ```
