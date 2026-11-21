@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 17:59 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 18:09 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 329
-now 2026-11-21T17:59:20+00:00
-load 37.16 36.12 47.18
+mem_used_GB 309
+now 2026-11-21T18:09:31+00:00
+load 33.66 34.80 41.28
 ```
 
 ## Progress
 
 ```
-latest_job 116296/116554
-built_ok 438
-built_with_warnings 61265
+latest_job 125902/126637
+built_ok 593
+built_with_warnings 67264
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-✔ [116278/116554] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LargeGapAllMembers (47s)
-⚠ [116283/116554] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodSingle (52s)
-⚠ [116284/116554] Replayed Formalism.LocalToGlobal.Columns.TwQDense
-⚠ [116285/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransporterMovesAllFramesOfDenseOpen (33s)
-⚠ [116286/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExplicitFieldOfThetaHypothesesStatement (64s)
-⚠ [116287/116554] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.RayClassLFunctionLogDerivLocalFormulaStatement
-⚠ [116288/116554] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsRayClassLFunctionRealZeroFarFromOne
-⚠ [116289/116554] Replayed Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsLFamRayStatement
-✔ [116290/116554] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterMatchesWitness (49s)
-⚠ [116291/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSmallInt (45s)
-✔ [116292/116554] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCharacterMatchesWitness (53s)
-⚠ [116293/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdelicFormEqRationalPhaseKernelSeries (48s)
-⚠ [116294/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleIntegralsNeZero (47s)
-✔ [116295/116554] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeIntersectionAtPlace (65s)
-⚠ [116296/116554] Replayed Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UfGLRatHom
+⚠ [125884/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInertiaMulGaloisCompositum
+⚠ [125886/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InertPlaceLatticeIndexSumBound
+⚠ [125887/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InjectiveOfInnerEq
+⚠ [125888/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpeiserDescentSpan
+⚠ [125889/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsCrysOfCrystallinePeriodsLeSpan
+✔ [125892/126637] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NonemptyExtensionEntries (46s)
+⚠ [125893/126637] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.KernelTaylorSeriesPreservedDivisionLatticeChangeStatement (36s)
+⚠ [125894/126637] Replayed Development.AbelianVarietyTheory.Proofs.SatakeParameters.WeightCocharacterEqOfGoodPlaces
+⚠ [125895/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LocalGenerationThetaFunAtTypePrimeStatement
+⚠ [125896/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ParahoricSchwartzMemSpanDatumTranslatesStatement
+⚠ [125897/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryBasisGeneralLinearSeriesStatement
+⚠ [125898/126637] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GoodTypesExcludeLevelCharacter
+⚠ [125900/126637] Replayed Development.AbelianVarietyTheory.Proofs.SatakeParameters.TwoSidedHeckePartnerInertPrimeStatement
+⚠ [125901/126637] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.PeriodEntriesAtBuiltStatement (48s)
+⚠ [125902/126637] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DivisionLocalDataPreservedDivisionLatticeChangeStatement (38s)
 ```
