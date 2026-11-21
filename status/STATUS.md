@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 19:31 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 19:41 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 374
-now 2026-11-21T19:31:15+00:00
-load 33.48 33.99 34.38
+mem_used_GB 389
+now 2026-11-21T19:41:25+00:00
+load 35.49 34.84 34.51
 ```
 
 ## Progress
 
 ```
-latest_job 160558/162062
-built_ok 1771
-built_with_warnings 90204
+latest_job 162989/163408
+built_ok 1933
+built_with_warnings 91801
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [160524/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.EtaQuad
-⚠ [160526/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.ChirpInf
-⚠ [160527/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.FtBasic
-⚠ [160535/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.LamReal
-⚠ [160537/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.ResBig
-⚠ [160540/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.TorusEq
-⚠ [160541/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.NLevel
-⚠ [160542/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.GaussianForms.ContinuousFiniteAdeleEmbed
-⚠ [160546/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.ThetaReindexing.ActRat
-⚠ [160547/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.ThetaBounds.FderivOfExp
-⚠ [160553/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.FockOperators.CoeffB
-⚠ [160554/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.FockOperators.ActFin
-⚠ [160556/162062] Replayed Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.ThetaBounds.WtLeOfNorm
-⚠ [160558/162062] Replayed GroundTheory.HeightsAndTheta.Theta.Weil.PartialFourierSchwartz
-⚠ [160559/162062] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormIntCastLeOfDvd (48s)
+⚠ [162975/163408] Built Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.WeilRepresentation.One (51s)
+✔ [162976/163408] Built Development.AutomorphicArithmetic.Foundations.IwahoriReduction.NormProducts.LUnH (47s)
+✔ [162977/163408] Built Development.AbelianVarietyTheory.Definitions.Foundations.AdmissibleHodgeTateZetaClassParams (47s)
+⚠ [162978/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ShCocWsumProps (48s)
+⚠ [162979/163408] Built Development.AbelianVarietyTheory.Definitions.Foundations.AdmissibleNewformZetaData (47s)
+✔ [162980/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZetaSystemExponentRaiseOfPrimePowSmul (49s)
+⚠ [162981/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.CohomologyUnramifiedLiftStatement (47s)
+⚠ [162982/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.RepMApplyZtEqPowRedTop (48s)
+✔ [162983/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.InZlClosedAddMulAndCyclotomicGaloisStable (48s)
+✔ [162984/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.TwistedEisensteinPieceTrivialCharacterEq (49s)
+✔ [162985/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.CongruenceActionInvariant (49s)
+✔ [162986/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SumLevelSubgroupModEqSmulSumReps (48s)
+⚠ [162987/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.CardFiberReductionEqTotient (50s)
+✔ [162988/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SmoothedEisensteinRootPow (53s)
+✔ [162989/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SmoothedEisensteinCoeffShiftSecondIndex (53s)
 ```
