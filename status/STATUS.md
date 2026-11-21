@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 05:48 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 06:29 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T05:48:20+00:00
-load 267.25 269.73 270.06
+now 2026-11-21T06:29:51+00:00
+load 265.76 267.99 268.78
 ```
 
 ## Progress
 
 ```
-latest_job 111093/183903
-built_ok 47827
-built_with_warnings 55575
+latest_job 115808/183903
+built_ok 49598
+built_with_warnings 58522
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [111079/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LawsAndChart (120s)
-⚠ [111080/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexSupSpanSingletonEqAbsNorm (137s)
-⚠ [111081/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMultiHomogeneousCofactor (140s)
-⚠ [111082/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankAtStalkInvariantDifferentialsStatement (106s)
-⚠ [111083/183903] Built Development.WeilBound.CoreStatements.PublishedTheorems.NefNumerics.NefRiemannRoch.TopIntersectionGrowthBound (135s)
-⚠ [111084/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisRegularSequenceOfCommonZerosStatement (136s)
-✔ [111085/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.FStarLprPfC (166s)
-⚠ [111086/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSystemRelationOfGenericPointStatement (133s)
-⚠ [111087/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.IndexBoundIntrinsicHypothesesNetBoundDegreeTwoStatement (114s)
-✔ [111088/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.RGHyp (121s)
-⚠ [111089/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemistableCocyclesBetweenBlochKatoAndContinuous (136s)
-⚠ [111090/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmulDetSpanSupLeDetSpanLattice (141s)
-⚠ [111091/183903] Built Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaLatticeWeightScalarNeZeroAndLogBoundsStatement (116s)
-✔ [111092/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RatValEqValAt (138s)
-✔ [111093/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FockHarmonicLatticeFgAndSpansValueSpace (139s)
+⚠ [115798/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LocalGramFibreMeasureUnramified (134s)
+✔ [115799/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.EulerProductMeasureEventuallyStandard (137s)
+✔ [115800/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.RCocompactPfApproxFinal (133s)
+⚠ [115801/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.PolyTranslationL2Bound (118s)
+✔ [115802/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.CompactUnitaryHaarSmallBallLowerBound (118s)
+⚠ [115803/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsOrthogonalProjectionPolynomialCompactUnita (130s)
+⚠ [115804/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SiegelEisensteinUnfoldingIdentity (142s)
+✔ [115805/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.EqMatrixCoeffOfLocallyUniformLimitKFinite (109s)
+⚠ [115806/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ParabolicProductEquivProductOfPartitionStatement (103s)
+⚠ [115807/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WittFrameReduceRankStatement (137s)
+✔ [115808/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CharacterAlongOneParameterPath (148s)
+⚠ [115809/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ContinuousFourierCharacterOfMatrix (140s)
+⚠ [115810/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryQuotientHeightLeOfNoShortVectorStatement (151s)
+⚠ [115811/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.CompactUnitaryCasimirInverseTopDegreeBound (110s)
+✔ [115812/183903] Built Formalism.LocalToGlobal.ClassS (139s)
 ```
