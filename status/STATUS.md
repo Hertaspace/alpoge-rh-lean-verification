@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 19:41 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 19:51 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 389
-now 2026-11-21T19:41:25+00:00
-load 35.49 34.84 34.51
+mem_used_GB 349
+now 2026-11-21T19:51:37+00:00
+load 39.27 36.91 35.43
 ```
 
 ## Progress
 
 ```
-latest_job 162989/163408
-built_ok 1933
-built_with_warnings 91801
+latest_job 164423/168885
+built_ok 2109
+built_with_warnings 92564
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [162975/163408] Built Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.WeilRepresentation.One (51s)
-✔ [162976/163408] Built Development.AutomorphicArithmetic.Foundations.IwahoriReduction.NormProducts.LUnH (47s)
-✔ [162977/163408] Built Development.AbelianVarietyTheory.Definitions.Foundations.AdmissibleHodgeTateZetaClassParams (47s)
-⚠ [162978/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ShCocWsumProps (48s)
-⚠ [162979/163408] Built Development.AbelianVarietyTheory.Definitions.Foundations.AdmissibleNewformZetaData (47s)
-✔ [162980/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZetaSystemExponentRaiseOfPrimePowSmul (49s)
-⚠ [162981/163408] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.CohomologyUnramifiedLiftStatement (47s)
-⚠ [162982/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.RepMApplyZtEqPowRedTop (48s)
-✔ [162983/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.InZlClosedAddMulAndCyclotomicGaloisStable (48s)
-✔ [162984/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.TwistedEisensteinPieceTrivialCharacterEq (49s)
-✔ [162985/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.CongruenceActionInvariant (49s)
-✔ [162986/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SumLevelSubgroupModEqSmulSumReps (48s)
-⚠ [162987/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.CardFiberReductionEqTotient (50s)
-✔ [162988/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SmoothedEisensteinRootPow (53s)
-✔ [162989/163408] Built Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.SmoothedEisensteinCoeffShiftSecondIndex (53s)
+⚠ [164409/168885] Built Development.AutomorphicArithmetic.WhittakerHecke.HasSumCoprimeIntegralEqIdeleIntegral (53s)
+⚠ [164410/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.PushPsi (52s)
+✔ [164411/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.InvMemO (52s)
+⚠ [164413/168885] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ArchimedeanSchwartz.ArchimedeanDerivatives.IntegralHWMul
+⚠ [164414/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.DiamChar (51s)
+⚠ [164415/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.DetChar (53s)
+⚠ [164416/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.SInteg (51s)
+✔ [164417/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.FrobeniusConjugateInertia.FrobConjIne (54s)
+⚠ [164418/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.RepSlD (53s)
+⚠ [164419/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.SRel0 (50s)
+⚠ [164420/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.SEsT (66s)
+⚠ [164421/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.LineCoh (53s)
+✔ [164422/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.LiftPush (49s)
+✔ [164423/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.OfDesc (52s)
+⚠ [164424/168885] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.KatoQuadraticCharacters.EulerFactorBounds.SN2rho (57s)
 ```
