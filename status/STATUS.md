@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 14:53 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 15:04 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 18
-now 2026-11-21T14:53:37+00:00
-load 264.93 268.61 268.71
+mem_used_GB 16
+now 2026-11-21T15:03:55+00:00
+load 266.31 268.01 268.51
 ```
 
 ## Progress
 
 ```
-latest_job 167749/183903
-built_ok 65729
-built_with_warnings 89547
-failed 178
-error_messages 341
+latest_job 168732/183903
+built_ok 65907
+built_with_warnings 90205
+failed 180
+error_messages 343
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [167735/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniversalFlagFrameSpecialize (213s)
-⚠ [167736/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnipotentTriangularFactorStatement (200s)
-⚠ [167737/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombinedMetricLocalPotentialExists (206s)
-⚠ [167738/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaExtensionEmbeddingsStatement (186s)
-⚠ [167739/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizationPairingEquivariant (199s)
-⚠ [167740/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CarriedFlagTriangularFrameStatement (190s)
-⚠ [167741/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialChartOfFlagBundleStatement (196s)
-⚠ [167742/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProperPointExtendsRingOfIntegersStatement (193s)
-⚠ [167743/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqOfRankAtStalk (207s)
-⚠ [167744/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeInclusionEquivariant (206s)
-⚠ [167745/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusEquivariantDeRham (206s)
-⚠ [167746/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsAlgChartOverIntegers (212s)
-⚠ [167747/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLineBundleExtensionGenericFibre (211s)
-✔ [167748/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianExtensionOverNormalBase (210s)
-⚠ [167749/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeadingMinorsUnipotentMulStatement (205s)
+⚠ [168721/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaPushforwardMetricWeightsStatement (191s)
+✔ [168722/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionAdditionTwoPointFunction (169s)
+⚠ [168723/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.AffineChartBundleSectionsStatement (186s)
+⚠ [168724/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenCubicalTrivialisationDescendedClosedTorus (218s)
+⚠ [168725/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.XCBmExistsImmersion (199s)
+⚠ [168726/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IwahoriFactorisation.TwistedConjugationNorms.HilbertNinetyNorms.IwfLeOneOfPowMul
+⚠ [168727/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusKernelPrimitiveDeRhamHodgeStatement (168s)
+⚠ [168728/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IwahoriFactorisation.TwistedConjugationNorms.HilbertNinetyNorms.IwFacts (189s)
+✔ [168729/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PointwiseCocycleOnCoverExtendsUpToCoboundary (194s)
+✔ [168730/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlagSpaceComponentClassifyingMapBijectiveOnGeometricPoints (196s)
+✔ [168732/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsHomogeneousPolysTangentBasis (195s)
+⚠ [168733/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConstantTermMultiplicative (194s)
+⚠ [168734/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagModelGlobalHeightIdentityStatement (174s)
+✔ [168735/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IwahoriFactorisation.TwistedConjugationNorms.HilbertNinetyNorms.NrmTwconjPf (188
+⚠ [168736/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PotentialSmoothOffBoundary (207s)
 ```
