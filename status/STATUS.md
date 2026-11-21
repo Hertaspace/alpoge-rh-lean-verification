@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 19:00 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 19:10 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 270
-now 2026-11-21T19:00:29+00:00
-load 34.72 34.57 34.89
+mem_used_GB 326
+now 2026-11-21T19:10:40+00:00
+load 34.73 35.04 34.89
 ```
 
 ## Progress
 
 ```
-latest_job 156032/156666
-built_ok 1305
-built_with_warnings 87714
+latest_job 157586/158308
+built_ok 1526
+built_with_warnings 88443
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [156016/156666] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.PtLt
-✔ [156017/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.PartUR2MemSpan (54s)
-⚠ [156018/156666] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HeckeMap
-⚠ [156022/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.SatTUnif (50s)
-✔ [156023/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.MemMaximalCompactOfUnderEq (51s)
-⚠ [156024/156666] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsFun
-✔ [156025/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.UnderChosenPlaceAndIsSplitAtOfDecompLe (52s)
-✔ [156026/156666] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspValueLePhiComplement (72s)
-⚠ [156027/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.EqOfTwist (62s)
-✔ [156028/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.InjectiveInfinitePlaceOfEmbAtSplitPlaces (51s)
-✔ [156029/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.IsSplitAtOfUnramifiedOfInertiaDegEqOne (49s)
-⚠ [156030/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.PlaceBetween (65s)
-✔ [156031/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.GaloisRepDirectSumAwayFromPlaces (50s)
-✔ [156032/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.SumHodgeTate (48s)
-✔ [156034/156666] Built Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.FiniteSumReduction (46s)
+✔ [157572/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.Imports (47s)
+⚠ [157573/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.IdeleModuleSectionMul (50s)
+⚠ [157574/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ContinuousPInfCoord (51s)
+✔ [157575/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ImportsAlt (50s)
+⚠ [157576/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaussSumFiltrations.EvenPos (49s)
+⚠ [157577/158306] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ExistsDecayBoundTwo (60s)
+✔ [157578/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.IdeleGenerators.NormCongruenceUnits.SeedIII (51s)
+✔ [157579/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.TemperedLocalComponents.CongruenceNumberRankThree (56s)
+⚠ [157580/158306] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.BorelHarmonicForms.ImportsVariant
+⚠ [157581/158306] Built Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.ModuleStructureOfCommuting (57s)
+⚠ [157582/158306] Replayed Development.AutomorphicArithmetic.AutomorphicVarieties.GaussSumFiltrations.ExistsRatDetPos
+⚠ [157583/158308] Built PositivityTheory.AutomorphicForms.PublishedInputs.HilbertEisenstein.ContinuousPInfApply (58s)
+✔ [157584/158308] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.BaseChangeUnits.ComplexBaseChangeOfLiterature (52s)
+✔ [157585/158308] Built Development.AutomorphicArithmetic.Foundations.Convolution.CentreSplitting.ParEx (50s)
+✔ [157586/158308] Built Development.AutomorphicArithmetic.Foundations.Convolution.BlockHeckeSlices.CuspidalNormBounds.DatDatum (52s)
 ```
