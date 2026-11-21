@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 04:56 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 05:06 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T04:56:21+00:00
-load 275.21 270.85 270.54
+now 2026-11-21T05:06:36+00:00
+load 269.55 270.25 270.33
 ```
 
 ## Progress
 
 ```
-latest_job 105089/183903
-built_ok 45563
-built_with_warnings 51837
+latest_job 106280/183903
+built_ok 46036
+built_with_warnings 52558
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [105079/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.BaseFamilyAlt (128s)
-⚠ [105080/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevOpMemFixed (139s)
-⚠ [105081/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ModulusTrivialOnLeviCompactStatement (123s)
-⚠ [105082/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompactGroupFiniteCosetRepsStatement (125s)
-⚠ [105083/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedKernelConjugation (118s)
-⚠ [105084/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.H1fClassWachPairJumps (1281s)
-✔ [105085/183903] Built GroundTheory.GlobalFields.ClassFieldConsequences.ConductorLocal (122s)
-✔ [105086/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.IsUnifAt (147s)
-⚠ [105087/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CentralStrictlyDominantExistsStatement (122s)
-⚠ [105088/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacterStatement (137s)
-⚠ [105089/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotientStatement (130s)
-✔ [105090/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsOpenKerDerChar (121s)
-⚠ [105091/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasCompactSupportHfun (144s)
-⚠ [105092/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HeckeOperatorJacquetEigenLeftStatement (124s)
-⚠ [105093/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DoubleCosetVolumeFormulaStatement (125s)
+✔ [106270/183903] Built Formalism.LocalToGlobal.IndefiniteReal.FinitePlaces.LatSelf (119s)
+✔ [106271/183903] Built Formalism.SharpRestriction.GrowthBounds.ProofRowTieVals (112s)
+⚠ [106272/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.FrameAdjointPartAtMovedRationalPointRowStatement (134s)
+⚠ [106273/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdjointFrameRowReductionConjLinearIntegersStatement (134s)
+⚠ [106274/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.TupOrb (137s)
+✔ [106275/183903] Built Formalism.SharpRestriction.GrowthBounds.MonomialFactorials.RestDimBCProved (114s)
+✔ [106276/183903] Built Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AbsoluteConvergence.SecDerT (108s)
+⚠ [106277/183903] Built Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.CayleyCosetSums.DetSecondCayleyBlockNe (104s)
+⚠ [106278/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFourierExpansionConjugateHalfSplitPlace (132s)
+✔ [106279/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsSupportedAtSplitPlaceUnitaryMatrixEq (137s)
+⚠ [106280/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StepZeroLevelTypePrimeOrientationFramesFunctionaStatement (139s)
+✔ [106281/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.IdMeetVolGcPf (124s)
+⚠ [106282/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.RowReductionSurjectiveLatticeVectorsPlacesStatement (131s)
+⚠ [106283/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsContinuousBesselMapSmoothVectors (121s)
+✔ [106284/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousUnipotentVectorScalar (175s)
 ```
