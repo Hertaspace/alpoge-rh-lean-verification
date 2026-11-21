@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 16:26 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 16:36 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 17
-now 2026-11-21T16:26:36+00:00
-load 278.82 271.34 269.51
+mem_used_GB 19
+now 2026-11-21T16:36:52+00:00
+load 259.52 268.64 269.04
 ```
 
 ## Progress
 
 ```
-latest_job 176847/183903
-built_ok 67496
-built_with_warnings 95012
-failed 200
-error_messages 380
+latest_job 177655/183903
+built_ok 67706
+built_with_warnings 95570
+failed 203
+error_messages 386
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [176838/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.PVecCoord (202s)
-⚠ [176839/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LefschetzSigmaSums.PTatePull (218s)
-⚠ [176840/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.TwistedFlatBundleRanks (230s)
-✔ [176841/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.OOResim (182s)
-⚠ [176842/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LefschetzSigmaSums.PullCongr (208s)
-⚠ [176843/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsLnRatioMetLe (173s)
-⚠ [176844/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LefschetzSigmaSums.PCntSum (213s)
-✔ [176845/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipotentActionFiniteSetSchwartzInvariant (190s)
-⚠ [176846/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaNonsplitInvariantStatement (185s)
-⚠ [176847/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeHyperbolicPlaneResidue (180s)
-⚠ [176848/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LefschetzSigmaSums.PTransPull (223s)
-⚠ [176849/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.OLevDown (182s)
-⚠ [176850/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreSectionExtendsNonzeroOfIntegralThetaConstanStatement (153s)
-⚠ [176851/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnramifiedPlacesFiniteSetStatement (192s)
-✔ [176852/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LefschetzSigmaSums.PSigmaFEt (215s)
+⚠ [177646/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GoodForSquareZeroLiftClassificationOfAbelianScheStatement (198s)
+⚠ [177647/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanBoundedDenominators (212s)
+⚠ [177648/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralChernFormPolyEqIntersectionNumber (203s)
+⚠ [177649/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BlowupPolarizationAmpleStatement (186s)
+⚠ [177650/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverOpenImmersionNormalisedThetaClosure (181s)
+✔ [177651/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PPkInj (151s)
+⚠ [177652/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigBStabilizerIdelesHaarSecond (194s)
+⚠ [177653/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeFamilyFiniteLocallyFreeStatement (207s)
+⚠ [177654/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaModelPointLatticePeriodsTraits (194s)
+✔ [177655/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleLocalSymmetry (167s)
+✔ [177656/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniquePDivisibleEndomorphism (202s)
+✔ [177657/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagBundleTotalSpaceIrreducible (193s)
+✔ [177658/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantDifferentialsConnectedPDivGroupCoordina (202s)
+✔ [177659/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TlLevSurjKer (207s)
+⚠ [177660/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.MonoM (166s)
 ```
