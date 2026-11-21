@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 20:32 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 20:42 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 388
-now 2026-11-21T20:32:22+00:00
-load 33.45 34.05 34.33
+mem_used_GB 396
+now 2026-11-21T20:42:33+00:00
+load 34.64 34.99 34.95
 ```
 
 ## Progress
 
 ```
-latest_job 176610/177315
-built_ok 2761
-built_with_warnings 99721
+latest_job 180804/183896
+built_ok 2916
+built_with_warnings 102222
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [176588/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LocalGradedClassRepresentativeStatement
-⚠ [176589/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.BasicOpenRsLe
-⚠ [176591/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GradedCechCohomologyFinite
-⚠ [176594/177315] Replayed Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.TorusMemFldF
-⚠ [176595/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPderivNotDvd
-⚠ [176598/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsTwistingLineDataProjectiveStatement
-⚠ [176599/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ScalarMultiplicationShiftsFiltrationStatement
-⚠ [176600/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GradedSplittingOverFieldStatement
-⚠ [176602/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientFiltrationBijectiveOfCoverStatement
-⚠ [176603/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftPOfBounds
-⚠ [176604/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChartTensorBaseCompatStatement
-⚠ [176605/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GradedSplittingTensorFiltrationStatement
-⚠ [176606/177315] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GradedSplittingOverLatticeBaseStatement
-⚠ [176609/177315] Replayed Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.AdicTorsionCup.HeqOfEqCast
-⚠ [176610/177315] Replayed Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.AdicTorsionCup.PowMonoTors
+⚠ [180780/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KernelConjugationMeanArchimedeanTopTerm
+⚠ [180781/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KernelConjMeanPairingStandardKType
+⚠ [180782/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ArchimedeanTensorSizeBoundOfLocal
+⚠ [180784/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsLocalTupleAtPlace (50s)
+⚠ [180785/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TameAnyAtFixed
+⚠ [180789/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.UnramifiedPointsOfCMDatum (37s)
+⚠ [180790/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NbcOf
+⚠ [180792/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TameFixedOfType
+⚠ [180793/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionTrivialOnWildInertia
+⚠ [180794/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ExistsThetaRuleValueLeCoverCharZero (41s)
+⚠ [180796/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.QuadraticTowerStepStageInduction (35s)
+⚠ [180798/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsRationalMoveOfJets (32s)
+⚠ [180802/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.HodgeLineBundleBignessOnShimuraVariety (41s)
+⚠ [180803/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsAlgebraicFunctionDefiniteThetaNeZero (36s)
+⚠ [180804/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.BottomSpannedByTwistedClassSums (38s)
 ```
