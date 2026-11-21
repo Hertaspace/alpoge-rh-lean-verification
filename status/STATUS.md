@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 12:28 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 12:38 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 22
-now 2026-11-21T12:28:24+00:00
-load 271.11 272.40 271.27
+mem_used_GB 14
+now 2026-11-21T12:38:44+00:00
+load 265.75 269.74 270.59
 ```
 
 ## Progress
 
 ```
-latest_job 151621/183903
-built_ok 62602
-built_with_warnings 81217
-failed 26
-error_messages 50
+latest_job 152561/183903
+built_ok 62833
+built_with_warnings 81763
+failed 95
+error_messages 187
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [151609/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsUniqueCoeffsStableBasisStatement (146s)
-✔ [151610/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MemUlocBadG (232s)
-⚠ [151611/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ArchTieStatement (224s)
-⚠ [151612/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TameHeckeCharacterSplitPlaceLocalComponent (167s)
-⚠ [151613/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FiniteConstantAllHolds (187s)
-⚠ [151614/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SplitPlaceHalvesEqLinearModelLagrangiansStatement (214s)
-✔ [151615/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeightLambdaShiftNonneg (220s)
-⚠ [151616/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.BilinearFormExamples.BfENondeg (139s)
-⚠ [151617/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmoothOnPeriodChartCoverStatement (167s)
-⚠ [151618/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.CharOnNormOneIdelesMulUnramifiedClassValue (127s)
-⚠ [151619/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.LatticeTupleFrameMatricesEqOfSameComponent (126s)
-⚠ [151620/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.LatticeTupleDetEqAdelicPointDetStatement (134s)
-⚠ [151621/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GeneratorCorrespondencePullbackStatement (154s)
-⚠ [151622/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaConjugateMeanLogAbsBoundOfTransportStatement (217s)
-✔ [151623/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SurjectivityFromAllEstimates (222s)
+⚠ [152548/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelIffRelaxStatement (237s)
+⚠ [152549/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.CharacterDetIdealKernelLatticeLatticeTupleStatement (155s)
+⚠ [152550/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MemUlocBadGStatement (234s)
+⚠ [152551/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.KernelSiteNormalisingCharPowValuesInCoeffField (155s)
+✔ [152552/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexUniformisationComponentsCovolumeEq (180s)
+✖ [152553/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstMemberEqProdLocalGridBases (272s)
+✔ [152554/183903] Built Formalism.SharpRestriction.GrowthBounds.ChartRank.HypLiftDesc (137s)
+⚠ [152555/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefficientBoundTuple (258s)
+✖ [152556/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairSecondMemberEqProdLocalGridBases (273s)
+✔ [152557/183903] Built Development.WeilBound.CoreStatements.HomogeneousNonvanishing.YCompOf (170s)
+✔ [152558/183903] Built Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DemaillyEstimates (194s)
+⚠ [152559/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SurjectivityFromAllEstimatesStatement (240s)
+✔ [152560/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankInfRangeAddInfKer (231s)
+⚠ [152561/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSmallGenerationStatement (260s)
+⚠ [152562/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.KernelSiteLawAndFixedCoordinateStabiliserLaw (166s)
 ```
