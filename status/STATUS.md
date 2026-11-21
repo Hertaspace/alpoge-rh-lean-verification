@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 13:41 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 13:51 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
 mem_used_GB 14
-now 2026-11-21T13:40:55+00:00
-load 289.45 273.09 269.58
+now 2026-11-21T13:51:23+00:00
+load 263.48 267.02 268.22
 ```
 
 ## Progress
 
 ```
-latest_job 159117/183903
-built_ok 64302
-built_with_warnings 85244
-failed 143
-error_messages 277
+latest_job 160333/183903
+built_ok 64513
+built_with_warnings 85873
+failed 149
+error_messages 288
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [159106/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PGrpFin (188s)
-⚠ [159107/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelQuotientFamilyLocalPointsEqOfObjectStatement (185s)
-✔ [159108/183903] Built Development.AutomorphicArithmetic.CommutativeAlgebra.LevDefs (177s)
-✔ [159109/183903] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.EqOneOfHeckeEigNeBot (184s)
-✔ [159110/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PIdealInd (192s)
-⚠ [159111/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolarisedAbelianPartIsoOfBundleSquareIsoStatement (197s)
-⚠ [159112/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegersSurjectiveOfRankOne (172s)
-✔ [159113/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PCrtProj (194s)
-✔ [159114/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PCrtMul (197s)
-✔ [159115/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.HeckePowOne (179s)
-⚠ [159116/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDomainSectionsQuotMaximalIdealSmoothConnectedStatement (152s)
-⚠ [159117/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.KernelSiteArithmeticGroupMove (158s)
-⚠ [159118/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassicalAbelianPartValuesOfNormalFormStatement (198s)
-⚠ [159119/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SemiabelianActionPullbackStatement (180s)
-⚠ [159120/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDvrLimitsCorrespondenceFiniteSndStatement (179s)
+✔ [160322/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPairRestrictBaseChangeBijective (191s)
+⚠ [160323/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCorrectedLocIsoOfDefectCoboundary (201s)
+⚠ [160324/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelLevelPPowerStatement (191s)
+⚠ [160325/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTwistSquareZeroSmoothLiftSystemByDerivatioStatement (203s)
+⚠ [160326/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatchingExists (173s)
+⚠ [160327/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalLiftOfDefectCoboundary (207s)
+✔ [160328/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomSpecPointsLevels (197s)
+⚠ [160329/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KunnethCupTensorInjectiveStatement (199s)
+⚠ [160330/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerMemSpan (176s)
+⚠ [160331/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PdPolynomialCompatibleFormsGeneratedInductionStatement (195s)
+⚠ [160332/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CrystallineClassSecondSystemEqNegDefect (191s)
+⚠ [160333/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechHyperCohomologyAffineLatticeCover (195s)
+✔ [160334/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.SeparatedPropernessFgSubalgebra (190s)
+⚠ [160335/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuotientNilCrystallineThickeningOfSubDPIdeStatement (188s)
+⚠ [160336/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChartsNormalProjectiveStatement (184s)
 ```
