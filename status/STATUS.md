@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 02:11 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 02:21 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T02:11:24+00:00
-load 267.62 270.66 271.99
+now 2026-11-21T02:21:36+00:00
+load 263.90 268.25 270.54
 ```
 
 ## Progress
 
 ```
-latest_job 85314/183903
-built_ok 37618
-built_with_warnings 40012
+latest_job 86561/183903
+built_ok 38149
+built_with_warnings 40731
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [85301/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.TermTieOf (142s)
-⚠ [85302/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.FamilySetupCayleyRecursionStatement (112s)
-⚠ [85303/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpreadLeAt (113s)
-⚠ [85304/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsCrysOfCrystallineBreuilKisinFrame (127s)
-⚠ [85305/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ThetaConjBoundedCompatibleBreuilKisinFrames (126s)
-✔ [85306/183903] Built CompanionTheory.RealGroups.FormalDegrees.ArchimedeanFormalDegrees.HlamStable (114s)
-⚠ [85307/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobSdCongrStatement (121s)
-⚠ [85308/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.SatGram (142s)
-⚠ [85309/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.NilpotentLeftRuleStatement (124s)
-✔ [85310/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.ScalarFramePfK (123s)
-⚠ [85311/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobeniusLiftLubinTateStatement (107s)
-✔ [85312/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundLinearCoefficient (116s)
-⚠ [85313/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.CharacterLevelBounds.PartModel (132s)
-⚠ [85314/183903] Built Formalism.SharpRestriction.Divisibility.GeneratorPowers.FrTanPf (107s)
-⚠ [85315/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeightDivisionL1BoundStatement (109s)
+⚠ [86552/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaIdealPrimeAvoidingVariableStatement (122s)
+⚠ [86553/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaClosureComponentTrdegGe (122s)
+✔ [86554/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.AbelianSchemeModelBaseChangeSubalgebra (108s)
+✔ [86555/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianScheme (136s)
+✔ [86556/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNormalizedBoth (127s)
+⚠ [86557/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.AbelianQuotientLatticeStatement (115s)
+⚠ [86558/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.FormResFormPullFormPull (148s)
+⚠ [86559/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FibreSectionNowhereZeroOfGeneratesStatement (130s)
+✔ [86560/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.UniversalLieModelPullback (133s)
+⚠ [86561/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SmoothOfRelativeDimensionTensor (135s)
+⚠ [86562/183903] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.PolarisedAbelianVarietyPTorsionStatement (136s)
+⚠ [86563/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.FullLevelChangeActsOnUnitaryFamily (139s)
+✔ [86564/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.WhiskerLeftEqLift (118s)
+⚠ [86565/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SigOneAddMul (126s)
+⚠ [86566/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsObUNeZero (128s)
 ```
