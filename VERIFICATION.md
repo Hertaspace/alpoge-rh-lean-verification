@@ -77,6 +77,42 @@ error: src/Statements.lean:1:0: failed to read file '.../mathlib/.lake/build/lib
 
 This is an error reading a compiled Mathlib file, not an error in the project. The file has a valid header when inspected afterwards, and `lake env lean src/Statements.lean` then succeeded in 11 s. The likely cause is that the file was read while it was being rewritten, during the partial recompilation of Mathlib described above. Because `Main` imports `Statements`, the first pass cannot build `Main`. A second `lake build` after the first pass ends rebuilds every module that failed or was skipped, and the results below refer to that second pass.
 
+## Cross-checks with the MIT run
+
+These comparisons with the independent run at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/) were made on 21 November 2026, while our build was still running. The MIT files used (`SHA256SUMS`, `project-oleans.sha256`, `comparator.json`, `Audit.lean`, `challenge.ndjson.zst`) were downloaded from that page. The hashes of `comparator.json`, `Audit.lean` and `challenge.ndjson.zst` match the page's `SHA256SUMS`.
+
+**Archive.** Both runs used an archive with SHA-256 `9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc`.
+
+**Mathlib build files.** All 8,322 Mathlib `.olean` files of our build, including the 2,531 modules recompiled from source, are byte-identical to the official Mathlib cache, as unpacked in a separate Mathlib-only project. The MIT page reports the same for its 8,322 Mathlib files.
+
+**Project build files.** For a random sample of 500 project `.olean` files that our build had already produced, 257 are byte-identical to the MIT manifest and 243 differ. The difference comes from file paths, not from content. A `.olean` file can record the path of its source file, and Lake passes the absolute path, which differs between the two machines. We checked this on one of the 243, `ReciprocityTheory/ReductiveGroups/DiscreteSeries/MultiplicityOne/JSmoothB`:
+
+| Build of `JSmoothB.lean` | SHA-256 of the `.olean` (prefix) |
+|---|---|
+| our `lake build` | `88fbcaff64067ca3` |
+| rebuilt with Lake's exact arguments, same absolute path | `88fbcaff64067ca3` |
+| same, run twice with a relative path | `e7456bf9cd2d7ef9`, `e7456bf9cd2d7ef9` |
+| MIT manifest | `1f3c1efc0eb85d07` |
+
+The two variants differ in the embedded string `/home/ubuntu/rh-alpoge/lean/src/…/JSmoothB.lean` versus `src/…/JSmoothB.lean`. The build is therefore deterministic, and a byte comparison of `.olean` files across machines is only meaningful for files that do not record a path. Exports, which contain only kernel declarations, are compared instead.
+
+**Statements.** The challenge module (the five statements, with `sorry` as proofs) was compiled in our Mathlib-only project and exported with lean4export `v4.33.0`. The MIT export of its challenge module differs from ours byte for byte, because exports number every name and expression in order of first use and the two runs pass different lists of root constants. [`verification/compare_exports.py`](verification/compare_exports.py) resolves the numbering, hashes every expression structurally and compares the declarations by name:
+
+```
+declarations: mit/challenge.ndjson: 51692, challenge-compare/cleanroom.ndjson: 51690, common: 51690
+identical: 51686, different: 4
+DIFFERENT thm LFunction_eq_zero_re (same type, different value)
+DIFFERENT thm LFunction_eq_zero_re_of_isPrimitive (same type, different value)
+DIFFERENT thm LFunction_ne_zero_of_half_lt_re (same type, different value)
+DIFFERENT thm riemannHypothesis (same type, different value)
+only in first: 2
+ONLY_FIRST def String.mk
+ONLY_FIRST thm String.mk._proof_1
+only in second: 0
+```
+
+The four differing declarations are challenge theorems whose statements are identical and whose values are the `sorry` placeholders, which differ between the two challenge files. `String.mk` is an extra root that the comparator of Lean 4.36 adds. Every other declaration, including all of Mathlib that the statements use, is identical.
+
 ## Axioms
 
 Pending.
