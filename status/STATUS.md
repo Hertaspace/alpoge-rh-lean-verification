@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 15:45 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 15:56 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 15
-now 2026-11-21T15:45:44+00:00
-load 266.23 268.93 268.95
+mem_used_GB 12
+now 2026-11-21T15:56:00+00:00
+load 264.62 266.57 267.56
 ```
 
 ## Progress
 
 ```
-latest_job 173224/183903
-built_ok 66701
-built_with_warnings 92654
-failed 192
-error_messages 366
+latest_job 174195/183903
+built_ok 66875
+built_with_warnings 93271
+failed 193
+error_messages 367
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [173210/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DifferentiableOnLogChartStatement (184s)
-⚠ [173211/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsRationalSymplecticBasisAdaptedCoisotropicStatement (191s)
-⚠ [173212/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PunctPolydiscCoverLatticeBasisRealHolomorphicStatement (197s)
-⚠ [173213/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsProperOfFiniteType (185s)
-⚠ [173214/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LogChartLinearIndependentStatement (181s)
-⚠ [173215/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PeriodMatrixBoundaryExtensionMonodromyPosSemidefStatement (190s)
-⚠ [173216/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFirstFactorThetaModelStatement (187s)
-⚠ [173217/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantsIntegralUnitMemberUniformisedTraitStatement (193s)
-⚠ [173218/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntIsometryFixingRowSpaceSymplecticShiftStatement (198s)
-⚠ [173219/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStabilizerVacuumEigenvalueEqOneInertPlaceStatement (187s)
-⚠ [173220/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantsPrimitiveAtUniformisedTrait (215s)
-⚠ [173221/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EndomorphismMatrixTorsionAdjointOnCharactersStatement (188s)
-⚠ [173222/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommutatorPairingDiagonalMumfordBundleStatement (200s)
-⚠ [173223/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HermFormImIntMatrixTransposeNegStatement (194s)
-⚠ [173224/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCommonDenominatorRatMatricesStatement (197s)
+⚠ [174181/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MultiplicityInertStatement (166s)
+⚠ [174182/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantsPrimitiveAtUniformisedTraitStatement (182s)
+⚠ [174183/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyOfTensorDataPosDefUnimodularStatement (191s)
+⚠ [174184/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosDefImPartOnPolydiscOfPuncturedCover (196s)
+⚠ [174185/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaSystemMovedToAffineOpenStatement (183s)
+⚠ [174186/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixActsOnTorsionLabels (200s)
+✔ [174187/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InertPlaceLatticeStabiliserFixesVacuum (189s)
+⚠ [174188/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLabelledLatticeEquivOfCommonFibre (188s)
+⚠ [174189/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.BaseMetricExistsOfGivenStatement (168s)
+✔ [174190/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsProperRelAmpleKTrivOfPull (186s)
+⚠ [174191/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianProperUniformisedWhereTrivialisationsGene (175s)
+⚠ [174192/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsUnitDetRationalCombinationFrameClosedBallStatement (197s)
+⚠ [174193/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetShalikaRigidityHolds (186s)
+⚠ [174194/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibresAbelianOfPsiUnitOn (179s)
+⚠ [174195/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatSectionIsFlat (202s)
 ```
