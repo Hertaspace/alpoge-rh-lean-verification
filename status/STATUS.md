@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 21:33 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 21:43 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 34
-now 2026-11-21T21:33:29+00:00
-load 2.47 6.81 18.55
+mem_used_GB 65
+now 2026-11-21T21:43:39+00:00
+load 2.28 2.41 10.38
 ```
 
 ## Progress
 
 ```
-latest_job 183888/183903
-built_ok 3497
-built_with_warnings 104040
+latest_job 183894/183903
+built_ok 3499
+built_with_warnings 104044
 failed 0
 error_messages 0
 ```
@@ -51,12 +51,6 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [183874/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.VolLevelWtConstStatement (40s)
-✔ [183875/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.WeightOneGeometricRealization (70s)
-⚠ [183876/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TruePackOfBWitStatement (44s)
-✔ [183877/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TopCovolSlim2Use (77s)
-✔ [183878/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ColSide (47s)
-✔ [183879/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OntoXOfPrints (68s)
 ✔ [183880/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GaloisRepresentationsOfThetaLift (82s)
 ⚠ [183881/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ColSideStatement (44s)
 ✔ [183882/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SurjectiveAndLowWeightOfUnramifiedExponents (69s)
@@ -66,4 +60,10 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ⚠ [183886/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MainTheoremFromPublishedResultsAltAltAltAlt (59s)
 ⚠ [183887/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MainTheoremFromPublishedResultsAltAltAltAltAlt (61s)
 ✔ [183888/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf (200s)
+⚠ [183889/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MainTheoremPublishedResultsFinal (64s)
+⚠ [183890/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MainTheoremPublishedInputsVariant (63s)
+⚠ [183891/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MainTheoremPublishedInputsThird (72s)
+⚠ [183892/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OpenOrbitOfUnramifiedExponents (82s)
+✔ [183893/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HypothesesNonemptyOfUnramifiedExponents (114s)
+✔ [183894/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses (147s)
 ```
