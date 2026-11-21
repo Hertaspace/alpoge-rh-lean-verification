@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 08:00 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 08:11 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T08:00:16+00:00
-load 267.81 269.53 270.05
+now 2026-11-21T08:11:28+00:00
+load 267.81 270.93 270.93
 ```
 
 ## Progress
 
 ```
-latest_job 125758/183903
-built_ok 53360
-built_with_warnings 64705
+latest_job 126967/183903
+built_ok 53768
+built_with_warnings 65506
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [125748/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.ChebyshevNormEstimates.FamExp (152s)
-⚠ [125749/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.HsNormSqEqHilbertSchmidtSq (142s)
-⚠ [125750/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.MainEqWire (146s)
-✔ [125751/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedVolumeStatements.FullExistsTiedHolds (145s)
-⚠ [125752/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.AdelicHeckeBlocks.PPositions (150s)
-⚠ [125753/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraExistsReproducingTestFunctionGLStatement (143s)
-✔ [125754/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilOperatorLatticeStabiliserFixesVacuumNonsplit (147s)
-⚠ [125755/183903] Built CompanionTheory.RealGroups.GeneralUnitaryRepresentations.ArchimedeanJacquetSegments.SegmentSubquotients.SrPerm (143s)
-⚠ [125756/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.CoordEquivSymmApply (133s)
-✔ [125757/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.RealPointTermAndLiftSameRealDoubleCoset (146s)
-⚠ [125758/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.AdaptedNormalFormGivesRealNormalFormStatement (136s)
-✔ [125759/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilOperatorFixesLatticeVacuumNonsplitUnramified (149s)
-✔ [125760/183903] Built Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.DiscreteSpectrumUnitarity.ExhaustionRegularOfResidual (169s)
-⚠ [125761/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.HeckeFubiniCompatibility.PRepro (144s)
-✔ [125762/183903] Built Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.DiscreteSpectrumUnitarity.UsedAsc (170s)
+⚠ [126956/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsWeilDatumOneParameterGeneratorCommutatorsStatement (114s)
+⚠ [126957/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ParabolicInductionColumnFalseStatement (144s)
+✔ [126958/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutHLAsm (128s)
+✔ [126959/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FockVectorMixedLaplacianKilledLoweringKilled (125s)
+✔ [126960/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.ProperLeftVariablesDomain (135s)
+⚠ [126961/183903] Built Development.WeilBound.CoreStatements.BranchingTraces.BranchingComatrices.OneLeDiff (146s)
+⚠ [126962/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RtTangent (134s)
+✔ [126963/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.ExactLim (150s)
+⚠ [126964/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.PartialBesselSmoothCompactSupport (136s)
+⚠ [126965/183903] Built Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.DeterminantOneCharacters.DeterminantOneConditionHolds (157s)
+⚠ [126966/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.RdVZeroOfVanish (137s)
+⚠ [126967/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Conclusion41OfHyp (180s)
+⚠ [126968/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsBasisAtTransport (159s)
+✔ [126969/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.CsRapidAll (151s)
+⚠ [126970/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnipotentRadicalStabiliserScalesRestrictionStatement (123s)
 ```
