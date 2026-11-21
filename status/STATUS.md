@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 07:50 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 08:00 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T07:50:06+00:00
-load 267.39 269.85 269.79
+now 2026-11-21T08:00:16+00:00
+load 267.81 269.53 270.05
 ```
 
 ## Progress
 
 ```
-latest_job 124648/183903
-built_ok 52927
-built_with_warnings 64028
+latest_job 125758/183903
+built_ok 53360
+built_with_warnings 64705
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [124634/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KernelRationalityOfReciprocityStatement (150s)
-⚠ [124635/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightInvariantUnderStabilizerStatement (159s)
-⚠ [124636/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.LocalZetaSumsAbsolutelyConvergentUniformStatement (142s)
-✔ [124637/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.EisensteinSeriesG2.SiegelGrowthForms.IsGrowFormEvAt (148s)
-⚠ [124638/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRationalPointSwappingFirstColumnsStatement (159s)
-⚠ [124639/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanInvolutionSystemsConjArchimedeanUnitaryStatement (156s)
-⚠ [124640/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineStabilizerOrthogonalUniqueStatement (159s)
-⚠ [124641/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.JacquetHomLeviTgtBound (157s)
-⚠ [124642/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCmStatement (124s)
-⚠ [124643/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.OddResidueBounds.ThmBcOfPsiBound (172s)
-✔ [124644/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GlobalZetaIntegralConvergence (121s)
-✔ [124645/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.ParabolicBlockForms.CosBijPf (125s)
-⚠ [124646/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledPairEmbeddingBlockDiagonalStatement (153s)
-✔ [124647/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellCharacterDistinct (157s)
-⚠ [124648/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipotentStabilizerDoubleCosetStatement (156s)
+⚠ [125748/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.SpectralOperatorNorms.ChebyshevNormEstimates.FamExp (152s)
+⚠ [125749/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.HsNormSqEqHilbertSchmidtSq (142s)
+⚠ [125750/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.MainEqWire (146s)
+✔ [125751/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedVolumeStatements.FullExistsTiedHolds (145s)
+⚠ [125752/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.AdelicHeckeBlocks.PPositions (150s)
+⚠ [125753/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraExistsReproducingTestFunctionGLStatement (143s)
+✔ [125754/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilOperatorLatticeStabiliserFixesVacuumNonsplit (147s)
+⚠ [125755/183903] Built CompanionTheory.RealGroups.GeneralUnitaryRepresentations.ArchimedeanJacquetSegments.SegmentSubquotients.SrPerm (143s)
+⚠ [125756/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.CoordEquivSymmApply (133s)
+✔ [125757/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.RealPointTermAndLiftSameRealDoubleCoset (146s)
+⚠ [125758/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.AdaptedNormalFormGivesRealNormalFormStatement (136s)
+✔ [125759/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilOperatorFixesLatticeVacuumNonsplitUnramified (149s)
+✔ [125760/183903] Built Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.DiscreteSpectrumUnitarity.ExhaustionRegularOfResidual (169s)
+⚠ [125761/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.HeckeFubiniCompatibility.PRepro (144s)
+✔ [125762/183903] Built Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.DiscreteSpectrumUnitarity.UsedAsc (170s)
 ```
