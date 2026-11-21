@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 03:03 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 03:13 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T03:02:57+00:00
-load 282.18 276.31 272.67
+now 2026-11-21T03:13:12+00:00
+load 267.96 271.78 272.57
 ```
 
 ## Progress
 
 ```
-latest_job 91594/183903
-built_ok 40192
-built_with_warnings 43715
+latest_job 92821/183903
+built_ok 40711
+built_with_warnings 44422
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [91581/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesLabelExistsUniqueGLn (126s)
-⚠ [91582/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsLevelPrimePointModelRealisation (153s)
-⚠ [91583/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinHatValueMemFilZeroStatement (130s)
-⚠ [91584/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.MemRangeWittAlgClosureOfBoundedRingHom (123s)
-✔ [91585/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.SymplecticIwahori.SpIwa (134s)
-⚠ [91586/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.SymplecticIwahori.GenFlag (134s)
-✔ [91587/183903] Built ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.KTypeLemma.DualLowestKTypeOfStandard (130s)
-⚠ [91588/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.NonemptyCoefficientFieldEmbeddingPadicComplex (124s)
-✔ [91589/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorFundamentalExactSequenceCrystalline (112s)
-✔ [91590/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsPrismCoverBreuilKisinCoproductInl (123s)
-⚠ [91591/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.PlaceOverPInducedByAlgebraicPadicEmbeddingStatement (135s)
-⚠ [91592/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutGCoreGTRTrans (142s)
-✔ [91593/183903] Built Formalism.SharpRestriction.GrowthBounds.MultisetValuation.NumericalFamilyOfThreshold (132s)
-✔ [91594/183903] Built Formalism.LocalToGlobal.PairingIndexBounds.RowActionCoefficients.AdmissibleInterpolation.FrameEdgeIdentityHolds (120s)
-✔ [91595/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.PhiTopTargetSym (131s)
+✔ [92807/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankRatHomology (106s)
+⚠ [92808/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussIntegralNormFormScaledEqSignAbsInv (105s)
+⚠ [92809/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InertiaCongruenceFiltrationFiniteTowerBoundStatement (108s)
+✔ [92810/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsEquivOfRangeEq (134s)
+⚠ [92811/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHarrisTaylorObjectOfLevelLiftStatement (103s)
+⚠ [92812/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ToricPartFibreLieAlgebraCharactersStatement (115s)
+⚠ [92813/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.JSplitDesc (121s)
+⚠ [92814/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointsGluePrincipalCoverStatement (117s)
+✔ [92815/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.AnalyticOnNhdFinChartIff (109s)
+⚠ [92816/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SpanRangeMulVec (134s)
+⚠ [92817/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniversalOfZariskiSheafOpenChartsStatement (132s)
+⚠ [92818/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.AbelianQuotientBilinearStatement (124s)
+✔ [92819/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsLatticeBoundIntegers (127s)
+⚠ [92820/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LevelLatticeBaseStatement (125s)
+⚠ [92821/183903] Built Formalism.LocalToGlobal.GlobalTheory.ConcNP (142s)
 ```
