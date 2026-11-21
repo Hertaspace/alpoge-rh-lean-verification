@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 00:59 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 01:09 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T00:59:30+00:00
-load 294.96 274.95 272.66
+now 2026-11-21T01:09:53+00:00
+load 269.19 271.99 271.89
 ```
 
 ## Progress
 
 ```
-latest_job 76464/183903
-built_ok 33953
-built_with_warnings 34826
+latest_job 77735/183903
+built_ok 34508
+built_with_warnings 35542
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [76450/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.DualWeylExtremalReproducingNormSqOne (135s)
-⚠ [76451/183903] Built Development.AutomorphicArithmetic.MeanSquareBounds.meanSqK (127s)
-✔ [76452/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.DualTensorCayleyCompatible (129s)
-⚠ [76453/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.FrameMatrixHasSum (143s)
-⚠ [76454/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CastVMulVecLift (152s)
-✔ [76455/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutEXMTA (114s)
-⚠ [76456/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsFinSiteSiteAlg (128s)
-✔ [76457/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutJAPRPhaseCut (118s)
-⚠ [76458/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.IsLocalRingDual (149s)
-✔ [76459/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsEvalArcLetterRingOverDVRDisc (127s)
-⚠ [76460/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.PolarisationSectionGeneratesOfSpecialFibre (126s)
-⚠ [76461/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HermitianLatticeCovolumeNonnegStatement (140s)
-⚠ [76462/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagAdjacentTwistedMeasure (132s)
-✔ [76463/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutJAPRCPRcComm (117s)
-⚠ [76464/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.ListProdHatLettersMemNormalFormProductSpanStatement (123s)
+⚠ [77724/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsClassicalPointFactorLargeModel (119s)
+✔ [77725/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.CmpOfMemX (139s)
+⚠ [77726/183903] Built Development.WeilBound.CoreStatements.PlurisubharmonicCones.ContDiffAtSmoothOnProj (137s)
+⚠ [77727/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSliceZeroIsTay (120s)
+⚠ [77728/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.LocalComparison.LocTiedOf6 (109s)
+✔ [77729/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.CrtFamDet (135s)
+✔ [77730/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsGeomPtRangeEq (133s)
+⚠ [77731/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.SpanRowsClassZeroEqInvariantStatement (125s)
+✔ [77732/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GenericTrivialisationSectionAndPullback (127s)
+✔ [77733/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomogeneousCoordinatesMulVecOfGenericValue (126s)
+✔ [77734/183903] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsPureWeightSectionReduction (134s)
+✔ [77735/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PchernOf (136s)
+✔ [77736/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTaylorShift (126s)
+⚠ [77737/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.LocalComparison.LocTied6 (114s)
+⚠ [77738/183903] Built Formalism.SharpRestriction.LevelLetterCocycles.LevelKernelDetection.PfJumpsBdd (119s)
 ```
