@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 03:33 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 03:44 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T03:33:49+00:00
-load 267.44 271.30 273.21
+now 2026-11-21T03:44:13+00:00
+load 269.94 270.49 272.12
 ```
 
 ## Progress
 
 ```
-latest_job 95303/183903
-built_ok 41687
-built_with_warnings 45928
+latest_job 96548/183903
+built_ok 42168
+built_with_warnings 46692
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [95289/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.PiTensorSmoothRepsExactEachFactorStatement (127s)
-⚠ [95290/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousCoeffBlockAct (142s)
-✔ [95291/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntValuationEqOfMem (139s)
-⚠ [95292/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InnerRightRegularRepSubEqIntervalIntegralDerivatStatement (122s)
-⚠ [95293/183903] Built Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.ReachedAllSucc (118s)
-⚠ [95294/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.JordanHolderMultNormalisedInductionExactStatement (119s)
-⚠ [95295/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeviRefinementParabolicStatement (117s)
-⚠ [95296/183903] Built Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RayFieldTheta (145s)
-⚠ [95297/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TranslateUnitaryLifts (136s)
-⚠ [95298/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInfiniteDecomp (124s)
-⚠ [95299/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitarySatakeTransformEqOfBaseChangeSatakeParameStatement (123s)
-✔ [95300/183903] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IotaEmbeddingColumns (135s)
-⚠ [95301/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.BernsteinZelevinskyGeometricLemmaStatement (117s)
-✔ [95302/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IpMSelfEqZero (140s)
-✔ [95303/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.SatakeLifts.PairOfLiftAlt (129s)
+⚠ [96534/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsRestrictScalarsMatrixLeftRightMulAdeleTensStatement (123s)
+✔ [96535/183903] Built Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.CayleyCosetSums.LocTauAlt (120s)
+⚠ [96536/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NilradicalChangeOfVariablesStatement (131s)
+✔ [96537/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.BruhatCellParabolicUnipotentFactorization (119s)
+⚠ [96538/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientMeasureFubiniLocallyCompact (126s)
+⚠ [96539/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalGoodFormAtPrime (114s)
+⚠ [96540/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemNatMultipleIntegralFiniteAdelesIffIdealFiniteStatement (128s)
+⚠ [96541/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentAdeleOfPlacesMulEqSumComponentsStatement (120s)
+✔ [96542/183903] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.MapsToTwoFlagFramesOrthogonalOfIsometry (136s)
+⚠ [96543/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TsumEnormTermMulLeft (130s)
+⚠ [96544/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IteratedDerivGaussianExponentialAtZero (122s)
+⚠ [96545/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurableTsumComplex (132s)
+⚠ [96546/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WtOfLastRowOfDetPow (120s)
+⚠ [96547/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.AddEquivAddHaarCharEqOfIsOpenEmbeddingRestrictStatement (123s)
+⚠ [96548/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainMeasureFiniteStatement (105s)
 ```
