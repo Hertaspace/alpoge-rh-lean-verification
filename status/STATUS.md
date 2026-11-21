@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 07:19 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 07:29 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T07:19:28+00:00
-load 271.40 272.13 271.52
+now 2026-11-21T07:29:38+00:00
+load 266.87 267.46 269.30
 ```
 
 ## Progress
 
 ```
-latest_job 121307/183903
-built_ok 51661
-built_with_warnings 61954
+latest_job 122434/183903
+built_ok 52134
+built_with_warnings 62608
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [121293/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexConjNeZero (160s)
-⚠ [121294/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralIdeleMajorantFiniteStatement (151s)
-⚠ [121295/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaLiftSubmoduleComapStableSecondMemberStatement (147s)
-✔ [121296/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PHeckeRatioPoly (118s)
-✔ [121297/183903] Built GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PJPolyLeading (118s)
-⚠ [121298/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RankinSelbergLocalSecondStatement (117s)
-⚠ [121299/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.PseudoCoefficientUnitaryPqStatement (129s)
-⚠ [121300/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.UnfoldingCompactness.UnfoldCore (127s)
-✔ [121301/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.UnfoldingCompactness.IsClosedSiegelStabiliser (128s)
-⚠ [121302/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumNormSphericalZetaKernelGLTrivialRepStatement (131s)
-⚠ [121303/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipotentMemIffWeightRaising (163s)
-✔ [121304/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewHermitianDetNeZero (154s)
-⚠ [121305/183903] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.AnalyticOnUJOfWordBound (137s)
-⚠ [121306/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.DiscreteSeriesCharacterFormulaStatement (133s)
-⚠ [121307/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.PrimitiveFrobeniusFixed.PrimCase (140s)
+✔ [122422/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AmpFibreConstHolds (116s)
+✔ [122423/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSelfDualOrthAt (134s)
+✔ [122424/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.FormRelPf (122s)
+✔ [122425/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LastDat (135s)
+⚠ [122426/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdelicMatrixBoundedDenominatorPrimeToOfIntegral (143s)
+⚠ [122427/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeilOperatorSourceRealPointCommuteHeisenbergCombStatement (139s)
+⚠ [122428/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetPairInducedNontrivialStatement (140s)
+⚠ [122429/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CentralEigenRealDatumFiniteSumFockProductsStatement (148s)
+⚠ [122430/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsBoundedPrimeToDenomGLAndInvOfEqOneOffFiniteStatement (145s)
+✔ [122431/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.AlTieIdx (151s)
+⚠ [122432/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatIndLastKerRow (129s)
+✔ [122433/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NeConjOfIdemSum (137s)
+✔ [122434/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RatMulVecSec (141s)
+✔ [122435/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.HeckeFubiniCompatibility.PReproB (156s)
+✔ [122436/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsLanglandsDataTransportLocalFieldIso (147s)
 ```
