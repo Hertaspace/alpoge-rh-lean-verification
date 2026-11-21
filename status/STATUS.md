@@ -1,21 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 11:41 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 11:47 UTC.
 
 ```
+pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T11:41:26+00:00
-load 274.83 269.54 268.94
+✔ [114/349] Built BuildAid.D4 (826ms)
+mem_used_GB 19
+now 2026-11-21T11:47:05+00:00
+load 268.50 270.55 269.62
 ```
 
 ## Progress
 
 ```
-latest_job 147633/183903
-built_ok 61146
-built_with_warnings 78761
-failed 7
-error_messages 13
+latest_job 148156/183903
+built_ok 61341
+built_with_warnings 79075
+failed 11
+error_messages 21
 ```
 
 ## Errors (first 50)
@@ -41,6 +44,18 @@ error: src/Development/AbelianVarietyTheory/Definitions/HeightFunctions/OntoAlon
 error: Lean exited with code 1
 ✖ [147293/183903] Building Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldingJointDataTwistRatioAtDetRoots (267s)
 error: Lean exited with code 134
+✖ [147662/183903] Building Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CoefficientMapEnlargedBaseEqComplexMultiple (217s)
+error: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CoefficientMapEnlargedBaseEqComplexMultiple.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/GenericRegularity/IsTriangularReframeExistsAndUnique.olean'
+error: Lean exited with code 1
+✖ [147676/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartitionSelectionEvaluation (267s)
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PartitionSelectionEvaluation.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsSurjectivePiAdjoinRootKerEqRange.olean'
+error: Lean exited with code 1
+✖ [147703/183903] Building Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCoefficientMapsAgreeRootOfUnityEnlarged (242s)
+error: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsCoefficientMapsAgreeRootOfUnityEnlarged.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/JetHarmonics/ExistsAdelicElementOfMarkedComponentLattice.olean
+error: Lean exited with code 1
+✖ [147864/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowWeightStatement (251s)
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LowWeightStatement.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HostBoundsTwoMulRpowLogSqLe.olean'
+error: Lean exited with code 1
 ```
 
 ## Axiom check
@@ -51,19 +66,19 @@ error: Lean exited with code 134
 ## Log tail
 
 ```
-✔ [147620/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LPrjSurjAt (222s)
-✔ [147621/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.InducedVanishingOnCompact (172s)
-✔ [147622/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ClosureKernelMemJacquetKernel (167s)
-✔ [147623/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteVolumeRankOneEuler (149s)
-⚠ [147624/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LocallyConstantCosetIndicatorSum (168s)
-⚠ [147625/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairEvaluationSelfLinear (150s)
-⚠ [147626/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ColumnRealDatumFockCombinationLargeDepthStatement (208s)
-⚠ [147627/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtraBoundOfTwistingEigenFacts (182s)
-⚠ [147628/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDescentEstimateStatement (215s)
-✔ [147629/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JacquetKernelLatticeConjCompact (174s)
-✔ [147630/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothTopRepresentation (170s)
-⚠ [147631/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamifiedSumsSeventhEstimateStatement (212s)
-✔ [147632/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FibreIntegralIntertwinesUnipotent (168s)
-⚠ [147633/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothFibreAction (171s)
-✔ [147634/183903] Built Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DivRows3GIff (235s)
+⚠ [148145/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.LevelZeroFormCutoffTendstoOfDensityDominationStatement (123s)
+✔ [148146/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.WeylGroupActions.WignerMapPolynomialOperator (105s)
+⚠ [148147/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoefficientHeisenbergEquivariance (184s)
+⚠ [148148/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ImportsFurtherFurther (156s)
+✔ [148149/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.UnitaryDualGL.GenericUnitaryDual.GenericUnitaryDualGL (152s)
+⚠ [148150/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonExtension (191s)
+✔ [148151/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsCosetOfSelfDual (218s)
+⚠ [148152/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HoldsAllStatement (154s)
+⚠ [148153/183903] Built CompanionTheory.AutomorphicTheory.JacobiDiagonalBounds.EvQTrJBFF (126s)
+✔ [148154/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.WeylGroupActions.WignerMapUpperBound (107s)
+⚠ [148155/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LiftScalarEqLabelScalar (142s)
+⚠ [148156/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ArcDatumFunctionalKillsComplexCombinationsStatement (202s)
+✔ [148157/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCharacterAllChartsFurtherPlaces (245s)
+⚠ [148158/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ImportsFurtherSide (160s)
+⚠ [148159/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RightTranslationLiftEqLevelMoveUnitConstStatement (220s)
 ```
