@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 11:57 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 12:18 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 18
-now 2026-11-21T11:57:22+00:00
-load 264.93 267.13 268.22
+mem_used_GB 16
+now 2026-11-21T12:18:01+00:00
+load 295.03 273.80 269.86
 ```
 
 ## Progress
 
 ```
-latest_job 149032/183903
-built_ok 61694
-built_with_warnings 79591
-failed 13
-error_messages 25
+latest_job 150759/183903
+built_ok 62324
+built_with_warnings 80654
+failed 20
+error_messages 39
 ```
 
 ## Errors (first 50)
@@ -62,6 +62,18 @@ error: Lean exited with code 1
 ✖ [149033/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsParameterRunWithLawsAndPinsAtSpecialPrime (283s)
 error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsParameterRunWithLawsAndPinsAtSpecialPrime.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/HeightProofs/MarkedIsometryHalf.olean'
 error: Lean exited with code 1
+✖ [149286/183903] Building Development.AbelianVarietyTheory.Proofs.TwistedOperators.EventuallyStagesParamSizeConditions (231s)
+error: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/EventuallyStagesParamSizeConditions.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CubicalLawRight.ole
+error: Lean exited with code 1
+✖ [149563/183903] Building Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CountsIrreducibilityConstants (276s)
+error: src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CountsIrreducibilityConstants.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/ToricGeometry/SpanEvalEqTop.olean'
+error: Lean exited with code 1
+✖ [149568/183903] Building Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RowHTuCTmin (280s)
+error: src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowHTuCTmin.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/ExistsFamRep.olean'
+error: Lean exited with code 1
+✖ [149738/183903] Building Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelSqYBoundAtRec (257s)
+error: src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelSqYBoundAtRec.lean:1:0: failed to read file '/home/ubuntu/rh-alpoge/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/SatakeParameters/ChainWideTwistTransport.olean'
+error: Lean exited with code 1
 ```
 
 ## Axiom check
@@ -72,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [149024/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HoweDualityForClosure (169s)
-⚠ [149025/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedKernelCharacterIsTameHeckeUnramified (180s)
-⚠ [149026/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.BesselMultiplicityOneLargeGapAndWhittakerBesselStatement (159s)
-✔ [149027/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulInvGenusLatticeScalarIntegral (180s)
-⚠ [149028/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFormsThetaShortSeriesIdentity (225s)
-⚠ [149029/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaLineTranslateOffLatticeKillsContractionStatement (221s)
-⚠ [149030/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaAtSeesawProductDatumEqVacuumCombinations (195s)
-⚠ [149031/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PreconnectedInUnionAnalytic (158s)
-✔ [149032/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.LocalComponentsOfSmoothCharacters (155s)
-✖ [149033/183903] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsParameterRunWithLawsAndPinsAtSpecialPrime (283s)
-⚠ [149034/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalComponentMeasureIdentity (236s)
-✔ [149035/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SiegelParabolicQuotientIffRows (209s)
-⚠ [149036/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IrreducibleWeightDescendsToPolynomialModule (180s)
-⚠ [149037/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.CuspidalTraceMatrixUnitsActsBySumInfinitesimalCh (156s)
-⚠ [149038/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DiamondTranslateSumEqZeroOfChartRepresentativesStatement (214s)
+⚠ [150746/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ImportsExtraStatement (192s)
+⚠ [150747/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PureFunctionTranslateRayUnitsStatement (138s)
+✔ [150748/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MovedAtAlt (209s)
+⚠ [150749/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LinkG (272s)
+⚠ [150750/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.ThetaKernels.WeilPairRationalInvariance (128s)
+⚠ [150751/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCharacterLocalFunctionalEquivariantStatement (186s)
+✔ [150752/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneMapAtFittedPoints (226s)
+⚠ [150753/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RowZero (205s)
+⚠ [150754/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.GlMemLevel (218s)
+⚠ [150755/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LastRowCongOfKeepsPairsStatement (199s)
+⚠ [150756/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ToricTorsionSectionEqPulledTraitPointField (127s)
+⚠ [150757/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.IsCompactRelax (220s)
+⚠ [150758/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.GeoOfFramesStatement (186s)
+⚠ [150759/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.KomExistsStatement (206s)
+⚠ [150760/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ConjMemRowsIffStatement (207s)
 ```
