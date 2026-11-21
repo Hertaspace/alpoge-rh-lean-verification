@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 05:38 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 05:48 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T05:38:09+00:00
-load 268.61 271.40 270.93
+now 2026-11-21T05:48:20+00:00
+load 267.25 269.73 270.06
 ```
 
 ## Progress
 
 ```
-latest_job 109933/183903
-built_ok 47471
-built_with_warnings 54774
+latest_job 111093/183903
+built_ok 47827
+built_with_warnings 55575
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [109923/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtremalVectorMatrixCoeffHolomorphicTypeStatement (124s)
-⚠ [109924/183903] Built Development.WeilBound.CoreStatements.LocallyConstantCoinvariants.EqZeroOfLocW (131s)
-⚠ [109925/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwoGenericSubquotientsImpossibleStatement (106s)
-✔ [109926/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AntiholomorphicExtremalNegativeFirst (127s)
-✔ [109927/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeylFormulaCompactTorusIdentityOfIngredients (133s)
-⚠ [109928/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TendstoOneOfSummable (152s)
-⚠ [109929/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WhittakerRankProductLeOneStatement (126s)
-✔ [109930/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.RelIndexIntegralMatricesUnitaryDiagonalTranslate (131s)
-✔ [109931/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.ClassFieldRamification.RayPrime (112s)
-✔ [109932/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.EmbBar (94s)
-⚠ [109933/183903] Built Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.ValuationIntegersEqCompletion (128s)
-⚠ [109934/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExtremalVectorValuesLoweringAndTorusStatement (132s)
-⚠ [109935/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.ClassFieldRamification.UnitsGen (114s)
-⚠ [109936/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsSphericalOperatorsRowsNormalEigenspacesStatement (138s)
-⚠ [109937/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.L2MatrixCoeffBoundedHolomorphicFormEqExtremalVec (137s)
+✔ [111079/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LawsAndChart (120s)
+⚠ [111080/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexSupSpanSingletonEqAbsNorm (137s)
+⚠ [111081/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMultiHomogeneousCofactor (140s)
+⚠ [111082/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankAtStalkInvariantDifferentialsStatement (106s)
+⚠ [111083/183903] Built Development.WeilBound.CoreStatements.PublishedTheorems.NefNumerics.NefRiemannRoch.TopIntersectionGrowthBound (135s)
+⚠ [111084/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisRegularSequenceOfCommonZerosStatement (136s)
+✔ [111085/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.FStarLprPfC (166s)
+⚠ [111086/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSystemRelationOfGenericPointStatement (133s)
+⚠ [111087/183903] Built Development.AbelianVarietyTheory.Proofs.HeightProofs.IndexBoundIntrinsicHypothesesNetBoundDegreeTwoStatement (114s)
+✔ [111088/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.RGHyp (121s)
+⚠ [111089/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemistableCocyclesBetweenBlochKatoAndContinuous (136s)
+⚠ [111090/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmulDetSpanSupLeDetSpanLattice (141s)
+⚠ [111091/183903] Built Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaLatticeWeightScalarNeZeroAndLogBoundsStatement (116s)
+✔ [111092/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RatValEqValAt (138s)
+✔ [111093/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FockHarmonicLatticeFgAndSpansValueSpace (139s)
 ```
