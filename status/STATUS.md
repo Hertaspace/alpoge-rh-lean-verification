@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 14:22 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 14:33 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 11
-now 2026-11-21T14:22:32+00:00
-load 265.21 268.04 268.76
+mem_used_GB 19
+now 2026-11-21T14:32:58+00:00
+load 267.37 266.92 267.70
 ```
 
 ## Progress
 
 ```
-latest_job 164374/183903
-built_ok 65107
-built_with_warnings 87745
-failed 166
-error_messages 318
+latest_job 165436/183903
+built_ok 65317
+built_with_warnings 88346
+failed 174
+error_messages 333
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [164362/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalIntegralClosureUnitDegreeStatement (180s)
-✔ [164363/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarSubdivisionCellsFiniteCoverUpToAut (193s)
-⚠ [164364/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegenerationRescaleTauBimultExistsStatement (182s)
-✔ [164365/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CentreDepthLeStarDepthOfCell (182s)
-✔ [164366/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarSubdivisionCellMemStarConeOrCentreless (196s)
-⚠ [164367/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StarDepthLeStrictnessGapOffCentresStatement (181s)
-⚠ [164368/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MaxMultiplicityLtTop (191s)
-⚠ [164369/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymmetricDataComparePolarisedUpToFunctionStatement (162s)
-⚠ [164370/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericEighthPowerUniformisedIsPolarisedStatement (187s)
-⚠ [164371/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteEtaleCoverChartAtFieldPointStatement (189s)
-⚠ [164372/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomEvenDefectBimultiplicativePeriodsStatement (177s)
-⚠ [164373/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerLiftCompProjection (183s)
-⚠ [164374/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.IntegerLatticeDominatesStatement (181s)
-⚠ [164375/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedCuspidalHolomorphicLeSpanAlgebraicCuspSecStatement (233s)
-⚠ [164376/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIsoCarriesSharpPointsToConjugatesStatement (184s)
+⚠ [165425/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernRootSubstitutionWeightLineBundleEqLinRoot (192s)
+⚠ [165426/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernCurvatureModelGramConjugateEmbeddingStatement (187s)
+⚠ [165427/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernFormPolyCoeffReindexFrameStatement (203s)
+⚠ [165428/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernCurvatureModelGramConjMulTransposeInvStatement (197s)
+⚠ [165429/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DegFlFlagMapRenamePerm (192s)
+✔ [165430/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlagMapChernRootsX (195s)
+✔ [165431/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarProductNonvanishingLevels (221s)
+⚠ [165432/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosNonzeroPairSectionOfAmpleStatement (189s)
+⚠ [165433/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairSectionMemBallExpOfProjArithVarietyStatement (194s)
+⚠ [165434/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeExistsMultipleIntegralPrimeToLStatement (173s)
+⚠ [165435/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BoundedDomainModelGramContDiffIsUnitStatement (189s)
+⚠ [165436/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeBundleGeneratedOfModelIsoStatement (178s)
+⚠ [165437/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopChernDensityInvariantHolomorphicFrameChangeStatement (197s)
+⚠ [165438/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratingPairSectionsNormBoundsStatement (189s)
+⚠ [165439/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopDegreeFormCoeffChernPolyEqSumRepresentationsStatement (195s)
 ```
