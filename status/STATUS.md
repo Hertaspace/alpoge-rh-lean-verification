@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 17:18 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 17:28 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 18
-now 2026-11-21T17:18:07+00:00
-load 130.71 190.35 219.54
+mem_used_GB 11
+now 2026-11-21T17:28:35+00:00
+load 10.10 53.14 133.18
 ```
 
 ## Progress
 
 ```
-latest_job 182496/183903
-built_ok 68455
-built_with_warnings 98135
-failed 225
-error_messages 424
+latest_job 183795/183903
+built_ok 68651
+built_with_warnings 98965
+failed 242
+error_messages 452
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [182484/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFixEq (70s)
-⚠ [182485/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasProperSmoothDualRepresentativeFiniteTypeStatement (58s)
-⚠ [182486/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantValuationLeCommonBoundMulMonomial (60s)
-⚠ [182487/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentredPureExtensionTowerMemberStatement (66s)
-⚠ [182488/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantTermsVanishStatement (56s)
-⚠ [182489/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PStabTriv (72s)
-⚠ [182490/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaMemberThroughModelPoint (65s)
-⚠ [182491/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemiAbelianDescendsOfClosedFibreEmbedding (67s)
-⚠ [182492/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTripleMapOfSameUniformisedCoords (63s)
-⚠ [182493/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPointRigidBoundaryFamilyOfRigidCoordinatesStatement (65s)
-⚠ [182494/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjugateHeatOperatorPeriodShift (53s)
-⚠ [182495/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStatementOfChainStatement (58s)
-⚠ [182496/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalRingLinearHomSchemeLowerObjectStatement (67s)
-⚠ [182497/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankBalancedSymmIntBilinFormsEqStatement (59s)
-⚠ [182498/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformisationEighthPowerDataEquivariant (64s)
+✔ [183781/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.OBaseOnto (10s)
+⚠ [183782/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KodairaSpencerRegularNearRigidBoundaryPoint (18s)
+⚠ [183783/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegenerationConstantOfLogKodairaSpencerMem (16s)
+✔ [183784/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.StepAHolds (9.1s)
+⚠ [183785/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.KodairaSpencerRegularNearRigidBoundaryPointStatement (9.6s)
+⚠ [183786/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegenerationConstantOfLogKodairaSpencerMemStatement (9.7s)
+⚠ [183787/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualNumberHodgeSummandEqGraphCoordinatesStatement (15s)
+⚠ [183788/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsKodairaSpencerRegularFramedAffine (14s)
+⚠ [183789/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogKodairaSpencerInjectiveModMaximalBoundary (14s)
+⚠ [183790/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsKodairaSpencerRegularFramedAffineStatement (8.0s)
+⚠ [183791/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogKodairaSpencerInjectiveModMaximalBoundaryStatement (9.7s)
+⚠ [183792/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogKodairaSpencerInjectiveModMaximalIdeal (9.7s)
+⚠ [183793/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogKodairaSpencerInjectiveModMaximalIdealStatement (9.5s)
+⚠ [183794/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarrisTaylorRealiseKodairaSpencerDirection (150s)
+✔ [183795/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogKodairaSpencerIsoSmoothSncToroidalModel (20s)
 ```
