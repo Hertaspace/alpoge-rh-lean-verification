@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 09:23 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 10:04 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T09:23:24+00:00
-load 268.64 270.36 269.90
+now 2026-11-21T10:04:43+00:00
+load 267.21 268.56 268.43
 ```
 
 ## Progress
 
 ```
-latest_job 134504/183903
-built_ok 56444
-built_with_warnings 70370
+latest_job 138587/183903
+built_ok 57853
+built_with_warnings 73042
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [134494/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianPairingInCoordinates (141s)
-⚠ [134495/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSignatureDropStatement (146s)
-⚠ [134496/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsSelfDualCFrameLat (165s)
-✔ [134497/183903] Built Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.G1 (126s)
-✔ [134498/183903] Built Development.AbelianVarietyTheory.Definitions.Divisors.RegConst (155s)
-✔ [134499/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSignatureDropsByPlane (158s)
-⚠ [134500/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.KernelEntriesHypOfHeckeCharacterConditions (141s)
-✔ [134501/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdelesFiniteClassDecomposition (123s)
-⚠ [134502/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSignatureStatement (141s)
-⚠ [134503/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.PrimeLocalizationCompanionLatticeEqOfLocalizatio (118s)
-⚠ [134504/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.IntegralAtOfAdelicIntegralAtStatement (134s)
-⚠ [134505/183903] Built Development.WeilBound.ThetaLifts.SchwartzMoments.PolynomialFunctionalEvalContinuous (192s)
-⚠ [134506/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeviEmbeddingHeightBoundStatement (138s)
-✔ [134507/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.InfinitesimalCharacterLimits.LieSumDecompositions.GrowPHolds (139s)
-⚠ [134508/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ConjIdealEqConjP (155s)
+⚠ [138575/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ParabolicEigenlineLocalSplitStatement (146s)
+✔ [138576/183903] Built Development.WeilBound.ThetaLifts.LeviDeterminants.LagrangianUniqueness.GeoCore (165s)
+⚠ [138577/183903] Built Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExtendByZeroTrivialDecomposition (206s)
+✔ [138578/183903] Built Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsEmptyOfNotAll (222s)
+⚠ [138579/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinkZeroOfChartZeroStatement (214s)
+⚠ [138580/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutSERDSNicePoly (103s)
+✔ [138581/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.MemSplitPlaceFinitePointsOffPrimesOfSupported (142s)
+⚠ [138582/183903] Built Development.WeilBound.ThetaLifts.LatticeBasics.ConvOfCpt (117s)
+⚠ [138583/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RowLevelIntegralTwistStatement (202s)
+⚠ [138584/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HoldsLOfCopy (224s)
+✔ [138585/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.JetKapIff (146s)
+⚠ [138586/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ReadsUnique (199s)
+✔ [138587/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutSERDSRhvR (102s)
+✔ [138588/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CutSERDSOpADone (111s)
+⚠ [138589/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FrameVectorLatticeCriterionStatement (205s)
 ```
