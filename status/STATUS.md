@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 13:20 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 13:30 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 17
-now 2026-11-21T13:20:11+00:00
-load 265.16 265.89 266.93
+mem_used_GB 16
+now 2026-11-21T13:30:36+00:00
+load 268.04 269.87 268.78
 ```
 
 ## Progress
 
 ```
-latest_job 156519/183903
-built_ok 63813
-built_with_warnings 84082
-failed 130
-error_messages 255
+latest_job 157572/183903
+built_ok 64080
+built_with_warnings 84643
+failed 138
+error_messages 270
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [156508/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianDegreeAdelicSum (195s)
-✔ [156509/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedLocalLatticeTheta (198s)
-✔ [156510/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MetricPullbackGramAndInvariance (193s)
-⚠ [156511/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompatibleReductionSystemMapImmersion (196s)
-✔ [156512/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPositiveHermitianFormDomain (189s)
-⚠ [156513/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsAffineDomainFrameHasDRStatement (185s)
-⚠ [156514/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.KaehlerPotentialComparisonDomain (189s)
-✔ [156515/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsModificationExtendingMapFromOpen (209s)
-⚠ [156516/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReadFnCInfAtOfSmooth (163s)
-✔ [156517/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LemmaBTHolds (188s)
-✔ [156518/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsAffineRefinementLieEmbedding (192s)
-⚠ [156519/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.DualLatticeBaseChangeStatement (185s)
-✔ [156520/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PluckerCoordMatrixGenerates (193s)
-⚠ [156521/183903] Built Development.WeilBound.CoreStatements.HomogeneousNonvanishing.LatticeIntegrallyClosedTorsion (183s)
-⚠ [156522/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DividesOfNormBoundedPoints (192s)
+✔ [157560/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FactorsFibreOverPointIffFactorsProduct (178s)
+✔ [157561/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIsoOfEpiVectorBundleSameRank (198s)
+⚠ [157562/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BadWStOfRegular (213s)
+⚠ [157563/183903] Built Development.AutomorphicArithmetic.DivisorFrames.IntersectionNumbersAgreeModel (213s)
+⚠ [157564/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankSectionsPullbackLeMulTwistDominantStatement (217s)
+⚠ [157565/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSubOfAffine (198s)
+✔ [157566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeIntoDeRhamInjectiveImports (190s)
+⚠ [157567/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLevelPowPrimeFourthPowerDescentStatement (202s)
+✔ [157568/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateFiltrationHodgeSubFirst (196s)
+✔ [157569/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsClosedImmersionFibreOverPointToBaseChange (187s)
+⚠ [157570/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorsAdaptedToQuotientGeneratorsStatement (182s)
+⚠ [157571/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterEqOneOfDescendedLineBundleTrivialStatement (185s)
+✔ [157572/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsoDualOfAffinePairing (191s)
+⚠ [157573/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLineBundleLocalSectionFamilyUnitAtPoint (176s)
+⚠ [157574/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LagrangianShortExact (193s)
 ```
