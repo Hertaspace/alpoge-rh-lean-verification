@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 01:20 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 01:30 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T01:20:05+00:00
-load 273.73 270.61 270.70
+now 2026-11-21T01:30:21+00:00
+load 282.77 282.18 276.29
 ```
 
 ## Progress
 
 ```
-latest_job 78996/183903
-built_ok 35056
-built_with_warnings 36255
+latest_job 80264/183903
+built_ok 35589
+built_with_warnings 36990
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [78989/183903] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DualWeylHighestWeightSpaceLineFieldStatement (123s)
-✔ [78990/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.SupportG (114s)
-⚠ [78991/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.IrrTransferAbsIrrStatement (121s)
-⚠ [78992/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsWeierstrassPSeriesAndSigmaStarQuotientSeriStatement (89s)
-✔ [78993/183903] Built Formalism.SharpRestriction.CuspSpanNormBounds.CayleyDegreeNondegeneracy.GenericAdmissibleAllConstants (128s)
-✔ [78994/183903] Built Formalism.LocalToGlobal.TorsionIntegrality.ComplexLatticeClosure.LatticeAreaPositivity.ThetaTranslationOperatorApply (119s)
-⚠ [78995/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdmissibleDictionaryOfParamsStatement (117s)
-⚠ [78996/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemDualBlochKatoOfOrthogonalResidualStatement (124s)
-✔ [78997/183903] Built Formalism.SharpRestriction.CuspSpanNormBounds.CayleyDegreeNondegeneracy.RowsLab (116s)
-✔ [78998/183903] Built Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker.WeightedProjectionSumSelfAdjoint (108s)
-⚠ [78999/183903] Built Formalism.SharpRestriction.CuspSpanNormBounds.FrobeniusCoefficientMemLp.MomTwMeas (111s)
-⚠ [79000/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFiniteAdeleExtendedCharacterOfCurveStatement (119s)
-⚠ [79001/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ResidualBlochKatoLatticeDualOrthogonalStatement (122s)
-⚠ [79002/183903] Built Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.BeConjOfNormHolds (122s)
-⚠ [79003/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeightSpaceCoefficientSpaceEqExtremalTensorLine (130s)
+⚠ [80250/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ThetaCharOffNeZeroDifferentiableQuasiPeriodicStatement (126s)
+⚠ [80251/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.HsNormSqIintLeLiminfStatement (125s)
+⚠ [80252/183903] Built Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.InterNumConsEqCokernel (134s)
+⚠ [80253/183903] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.SumPairLevStarMul (135s)
+⚠ [80254/183903] Built CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.PieriTensorDecompositionStatement (127s)
+⚠ [80255/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsRigidifiedIsoAgreeAbelianFibres (144s)
+⚠ [80256/183903] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.TorusCoordinateRatioEqTorusCoordOverOriginStatement (124s)
+✔ [80257/183903] Built Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.LaurentAdjoinEqOfImageEq (131s)
+✔ [80258/183903] Built Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EisensteinSeriesTermUnitaryGraph (136s)
+⚠ [80259/183903] Built Development.AbelianVarietyTheory.Proofs.FlagMeasures.IintEqEllStatement (130s)
+⚠ [80260/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HodgeTateSymbolMatrixIsUnitDetStatement (122s)
+⚠ [80261/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.RelabellingGoodEmbeddingIsTypeFnStatement (123s)
+⚠ [80262/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DeRhamRepresentationTensorComparison (122s)
+✔ [80263/183903] Built Formalism.LocalRingCardinality.SpanPowerMembership.NZRowU (111s)
+⚠ [80264/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.TransportedLatticeLocalizationFreeLeCoefficientSStatement (130s)
 ```
