@@ -1,6 +1,6 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 20:42 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 20:52 UTC.
 
 ```
 pass 2 (log build2.log)
@@ -8,17 +8,17 @@ START 2026-11-21T17:32:32+00:00
 ENV LD_PRELOAD=/home/ubuntu/rh-alpoge/tools/nommap/no_fixed_file_mmap.so NOMMAP_THRESHOLD=40000 LEAN_NUM_THREADS=32
 pass1 EXIT 1 2026-11-21T17:31:57+00:00
 pass1 AXCHECK_EXIT 1 2026-11-21T17:31:59+00:00
-mem_used_GB 396
-now 2026-11-21T20:42:33+00:00
-load 34.64 34.99 34.95
+mem_used_GB 370
+now 2026-11-21T20:52:44+00:00
+load 34.99 34.58 34.70
 ```
 
 ## Progress
 
 ```
-latest_job 180804/183896
-built_ok 2916
-built_with_warnings 102222
+latest_job 182033/183903
+built_ok 3074
+built_with_warnings 102959
 failed 0
 error_messages 0
 ```
@@ -51,19 +51,19 @@ No directory 'Main' or file 'Main.olean' in the search path entries:
 ## Log tail
 
 ```
-⚠ [180780/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KernelConjugationMeanArchimedeanTopTerm
-⚠ [180781/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KernelConjMeanPairingStandardKType
-⚠ [180782/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ArchimedeanTensorSizeBoundOfLocal
-⚠ [180784/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsLocalTupleAtPlace (50s)
-⚠ [180785/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TameAnyAtFixed
-⚠ [180789/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.UnramifiedPointsOfCMDatum (37s)
-⚠ [180790/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NbcOf
-⚠ [180792/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TameFixedOfType
-⚠ [180793/183896] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionTrivialOnWildInertia
-⚠ [180794/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ExistsThetaRuleValueLeCoverCharZero (41s)
-⚠ [180796/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.QuadraticTowerStepStageInduction (35s)
-⚠ [180798/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsRationalMoveOfJets (32s)
-⚠ [180802/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.HodgeLineBundleBignessOnShimuraVariety (41s)
-⚠ [180803/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsAlgebraicFunctionDefiniteThetaNeZero (36s)
-⚠ [180804/183896] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.BottomSpannedByTwistedClassSums (38s)
+⚠ [182018/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.StrCalcO (45s)
+✔ [182019/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ThetaFlipTensorMatch (62s)
+⚠ [182020/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.ExistsFinitePlaceThetaMatch (58s)
+⚠ [182021/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SideWChrStatement (32s)
+⚠ [182022/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NGalAut (69s)
+⚠ [182023/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SideWExportSmallStatement (33s)
+⚠ [182024/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.IsobaricRigidOfPin (51s)
+⚠ [182025/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RaysOfRayRecStatement (32s)
+⚠ [182026/183903] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.SummableAbsDetRationalPointsGodement
+⚠ [182027/183903] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormOneAdelicGLLocallyCompactDiscreteFiniteCovolStatement
+⚠ [182028/183903] Replayed Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SplitPlaceRankCutOfAlternativeStatement
+⚠ [182029/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistedMultiplicityOne (32s)
+⚠ [182031/183903] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ConclusionOfAdmissiblesStatement
+⚠ [182032/183903] Replayed Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PrvZrOfInputsRowsStatement
+✔ [182033/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsNbcAuSide (54s)
 ```
