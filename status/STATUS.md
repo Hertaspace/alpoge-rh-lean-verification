@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 17:07 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 17:18 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
 mem_used_GB 18
-now 2026-11-21T17:07:53+00:00
-load 258.63 233.76 235.69
+now 2026-11-21T17:18:07+00:00
+load 130.71 190.35 219.54
 ```
 
 ## Progress
 
 ```
-latest_job 181255/183903
-built_ok 68299
-built_with_warnings 97392
-failed 218
-error_messages 414
+latest_job 182496/183903
+built_ok 68455
+built_with_warnings 98135
+failed 225
+error_messages 424
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [181244/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRigidifiedLineBundleExtensionOfLocalStatement (173s)
-⚠ [181245/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PointDefinedOverSubfieldOfIsIntegralHom (162s)
-⚠ [181246/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFrameIdentityOfGenericPoint (162s)
-✔ [181247/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaFamilyTermZeroIntegralTorusPoint (163s)
-⚠ [181248/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTorsionFrameSqOfTorsion (165s)
-✔ [181249/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiZeroMulRigidificationKEqOne (165s)
-⚠ [181250/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingSeesawIdentity (195s)
-⚠ [181251/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormalBaseCharZeroSectionsStatement (176s)
-✔ [181252/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigBTripleVanishing (172s)
-⚠ [181253/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeSubmoduleImprovedModPrimeOfNeConj (175s)
-⚠ [181254/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PotentialGoodReductionOfDivisionAlgebraLeftActio (176s)
-✔ [181255/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrincipallyPolarizedAbelianShortExact (178s)
-⚠ [181256/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeatOperatorPeriodDefectIsCocycleStatement (178s)
-⚠ [181257/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosDefQuadraticFormHomStatement (184s)
-✔ [181258/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaFamilyCoefficientIntegralTorusPoint (172s)
+✔ [182484/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFixEq (70s)
+⚠ [182485/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasProperSmoothDualRepresentativeFiniteTypeStatement (58s)
+⚠ [182486/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantValuationLeCommonBoundMulMonomial (60s)
+⚠ [182487/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentredPureExtensionTowerMemberStatement (66s)
+⚠ [182488/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantTermsVanishStatement (56s)
+⚠ [182489/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PStabTriv (72s)
+⚠ [182490/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaMemberThroughModelPoint (65s)
+⚠ [182491/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemiAbelianDescendsOfClosedFibreEmbedding (67s)
+⚠ [182492/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTripleMapOfSameUniformisedCoords (63s)
+⚠ [182493/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPointRigidBoundaryFamilyOfRigidCoordinatesStatement (65s)
+⚠ [182494/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjugateHeatOperatorPeriodShift (53s)
+⚠ [182495/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStatementOfChainStatement (58s)
+⚠ [182496/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalRingLinearHomSchemeLowerObjectStatement (67s)
+⚠ [182497/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankBalancedSymmIntBilinFormsEqStatement (59s)
+⚠ [182498/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformisationEighthPowerDataEquivariant (64s)
 ```
