@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 16:36 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 16:47 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 19
-now 2026-11-21T16:36:52+00:00
-load 259.52 268.64 269.04
+mem_used_GB 22
+now 2026-11-21T16:47:11+00:00
+load 203.71 227.00 246.97
 ```
 
 ## Progress
 
 ```
-latest_job 177655/183903
-built_ok 67706
-built_with_warnings 95570
-failed 203
-error_messages 386
+latest_job 178564/183903
+built_ok 67900
+built_with_warnings 96228
+failed 208
+error_messages 395
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [177646/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GoodForSquareZeroLiftClassificationOfAbelianScheStatement (198s)
-⚠ [177647/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanBoundedDenominators (212s)
-⚠ [177648/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralChernFormPolyEqIntersectionNumber (203s)
-⚠ [177649/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BlowupPolarizationAmpleStatement (186s)
-⚠ [177650/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverOpenImmersionNormalisedThetaClosure (181s)
-✔ [177651/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PPkInj (151s)
-⚠ [177652/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigBStabilizerIdelesHaarSecond (194s)
-⚠ [177653/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeFamilyFiniteLocallyFreeStatement (207s)
-⚠ [177654/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaModelPointLatticePeriodsTraits (194s)
-✔ [177655/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleLocalSymmetry (167s)
-✔ [177656/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniquePDivisibleEndomorphism (202s)
-✔ [177657/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagBundleTotalSpaceIrreducible (193s)
-✔ [177658/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantDifferentialsConnectedPDivGroupCoordina (202s)
-✔ [177659/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TlLevSurjKer (207s)
-⚠ [177660/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.MonoM (166s)
+⚠ [178544/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PLocMax (154s)
+⚠ [178545/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PResVal (154s)
+⚠ [178546/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PTrTop (154s)
+✔ [178547/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PValBasic (154s)
+⚠ [178548/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHarrisTaylorObjectExtendOfPIsogenyDvrStatement (140s)
+✔ [178549/183903] Built Development.AutomorphicArithmetic.DivisorFrames.PdegEqOfIsDeg (127s)
+⚠ [178550/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ArchimedeanSectionIntegralFrame (121s)
+⚠ [178563/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeExistsCompEqNsmulOfKernelKilled (143s)
+⚠ [178564/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PYCmpT (157s)
+⚠ [178565/183903] Built Development.AutomorphicArithmetic.DivisorFrames.LengthStalkPushforwardClosed (131s)
+⚠ [178566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionOrderFiniteProjective (149s)
+⚠ [178567/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PullbackKahlerOmegaBounded (161s)
+✔ [178568/183903] Built Development.AutomorphicArithmetic.DivisorFrames.ExistsUnitTriAndDiagCoeffMulEqOfCarries (133s)
+✔ [178569/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ProportionalityOfLocalCharts (176s)
+✔ [178570/183903] Built Development.AutomorphicArithmetic.DivisorFrames.TangentModelsCompat (133s)
 ```
