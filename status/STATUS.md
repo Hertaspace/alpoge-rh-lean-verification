@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 14:43 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 14:53 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
 mem_used_GB 18
-now 2026-11-21T14:43:16+00:00
-load 266.73 267.98 268.61
+now 2026-11-21T14:53:37+00:00
+load 264.93 268.61 268.71
 ```
 
 ## Progress
 
 ```
-latest_job 166755/183903
-built_ok 65524
-built_with_warnings 88966
-failed 174
-error_messages 333
+latest_job 167749/183903
+built_ok 65729
+built_with_warnings 89547
+failed 178
+error_messages 341
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [166745/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RosatiValueTensorDataTransportLambdaBundle (171s)
-✔ [166746/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartValueMemRangeOfAgreeTraitExtension (186s)
-⚠ [166747/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralAtBasicOpenOfIntegralMulChartValue (188s)
-✔ [166748/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTorusComponentsOfUnimodularTensor (158s)
-⚠ [166749/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartValueIsIntegralOfIntegralAtPoints (193s)
-⚠ [166750/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetPowSmulMem (194s)
-✔ [166751/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsLastExtra (184s)
-⚠ [166752/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialSumInsertKilledCoordinateComp (186s)
-⚠ [166753/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SobolevBoundFiniteFamily (179s)
-⚠ [166754/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralElementAffineSectionGenerated (192s)
-⚠ [166755/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RosatiAdjTensorPowerIntMatrixEndomorphismStatement (172s)
-⚠ [166756/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilConvergenceOfKernel (180s)
-⚠ [166757/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSemiAbelianTensorOverScheme (190s)
-⚠ [166758/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelObjIsoHomSubtype (198s)
-✔ [166759/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMonHomSectionOfProdTrivial (184s)
+⚠ [167735/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniversalFlagFrameSpecialize (213s)
+⚠ [167736/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnipotentTriangularFactorStatement (200s)
+⚠ [167737/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombinedMetricLocalPotentialExists (206s)
+⚠ [167738/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaExtensionEmbeddingsStatement (186s)
+⚠ [167739/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizationPairingEquivariant (199s)
+⚠ [167740/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CarriedFlagTriangularFrameStatement (190s)
+⚠ [167741/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialChartOfFlagBundleStatement (196s)
+⚠ [167742/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProperPointExtendsRingOfIntegersStatement (193s)
+⚠ [167743/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqOfRankAtStalk (207s)
+⚠ [167744/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeInclusionEquivariant (206s)
+⚠ [167745/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusEquivariantDeRham (206s)
+⚠ [167746/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsAlgChartOverIntegers (212s)
+⚠ [167747/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLineBundleExtensionGenericFibre (211s)
+✔ [167748/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianExtensionOverNormalBase (210s)
+⚠ [167749/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeadingMinorsUnipotentMulStatement (205s)
 ```
