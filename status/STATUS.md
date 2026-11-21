@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 16:06 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 16:16 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 18
-now 2026-11-21T16:06:11+00:00
-load 264.30 266.74 267.41
+mem_used_GB 20
+now 2026-11-21T16:16:24+00:00
+load 265.61 268.08 268.04
 ```
 
 ## Progress
 
 ```
-latest_job 175130/183903
-built_ok 67046
-built_with_warnings 93885
-failed 195
-error_messages 371
+latest_job 176011/183903
+built_ok 67260
+built_with_warnings 94459
+failed 199
+error_messages 378
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [175121/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedEvaluationSeesaw (175s)
-⚠ [175122/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistDownTypeLiftApproxSpan (223s)
-⚠ [175123/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormalFibreIsRegularRingEssFiniteTypeIntStatement (205s)
-⚠ [175124/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomEvalCompEqEvAMapStatement (213s)
-⚠ [175125/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CounitCotangentClassPowerSeriesEvalAtNilpotent (219s)
-⚠ [175126/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernClassFlagPairRankTwo (209s)
-⚠ [175127/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartierDualIntegralCounitStatement (212s)
-⚠ [175128/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InfiniteInvarianceFirstOfPublished (166s)
-⚠ [175129/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KerPolarizationProjectionStableUnderStabilizerCo (247s)
-⚠ [175130/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightLeCotangentDimAddDualCotangentDim (211s)
-⚠ [175131/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedEvaluationNonvanishing (190s)
-⚠ [175132/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentDimsLeHeightStatement (213s)
-⚠ [175133/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistCuspTypeLiftApproxFockSpace (217s)
-⚠ [175134/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionPrechartGroupStatement (198s)
-⚠ [175135/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSupNormLocalRescaleStatement (206s)
+⚠ [176002/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.LevelChange (198s)
+⚠ [176003/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNonzeroSectionClosedFibreOfPrimitiveThetaStatement (176s)
+⚠ [176004/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataSoWittFrame (191s)
+⚠ [176005/183903] Built Development.AutomorphicArithmetic.CommutativeAlgebra.TraceEtaIdentity (163s)
+⚠ [176006/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.MuAlgebraMap (206s)
+⚠ [176007/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.PLocComm (201s)
+⚠ [176008/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.LPCount (183s)
+⚠ [176009/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVeryAmpleCompatibleSectionsThickeningTowerStatement (193s)
+⚠ [176011/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WittFrameThetaIntegralBound (193s)
+⚠ [176013/183903] Built Development.AutomorphicArithmetic.CommutativeAlgebra.LatticeGeneration (173s)
+✔ [176014/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.PMuStar (209s)
+⚠ [176015/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.MatEqOfComp (209s)
+⚠ [176016/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicPointsSimilitudeGLProductBijective (204s)
+✔ [176017/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.LPSigFin (189s)
+⚠ [176018/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.AlgebraEquivSetup.PKNIff (207s)
 ```
