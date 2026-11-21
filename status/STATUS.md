@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 07:29 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 07:39 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T07:29:38+00:00
-load 266.87 267.46 269.30
+now 2026-11-21T07:39:53+00:00
+load 267.98 269.84 269.83
 ```
 
 ## Progress
 
 ```
-latest_job 122434/183903
-built_ok 52134
-built_with_warnings 62608
+latest_job 123554/183903
+built_ok 52516
+built_with_warnings 63346
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [122422/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AmpFibreConstHolds (116s)
-✔ [122423/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSelfDualOrthAt (134s)
-✔ [122424/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.FormRelPf (122s)
-✔ [122425/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LastDat (135s)
-⚠ [122426/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdelicMatrixBoundedDenominatorPrimeToOfIntegral (143s)
-⚠ [122427/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeilOperatorSourceRealPointCommuteHeisenbergCombStatement (139s)
-⚠ [122428/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetPairInducedNontrivialStatement (140s)
-⚠ [122429/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CentralEigenRealDatumFiniteSumFockProductsStatement (148s)
-⚠ [122430/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsBoundedPrimeToDenomGLAndInvOfEqOneOffFiniteStatement (145s)
-✔ [122431/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.AlTieIdx (151s)
-⚠ [122432/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatIndLastKerRow (129s)
-✔ [122433/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NeConjOfIdemSum (137s)
-✔ [122434/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RatMulVecSec (141s)
-✔ [122435/183903] Built Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.HeckeFubiniCompatibility.PReproB (156s)
-✔ [122436/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsLanglandsDataTransportLocalFieldIso (147s)
+⚠ [123540/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsCharacter (140s)
+✔ [123541/183903] Built Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormalisedThetaConstantOfUniversalOriginValue (153s)
+✔ [123542/183903] Built Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.DualFamilyCounting.GlueExistsOfLastDual (117s)
+✔ [123543/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalDescendedBundleNoetherian (143s)
+✔ [123544/183903] Built Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.SmulMemRatForms (205s)
+⚠ [123545/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.UnifMetricScalar (159s)
+✔ [123546/183903] Built Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.LamIndLenDeg (159s)
+✔ [123547/183903] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsCmCurveHomOfPureTypeVectorAnyLevel (126s)
+⚠ [123548/183903] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsExtBaseChange (160s)
+⚠ [123549/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeterssonNormComponentAddLeOfGramFrameStatement (120s)
+⚠ [123550/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GoodMetricLocalTransgressionFormulaStatement (119s)
+⚠ [123551/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaUniformisationComplexAbelianVarietiesStatement (129s)
+⚠ [123552/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsTorsionPairRepresentative (135s)
+✔ [123553/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHalfOfAuxiliarySplitLevel (140s)
+✔ [123554/183903] Built Development.AbelianVarietyTheory.Proofs.ModuliProofs.KeyFormulaIffClauses (130s)
 ```
