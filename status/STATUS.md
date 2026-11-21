@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 16:47 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 16:57 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 22
-now 2026-11-21T16:47:11+00:00
-load 203.71 227.00 246.97
+mem_used_GB 15
+now 2026-11-21T16:57:30+00:00
+load 265.44 251.46 245.18
 ```
 
 ## Progress
 
 ```
-latest_job 178564/183903
-built_ok 67900
-built_with_warnings 96228
-failed 208
-error_messages 395
+latest_job 180363/183903
+built_ok 68144
+built_with_warnings 96741
+failed 212
+error_messages 403
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [178544/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PLocMax (154s)
-⚠ [178545/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PResVal (154s)
-⚠ [178546/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PTrTop (154s)
-✔ [178547/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PValBasic (154s)
-⚠ [178548/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHarrisTaylorObjectExtendOfPIsogenyDvrStatement (140s)
-✔ [178549/183903] Built Development.AutomorphicArithmetic.DivisorFrames.PdegEqOfIsDeg (127s)
-⚠ [178550/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ArchimedeanSectionIntegralFrame (121s)
-⚠ [178563/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeExistsCompEqNsmulOfKernelKilled (143s)
-⚠ [178564/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PYCmpT (157s)
-⚠ [178565/183903] Built Development.AutomorphicArithmetic.DivisorFrames.LengthStalkPushforwardClosed (131s)
-⚠ [178566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionOrderFiniteProjective (149s)
-⚠ [178567/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.LocalMaximality.PullbackKahlerOmegaBounded (161s)
-✔ [178568/183903] Built Development.AutomorphicArithmetic.DivisorFrames.ExistsUnitTriAndDiagCoeffMulEqOfCarries (133s)
-✔ [178569/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ProportionalityOfLocalCharts (176s)
-✔ [178570/183903] Built Development.AutomorphicArithmetic.DivisorFrames.TangentModelsCompat (133s)
+⚠ [180349/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionValueInFrameLocalRingPointStatement (196s)
+⚠ [180350/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ToroidalSystemOfSiegelStatement (204s)
+⚠ [180351/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRaynaudTorusWeightFunctionMulStatement (197s)
+⚠ [180352/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeHomLiftingNilDPOfFiveStatementsStatement (206s)
+⚠ [180353/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticRiemannRochAbelianOfPrintedStatement (219s)
+⚠ [180354/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRaynaudTorusWeightPullbackPointTranslationStatement (209s)
+⚠ [180355/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InversionOfAdjunctionProj (212s)
+⚠ [180356/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedLocalEvalWeilStatement (207s)
+⚠ [180357/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrincipalPolarizationDeRhamPairingStatement (200s)
+⚠ [180358/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PoincarePotentialPshLimitStatement (220s)
+⚠ [180359/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualGramHermitianFrameStatement (202s)
+⚠ [180360/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSemiAbelianExtensionNearPointStatement (228s)
+⚠ [180361/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericEndomorphismMumfordRingActionStatement (178s)
+⚠ [180362/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFractionFieldMapBasicOpenFormalPointStatement (211s)
+⚠ [180363/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PointValueFractionFieldCommVectorFieldStatement (194s)
 ```
