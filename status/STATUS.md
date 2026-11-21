@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 15:56 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 16:06 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 12
-now 2026-11-21T15:56:00+00:00
-load 264.62 266.57 267.56
+mem_used_GB 18
+now 2026-11-21T16:06:11+00:00
+load 264.30 266.74 267.41
 ```
 
 ## Progress
 
 ```
-latest_job 174195/183903
-built_ok 66875
-built_with_warnings 93271
-failed 193
-error_messages 367
+latest_job 175130/183903
+built_ok 67046
+built_with_warnings 93885
+failed 195
+error_messages 371
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [174181/183903] Built Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MultiplicityInertStatement (166s)
-⚠ [174182/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaConstantsPrimitiveAtUniformisedTraitStatement (182s)
-⚠ [174183/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyOfTensorDataPosDefUnimodularStatement (191s)
-⚠ [174184/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosDefImPartOnPolydiscOfPuncturedCover (196s)
-⚠ [174185/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaSystemMovedToAffineOpenStatement (183s)
-⚠ [174186/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixActsOnTorsionLabels (200s)
-✔ [174187/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InertPlaceLatticeStabiliserFixesVacuum (189s)
-⚠ [174188/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLabelledLatticeEquivOfCommonFibre (188s)
-⚠ [174189/183903] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.BaseMetricExistsOfGivenStatement (168s)
-✔ [174190/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsProperRelAmpleKTrivOfPull (186s)
-⚠ [174191/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianProperUniformisedWhereTrivialisationsGene (175s)
-⚠ [174192/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsUnitDetRationalCombinationFrameClosedBallStatement (197s)
-⚠ [174193/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetShalikaRigidityHolds (186s)
-⚠ [174194/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibresAbelianOfPsiUnitOn (179s)
-⚠ [174195/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatSectionIsFlat (202s)
+⚠ [175121/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedEvaluationSeesaw (175s)
+⚠ [175122/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistDownTypeLiftApproxSpan (223s)
+⚠ [175123/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormalFibreIsRegularRingEssFiniteTypeIntStatement (205s)
+⚠ [175124/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomEvalCompEqEvAMapStatement (213s)
+⚠ [175125/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CounitCotangentClassPowerSeriesEvalAtNilpotent (219s)
+⚠ [175126/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernClassFlagPairRankTwo (209s)
+⚠ [175127/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartierDualIntegralCounitStatement (212s)
+⚠ [175128/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.InfiniteInvarianceFirstOfPublished (166s)
+⚠ [175129/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.KerPolarizationProjectionStableUnderStabilizerCo (247s)
+⚠ [175130/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightLeCotangentDimAddDualCotangentDim (211s)
+⚠ [175131/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedEvaluationNonvanishing (190s)
+⚠ [175132/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentDimsLeHeightStatement (213s)
+⚠ [175133/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistCuspTypeLiftApproxFockSpace (217s)
+⚠ [175134/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionPrechartGroupStatement (198s)
+⚠ [175135/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSupNormLocalRescaleStatement (206s)
 ```
