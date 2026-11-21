@@ -1,24 +1,24 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 13:30 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 13:41 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 16
-now 2026-11-21T13:30:36+00:00
-load 268.04 269.87 268.78
+mem_used_GB 14
+now 2026-11-21T13:40:55+00:00
+load 289.45 273.09 269.58
 ```
 
 ## Progress
 
 ```
-latest_job 157572/183903
-built_ok 64080
-built_with_warnings 84643
-failed 138
-error_messages 270
+latest_job 159117/183903
+built_ok 64302
+built_with_warnings 85244
+failed 143
+error_messages 277
 ```
 
 ## Errors (first 50)
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [157560/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FactorsFibreOverPointIffFactorsProduct (178s)
-✔ [157561/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIsoOfEpiVectorBundleSameRank (198s)
-⚠ [157562/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.BadWStOfRegular (213s)
-⚠ [157563/183903] Built Development.AutomorphicArithmetic.DivisorFrames.IntersectionNumbersAgreeModel (213s)
-⚠ [157564/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankSectionsPullbackLeMulTwistDominantStatement (217s)
-⚠ [157565/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSubOfAffine (198s)
-✔ [157566/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeIntoDeRhamInjectiveImports (190s)
-⚠ [157567/183903] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLevelPowPrimeFourthPowerDescentStatement (202s)
-✔ [157568/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateFiltrationHodgeSubFirst (196s)
-✔ [157569/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsClosedImmersionFibreOverPointToBaseChange (187s)
-⚠ [157570/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorsAdaptedToQuotientGeneratorsStatement (182s)
-⚠ [157571/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterEqOneOfDescendedLineBundleTrivialStatement (185s)
-✔ [157572/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsoDualOfAffinePairing (191s)
-⚠ [157573/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLineBundleLocalSectionFamilyUnitAtPoint (176s)
-⚠ [157574/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.LagrangianShortExact (193s)
+⚠ [159106/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PGrpFin (188s)
+⚠ [159107/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelQuotientFamilyLocalPointsEqOfObjectStatement (185s)
+✔ [159108/183903] Built Development.AutomorphicArithmetic.CommutativeAlgebra.LevDefs (177s)
+✔ [159109/183903] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.EqOneOfHeckeEigNeBot (184s)
+✔ [159110/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PIdealInd (192s)
+⚠ [159111/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolarisedAbelianPartIsoOfBundleSquareIsoStatement (197s)
+⚠ [159112/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegersSurjectiveOfRankOne (172s)
+✔ [159113/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PCrtProj (194s)
+✔ [159114/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.FiniteEtaleModels.PCrtMul (197s)
+✔ [159115/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.HeckePowOne (179s)
+⚠ [159116/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDomainSectionsQuotMaximalIdealSmoothConnectedStatement (152s)
+⚠ [159117/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.KernelSiteArithmeticGroupMove (158s)
+⚠ [159118/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassicalAbelianPartValuesOfNormalFormStatement (198s)
+⚠ [159119/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SemiabelianActionPullbackStatement (180s)
+⚠ [159120/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDvrLimitsCorrespondenceFiniteSndStatement (179s)
 ```
