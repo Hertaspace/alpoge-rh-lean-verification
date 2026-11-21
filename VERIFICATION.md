@@ -77,6 +77,26 @@ error: src/Statements.lean:1:0: failed to read file '.../mathlib/.lake/build/lib
 
 This is an error reading a compiled Mathlib file, not an error in the project. The file has a valid header when inspected afterwards, and `lake env lean src/Statements.lean` then succeeded in 11 s. The likely cause is that the file was read while it was being rewritten, during the partial recompilation of Mathlib described above. Because `Main` imports `Statements`, the first pass cannot build `Main`. A second `lake build` after the first pass ends rebuilds every module that failed or was skipped, and the results below refer to that second pass.
 
+**Map-count limit, and the second pass.** At 11:02 UTC on 21 November the module `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AllTrueFamilyGeometry` failed with
+
+```
+error: .../AllTrueFamilyGeometry.lean:1:0: failed to read file '.../Formalism/LocalToGlobal/Divisibility/DivisionHeightBoundColumns.olean'
+```
+
+The file it names was written at 02:17 UTC and is intact, and the failure reproduces when the module is compiled alone. `strace` shows the cause: after about 65,900 memory mappings, `mmap` of that file returns `ENOMEM`, and so do the anonymous allocations of Lean's fallback path. The kernel of the build server limits a process to `vm.max_map_count = 65530` mappings, and the setting cannot be changed from inside its container. Lean maps every imported `.olean` file separately, and modules near the top of this project import close to 200,000 of them (`Main` imports 186,200 modules according to the MIT audit). Every such module fails on this machine. The amount of memory is not the problem: the failing process used 2.3 GB.
+
+Lean already has a fallback for a file that cannot be mapped at its preferred address: it reads the file into heap memory and relocates its pointers. It takes this path whenever two files want the same address. Heap memory is anonymous, and the kernel merges it into few mappings. The shim [`verification/no_fixed_file_mmap.c`](verification/no_fixed_file_mmap.c), loaded with `LD_PRELOAD`, makes every file mapping after the first 40,000 in a process fail, so that Lean takes this fallback for the rest. It changes nothing else.
+
+The shim does not change the compiled output. Built with Lake's exact arguments, with and without the shim:
+
+| Module | without shim (`lake build`) | with shim |
+|---|---|---|
+| `ReciprocityTheory/…/MultiplicityOne/JSmoothB` | `88fbcaff64067ca3` | `88fbcaff64067ca3` |
+| `Formalism/LocalToGlobal/Divisibility/DivisionHeightBoundColumns` | `3f70cbef237cfe0f` | `3f70cbef237cfe0f` |
+| `Development/…/AllTrueFamilyGeometry` | fails (map limit) | `3b69583eb2b65f1e`, 41 s, 14.6 GB peak memory |
+
+The first pass continues without the shim and builds every module below the limit. A second `lake build` then runs with the shim and with `LEAN_NUM_THREADS=32`, which limits Lake's parallelism so that the extra heap memory stays well below the 2 TB of the server. It rebuilds every module that failed or was skipped in the first pass, including `Statements` and `Main`. Script: [`verification/build-pass2.sh`](verification/build-pass2.sh).
+
 ## Cross-checks with the MIT run
 
 These comparisons with the independent run at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/) were made on 21 November 2026, while our build was still running. The MIT files used (`SHA256SUMS`, `project-oleans.sha256`, `comparator.json`, `Audit.lean`, `challenge.ndjson.zst`) were downloaded from that page. The hashes of `comparator.json`, `Audit.lean` and `challenge.ndjson.zst` match the page's `SHA256SUMS`.
