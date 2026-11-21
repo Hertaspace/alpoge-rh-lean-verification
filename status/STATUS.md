@@ -1,22 +1,22 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 14:33 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 14:43 UTC.
 
 ```
 pass 1 (log build.log)
 START 2026-11-20T16:12:56+00:00
 ✔ [114/349] Built BuildAid.D4 (826ms)
-mem_used_GB 19
-now 2026-11-21T14:32:58+00:00
-load 267.37 266.92 267.70
+mem_used_GB 18
+now 2026-11-21T14:43:16+00:00
+load 266.73 267.98 268.61
 ```
 
 ## Progress
 
 ```
-latest_job 165436/183903
-built_ok 65317
-built_with_warnings 88346
+latest_job 166755/183903
+built_ok 65524
+built_with_warnings 88966
 failed 174
 error_messages 333
 ```
@@ -84,19 +84,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-⚠ [165425/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernRootSubstitutionWeightLineBundleEqLinRoot (192s)
-⚠ [165426/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernCurvatureModelGramConjugateEmbeddingStatement (187s)
-⚠ [165427/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernFormPolyCoeffReindexFrameStatement (203s)
-⚠ [165428/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ChernCurvatureModelGramConjMulTransposeInvStatement (197s)
-⚠ [165429/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DegFlFlagMapRenamePerm (192s)
-✔ [165430/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlagMapChernRootsX (195s)
-✔ [165431/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarProductNonvanishingLevels (221s)
-⚠ [165432/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosNonzeroPairSectionOfAmpleStatement (189s)
-⚠ [165433/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairSectionMemBallExpOfProjArithVarietyStatement (194s)
-⚠ [165434/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeExistsMultipleIntegralPrimeToLStatement (173s)
-⚠ [165435/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BoundedDomainModelGramContDiffIsUnitStatement (189s)
-⚠ [165436/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeBundleGeneratedOfModelIsoStatement (178s)
-⚠ [165437/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopChernDensityInvariantHolomorphicFrameChangeStatement (197s)
-⚠ [165438/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratingPairSectionsNormBoundsStatement (189s)
-⚠ [165439/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopDegreeFormCoeffChernPolyEqSumRepresentationsStatement (195s)
+⚠ [166745/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RosatiValueTensorDataTransportLambdaBundle (171s)
+✔ [166746/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartValueMemRangeOfAgreeTraitExtension (186s)
+⚠ [166747/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralAtBasicOpenOfIntegralMulChartValue (188s)
+✔ [166748/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTorusComponentsOfUnimodularTensor (158s)
+⚠ [166749/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartValueIsIntegralOfIntegralAtPoints (193s)
+⚠ [166750/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetPowSmulMem (194s)
+✔ [166751/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsLastExtra (184s)
+⚠ [166752/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialSumInsertKilledCoordinateComp (186s)
+⚠ [166753/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SobolevBoundFiniteFamily (179s)
+⚠ [166754/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralElementAffineSectionGenerated (192s)
+⚠ [166755/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RosatiAdjTensorPowerIntMatrixEndomorphismStatement (172s)
+⚠ [166756/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilConvergenceOfKernel (180s)
+⚠ [166757/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSemiAbelianTensorOverScheme (190s)
+⚠ [166758/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelObjIsoHomSubtype (198s)
+✔ [166759/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMonHomSectionOfProdTrivial (184s)
 ```
