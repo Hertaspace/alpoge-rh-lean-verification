@@ -1,19 +1,19 @@
 # Build status
 
-Auto-generated from the build server. Last refresh: 2026-11-21 10:46 UTC.
+Auto-generated from the build server. Last refresh: 2026-11-21 10:56 UTC.
 
 ```
 START 2026-11-20T16:12:56+00:00
-now 2026-11-21T10:46:12+00:00
-load 269.49 273.32 272.21
+now 2026-11-21T10:56:24+00:00
+load 267.53 267.70 269.41
 ```
 
 ## Progress
 
 ```
-latest_job 142546/183903
-built_ok 59216
-built_with_warnings 75635
+latest_job 143493/183903
+built_ok 59550
+built_with_warnings 76248
 failed 1
 error_messages 2
 ```
@@ -34,19 +34,19 @@ error: Lean exited with code 1
 ## Log tail
 
 ```
-✔ [142532/183903] Built Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.UnitarySchrodingerLemmas.BlockHeightDeterminants.HWInfA (217s)
-⚠ [142533/183903] Built Development.AbelianVarietyTheory.Proofs.JetHarmonics.WignerMapsThreePlacesExistsStatement (118s)
-⚠ [142534/183903] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.HolomorphicDiscInAffineOpenStatement (136s)
-⚠ [142535/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.PHtDesc (162s)
-⚠ [142536/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CrystallineTowers.BcCover (165s)
-⚠ [142537/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CrystallineTowers.NegVan (168s)
-⚠ [142538/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.NonFieldTypeVanishingStatement (116s)
-✔ [142539/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtOfBuilt (144s)
-✔ [142540/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitCOfCXiAt (140s)
-✔ [142541/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.PLacConj (153s)
-✔ [142542/183903] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.KernelDatumLatticeTargetSideTrueChains (146s)
-✔ [142543/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.PGapLac (154s)
-⚠ [142544/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsJointEigenDecompositionCommutingSymmetricOStatement (145s)
-⚠ [142545/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.GeometricFlagBases.PTotCont (167s)
-⚠ [142546/183903] Built Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.ZetaCharacterDivisibility.SeedFinOddOf (159s)
+✔ [143481/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainUpwardLiftHeckeParamTransferred (166s)
+✔ [143482/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.OperatorEigenGoodPlaceSecond (196s)
+⚠ [143483/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EisensteinSeriesContinuationModuli (194s)
+⚠ [143484/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsSplitLocalPlaceDataAtSplitPlaceStatement (181s)
+⚠ [143485/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteL2ABoundWords (171s)
+⚠ [143486/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaLiftTopScalar (246s)
+⚠ [143487/183903] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ClassSumPrincipalLevelEqConstMulClassSumStatement (152s)
+⚠ [143488/183903] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateModulusStandardThetaPresentationStatement (122s)
+⚠ [143489/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RealRtEqOfGoodInert (181s)
+⚠ [143490/183903] Built CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureOfRankSmallOrZeroStatement (102s)
+⚠ [143491/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.RealPlaceLinesRelatedAndVanishOffPlaceStatement (159s)
+⚠ [143492/183903] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.TrueColumnsGoodChartsMiddleStepsStatement (159s)
+⚠ [143493/183903] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.PsiPrimitiveStandardFramesFourierJacobiLevel (169s)
+⚠ [143494/183903] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCombinationSplitsSinglePlaceVacuumStatement (185s)
+✔ [143495/183903] Built Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EvIpAtLeNormAtSq (192s)
 ```
