@@ -178,7 +178,7 @@ All 175,187 project modules are in the import closure of `Main`. None declares a
 | Checker | Result |
 |---|---|
 | nanoda 0.4.17 | **accepts**, exit 0, 57 min on 32 threads, 84 GB |
-| con-leche and con-ron bundled with Lean 4.35.0-rc2, `--verified` | **decline**, exit 2, not a rejection: `declined: in-process model of FunctorialResolution.EmbeddedResolution.PrincipalizationCertificate: reflexive member …`. These versions do not support reflexive inductive types. The MIT run reports the same for the versions bundled with Lean 4.36.0, and that con-leche and con-ron built from their `master` branches accept. |
+| con-leche and con-ron bundled with Lean 4.35.0-rc2, in `--verified` and in `--trusted` mode | **decline**, exit 2, not a rejection: `declined: in-process model of FunctorialResolution.EmbeddedResolution.PrincipalizationCertificate: reflexive member …`. These versions do not support reflexive inductive types. The MIT run reports the same for the versions bundled with Lean 4.36.0, and that con-leche and con-ron built from their `master` branches accept. |
 | Lean 4.35.0-rc2 paranoid and default kernels, Lean 4.33.1 `leanchecker --fresh Main` | running, single-threaded |
 
 Checks 1 and 2: in progress. comparator has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
