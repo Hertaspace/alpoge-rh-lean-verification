@@ -123,7 +123,7 @@ These comparisons with the independent run at [math.mit.edu/~drew/grh](https://m
 
 The two variants differ in the embedded string `/home/ubuntu/rh-alpoge/lean/src/…/JSmoothB.lean` versus `src/…/JSmoothB.lean`. The build is therefore deterministic, and a byte comparison of `.olean` files across machines is only meaningful for files that do not record a path. Exports, which contain only kernel declarations, are compared instead.
 
-After the build we hashed all 175,187 project `.olean` files. Every file in the MIT manifest is present in our build and vice versa. 76,968 are byte-identical and 98,219 differ, which is consistent with the sample above. `Main.olean` is among the identical ones (next paragraph).
+After the build we hashed all 175,187 project `.olean` files. Every file in the MIT manifest is present in our build and vice versa. 76,968 are byte-identical and 98,219 differ. The MIT page reports, as of 22 November 2026, 14:10 UTC, that exactly 98,219 of its compiled files contain the absolute path of their source file, stored with linter messages, and the other 76,968 contain no path. The split matches ours: the files that contain no path are identical, and the files that differ are those that record a path. `Main.olean` is among the identical ones (next paragraph).
 
 **`Main.olean`.** After the build, our `Main.olean` has SHA-256 `9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad`, the same as in the MIT manifest. `src/Main.lean` contains no term that records its source path, so the file is comparable across machines.
 
@@ -173,7 +173,15 @@ scanned 1945519 constants (1588253 theorems) from 175187 project modules in the 
 
 All 175,187 project modules are in the import closure of `Main`. None declares an axiom, none uses `sorry`, and no constant in them depends on an axiom other than the three standard ones.
 
-Checks 1, 2 and 4: in progress.
+**Independent kernels (check 4), partial.** The export of the closure of `Main` has 1,080,769,508 lines and 61,571,291,492 bytes, SHA-256 `8d610b3bbc31a5c3798c5fc9539d22976546f1b4a9bd99e8f3d937ed71f9904a`. It differs from the MIT export because the two runs pass different lists of root constants to lean4export.
+
+| Checker | Result |
+|---|---|
+| nanoda 0.4.17 | **accepts**, exit 0, 57 min on 32 threads, 84 GB |
+| con-leche and con-ron bundled with Lean 4.35.0-rc2, `--verified` | **decline**, exit 2, not a rejection: `declined: in-process model of FunctorialResolution.EmbeddedResolution.PrincipalizationCertificate: reflexive member …`. These versions do not support reflexive inductive types. The MIT run reports the same for the versions bundled with Lean 4.36.0, and that con-leche and con-ron built from their `master` branches accept. |
+| Lean 4.35.0-rc2 paranoid and default kernels, Lean 4.33.1 `leanchecker --fresh Main` | running, single-threaded |
+
+Checks 1 and 2: in progress. comparator has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
 

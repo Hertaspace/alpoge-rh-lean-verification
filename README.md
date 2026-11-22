@@ -60,7 +60,7 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | scan of the compiled environment | all 1,945,519 constants of the 175,187 project modules: declared axioms, `sorry`, and dependence on non-standard axioms | **passed**: none of each |
 | comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | running |
 | clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | running |
-| independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | running |
+| independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | nanoda **accepts**. The others are running (see [`VERIFICATION.md`](VERIFICATION.md#checks-after-the-build)) |
 
 A sound result lists only `propext`, `Classical.choice` and `Quot.sound` for each theorem. [`VERIFICATION.md`](VERIFICATION.md) records the environment, the commands and the outputs, and `verification/` contains the scripts.
 
@@ -125,7 +125,8 @@ One server with two AMD EPYC 7763 processors (128 cores, 256 threads) and 2 TB o
 | `lake build`, pass 2 (with the shim) | 4 h 30 min | 126 h | 100 GB |
 | export of `Main` and its dependencies | 2 h 26 min | 2.4 h | 170 GB |
 | scan of the compiled environment | 40 min | 0.7 h | 101 GB |
-| comparator, independent kernels | in progress | | |
+| nanoda on the export | 57 min | 10.9 h | 84 GB |
+| comparator, Lean kernels | in progress | | |
 
 - **Disk.** The build directory takes 1.2 TB, but only 95 GB of it is compiled proofs (`.olean`). The rest is Lake's `.setup.json` files: one per module, each listing every file the module imports, up to 50 MB for modules near the top. The export takes another 62 GB.
 - **Open files.** Raise `ulimit -n` before `lake exe cache get`. With the default of 1,024, 2,531 Mathlib cache files failed to unpack and were recompiled.
