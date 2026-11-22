@@ -105,7 +105,7 @@ lake exe cache get
 lake build
 ```
 
-This compiles all 175,187 files of the project. On our 256-core server it took about 30 hours in total (3,800 CPU-hours), and the build directory grew to 1.2 TB, mostly Lake's per-module `.setup.json` files. [`VERIFICATION.md`](VERIFICATION.md#computing-resources) lists the time, memory and disk used by every step.
+This compiles all 175,187 files of the project. On our 256-core server it took about 30 hours in total (3,800 CPU-hours), and the build directory grew to 1.2 TB, mostly Lake's per-module `.setup.json` files. See [Computing resources](#computing-resources).
 
 If modules near the end of the build fail with `failed to read file`, `std::bad_alloc` or `out of memory` although the machine has free memory, the cause is probably the per-process limit on memory mappings (`vm.max_map_count`, often 65530). Raise it with `sudo sysctl -w vm.max_map_count=1048576` if you can. Inside a container where you cannot, build [`verification/no_fixed_file_mmap.c`](verification/no_fixed_file_mmap.c) and rerun `lake build` with `LD_PRELOAD` pointing to it, as in [`verification/build-pass2.sh`](verification/build-pass2.sh).
 
@@ -114,6 +114,22 @@ If modules near the end of the build fail with `failed to read file`, `std::bad_
 ```bash
 lake env lean ../CheckAxioms.lean
 ```
+
+## Computing resources
+
+One server with two AMD EPYC 7763 processors (128 cores, 256 threads) and 2 TB of RAM. The figures are approximate: the server is a container that shares its hardware with other workloads, which mainly affects the wall-clock times.
+
+| Step | Wall-clock time | CPU time | Peak memory of one process |
+|---|---|---|---|
+| `lake build`, pass 1 | 25 h 19 min | 3,670 h | 19 GB |
+| `lake build`, pass 2 (with the shim) | 4 h 30 min | 126 h | 100 GB |
+| export of `Main` and its dependencies | 2 h 26 min | 2.4 h | 170 GB |
+| scan of the compiled environment | 40 min | 0.7 h | 101 GB |
+| comparator, independent kernels | in progress | | |
+
+- **Disk.** The build directory takes 1.2 TB, but only 95 GB of it is compiled proofs (`.olean`). The rest is Lake's `.setup.json` files: one per module, each listing every file the module imports, up to 50 MB for modules near the top. The export takes another 62 GB.
+- **Open files.** Raise `ulimit -n` before `lake exe cache get`. With the default of 1,024, 2,531 Mathlib cache files failed to unpack and were recompiled.
+- **Memory mappings.** Modules near the top need more than the common default of 65,530 mappings per process (`vm.max_map_count`). Raise it, or use the shim described in [`VERIFICATION.md`](VERIFICATION.md#build).
 
 ## Related work
 
