@@ -105,7 +105,7 @@ lake exe cache get
 lake build
 ```
 
-This compiles all 175,187 files of the project. On our 256-core server it took about 30 hours in total, and the compiled project files take 107 GB.
+This compiles all 175,187 files of the project. On our 256-core server it took about 30 hours in total (3,800 CPU-hours), and the build directory grew to 1.2 TB, mostly Lake's per-module `.setup.json` files. [`VERIFICATION.md`](VERIFICATION.md#computing-resources) lists the time, memory and disk used by every step.
 
 If modules near the end of the build fail with `failed to read file`, `std::bad_alloc` or `out of memory` although the machine has free memory, the cause is probably the per-process limit on memory mappings (`vm.max_map_count`, often 65530). Raise it with `sudo sysctl -w vm.max_map_count=1048576` if you can. Inside a container where you cannot, build [`verification/no_fixed_file_mmap.c`](verification/no_fixed_file_mmap.c) and rerun `lake build` with `LD_PRELOAD` pointing to it, as in [`verification/build-pass2.sh`](verification/build-pass2.sh).
 
