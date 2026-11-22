@@ -197,7 +197,9 @@ The map-count limit also affects every tool that loads `Main` from its compiled 
 
 ## Computing resources
 
-Everything ran on one server: two AMD EPYC 7763 processors (128 cores, 256 hardware threads), 2 TB of RAM, Ubuntu 20.04 in an LXD container on Linux 5.15. Times and memory come from `/usr/bin/time -v`. "Peak memory" is the largest resident set size of a single process, not the total for the machine. CPU time is user plus system time over all processes, counted in hardware threads.
+Everything ran on one server: two AMD EPYC 7763 processors (128 cores, 256 hardware threads), 2 TB of RAM, Ubuntu 20.04 in an LXD container on Linux 5.15. Times and memory come from `/usr/bin/time -v`. "Peak memory" is the largest resident set size of a single process, not the total for the machine. CPU time is the processor time used by our processes, summed over all of them and counted in hardware threads.
+
+All figures are approximate. The container shares the physical server with other containers, whose load we cannot see, and the build processes also competed with each other and with our own checks. Such load can lengthen the wall-clock times and can also raise the measured CPU time somewhat, because a busy processor runs each thread more slowly. CPU time and memory never include other users' processes. The figures describe one run on this server and should be read as a guide to the order of magnitude.
 
 | Step | Wall-clock time | CPU time | Peak memory | Written to disk |
 |---|---|---|---|---|
@@ -208,7 +210,7 @@ Everything ran on one server: two AMD EPYC 7763 processors (128 cores, 256 hardw
 | comparator | in progress | | | |
 | independent kernels | in progress | | | |
 
-The two build passes together took about 30 hours and 3,800 CPU-hours. Pass 1 kept on average 145 of the 256 hardware threads busy. A large share of it is system time, spent in the operating system rather than in Lean: 921 of the 3,670 h in pass 1, and 86 of the 126 h in pass 2. We did not profile where it goes.
+The two build passes together took about 30 hours and 3,800 CPU-hours. Pass 1 kept on average 145 of the 256 hardware threads busy. A large share of the CPU time is system time, the time the operating system kernel spends on requests from Lean, such as mapping imported files into memory, handling the resulting page faults, and writing files: 921 of the 3,670 h in pass 1, and 86 of the 126 h in pass 2. We did not measure how it divides among these.
 
 Disk usage after the build:
 
