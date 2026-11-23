@@ -58,7 +58,8 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | `lake env lean CheckAxioms.lean` | the axioms of the five theorems above | **passed**: `[propext, Classical.choice, Quot.sound]` for each of the five |
 | `Main.olean` | our compiled main module against the MIT run | **identical**, SHA-256 `9146dfb4…` |
 | scan of the compiled environment | all 1,945,519 constants of the 175,187 project modules: declared axioms, `sorry`, and dependence on non-standard axioms | **passed**: none of each |
-| comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | running |
+| con-leche `--compare` | the five theorems proved in `Main` have exactly the statements of the challenge, with identical definitions | **passed**: all five "justified by the solution" |
+| comparator | the same statement matching and axiom check, then a replay in the Lean kernel | running (Lean kernel stage, single-threaded) |
 | clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | **passed**: the two exports are byte-identical |
 | independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | nanoda, con-leche, con-ron and Lean 4.33.1's `leanchecker --fresh` **accept**. Lean's paranoid and default kernels on the export are still running (see [`VERIFICATION.md`](VERIFICATION.md#checks-after-the-build)) |
 

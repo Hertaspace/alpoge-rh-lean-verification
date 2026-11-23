@@ -196,6 +196,19 @@ CHALLENGE_EXPORTS_IDENTICAL
 
 So the statements of the five theorems, and every Mathlib definition they use (`riemannZeta`, `DirichletCharacter.LFunction` and so on), are those of upstream Mathlib, not altered copies inside the project.
 
+**Statement matching with con-leche `--compare`: passed.** This mode of con-leche is an independent implementation of comparator's statement matching. It checks the challenge export (the five statements with `sorry`, whose theorems it treats as axioms to be justified) against the export of `Main`: every declaration of the challenge must occur in the solution with the same content, and each of the five theorems must be proved there. We built the `compare` branch at `5dc36dc1`, the commit used by the MIT run, and ran [`verification/run-con-compare.sh`](verification/run-con-compare.sh) on 23 November 2026 (12 min on 32 threads, 45 GB):
+
+```
+con-leche: accepted 51690 declarations, 5 axioms justified by the solution /home/ubuntu/rh-alpoge/export/main.ndjson (1468418 declarations accepted) (--verified)
+con-leche: theorem riemannHypothesis justified by the solution
+con-leche: theorem riemannZeta_eq_zero_re justified by the solution
+con-leche: theorem LFunction_ne_zero_of_half_lt_re justified by the solution
+con-leche: theorem LFunction_eq_zero_re justified by the solution
+con-leche: theorem LFunction_eq_zero_re_of_isPrimitive justified by the solution
+```
+
+Together with the clean-room check, this shows that the theorems proved in `Main` have exactly the statements of the challenge, over upstream Mathlib.
+
 comparator (check 1): in progress. It has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
