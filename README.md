@@ -59,7 +59,7 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | `Main.olean` | our compiled main module against the MIT run | **identical**, SHA-256 `9146dfb4…` |
 | scan of the compiled environment | all 1,945,519 constants of the 175,187 project modules: declared axioms, `sorry`, and dependence on non-standard axioms | **passed**: none of each |
 | comparator | the five theorems have exactly the statements above, with identical definitions, and use only the three standard axioms | running |
-| clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | running |
+| clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | **passed**: the two exports are byte-identical |
 | independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | nanoda, con-leche, con-ron and Lean 4.33.1's `leanchecker --fresh` **accept**. Lean's paranoid and default kernels on the export are still running (see [`VERIFICATION.md`](VERIFICATION.md#checks-after-the-build)) |
 
 A sound result lists only `propext`, `Classical.choice` and `Quot.sound` for each theorem. [`VERIFICATION.md`](VERIFICATION.md) records the environment, the commands and the outputs, and `verification/` contains the scripts.

@@ -184,7 +184,19 @@ All 175,187 project modules are in the import closure of `Main`. None declares a
 | Lean 4.33.1 `leanchecker --fresh Main`, replaying every module in the import closure of `Main` from the compiled files | **accepts**, exit 0 and no output, 17 h 43 min single-threaded, 115 GB |
 | Lean 4.35.0-rc2 paranoid and default kernels on the export | running, single-threaded |
 
-Checks 1 and 2: in progress. comparator has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
+**Clean-room comparison of the statements (check 2): passed.** [`verification/compare-challenge.sh`](verification/compare-challenge.sh) exported the challenge module twice with lean4export, once from the project and once from a separate project that contains only Mathlib at the same commit, with the official Mathlib cache. The two exports are byte-identical (23 November 2026, 01:58 UTC):
+
+```
+6be3a756b1607cd6a2fc9ec65595fc412f66ba69963d9c477418d9d973107504  challenge-compare/cleanroom.ndjson
+6be3a756b1607cd6a2fc9ec65595fc412f66ba69963d9c477418d9d973107504  challenge-compare/project.ndjson
+  6495697 challenge-compare/cleanroom.ndjson
+  6495697 challenge-compare/project.ndjson
+CHALLENGE_EXPORTS_IDENTICAL
+```
+
+So the statements of the five theorems, and every Mathlib definition they use (`riemannZeta`, `DirichletCharacter.LFunction` and so on), are those of upstream Mathlib, not altered copies inside the project.
+
+comparator (check 1): in progress. It has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
 
