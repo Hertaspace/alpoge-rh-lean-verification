@@ -5,7 +5,23 @@ In November 2026 Levent Alpöge released a note, [remark.pdf](https://alpo.ge/re
 - **Statement:** `RiemannHypothesis` is Mathlib's own definition, not one introduced by the project (see [Main theorems](#main-theorems)).
 - **Source:** the Lean project from `https://alpo.ge/lean.tar.gz.part01` … `part14`. We do not redistribute it. [`SHA256SUMS`](SHA256SUMS) lists the hashes of the parts we checked.
 - **Size:** 175,187 Lean files and about 17.4 million lines, built on Mathlib.
-- **Status:** the whole project compiles (`Build completed successfully (183903 jobs).`, 21 November 2026, 22:02 UTC), and all five theorems depend only on `propext`, `Classical.choice` and `Quot.sound`. Our `Main.olean` is byte-identical to the one of the MIT run. The independent checks (comparator, clean-room statement check, kernels) are running.
+- **Status:** every check we have finished passes (see [Conclusion](#conclusion)). Three redundant checks are still running.
+
+## Conclusion
+
+As of 23 November 2026, every finished check passes:
+
+- the whole project compiles,
+- the five theorems depend only on `propext`, `Classical.choice` and `Quot.sound`,
+- no project module declares an axiom or uses `sorry`,
+- the five statements match the challenge file exactly, and that file compiles to byte-identical declarations in a project that contains only Mathlib,
+- four kernel implementations accept the proofs: Lean's own kernel (through `leanchecker --fresh`), nanoda, con-leche, and con-ron (a Rust port of con-leche).
+
+So, as far as these tools can tell, the project contains a complete formal proof of `RiemannHypothesis` as defined in Mathlib, and of the four statements about Dirichlet L-functions as defined in `src/Statements.lean`. For the result to be wrong, a definition in the [trust base](#trust-base) would have to mean something other than intended, or every kernel above would have to accept the same invalid proof.
+
+We checked the formal proof only. We did not read the proof or the note.
+
+Three checks are still running: comparator, and Lean 4.35's paranoid and default kernels on the export. Each repeats a check that has already passed with another tool. We will add their results when they finish.
 
 ## Main theorems
 
