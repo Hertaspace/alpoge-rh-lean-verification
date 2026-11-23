@@ -7,6 +7,61 @@ In November 2026 Levent Alpöge released a note, [remark.pdf](https://alpo.ge/re
 - **Size:** 175,187 Lean files and about 17.4 million lines, built on Mathlib.
 - **Status:** every check we have finished passes (see [Conclusion](#conclusion)). Three redundant checks are still running.
 
+## What we checked
+
+```mermaid
+flowchart TB
+  SRC["Alpöge's Lean project<br/>175,187 files"]
+  CH["Challenge.lean<br/>the five statements, no proofs"]
+
+  subgraph Q1["1 · Does it compile?"]
+    SCAN["source scan<br/>no sorry, axiom, native_decide ✅"]
+    BUILD["lake build<br/>183,903 jobs ✅"]
+    MIT["Main.olean identical<br/>to the MIT run ✅"]
+  end
+
+  subgraph Q2["2 · What does it assume?"]
+    AX["#35;print axioms<br/>only the 3 standard axioms ✅"]
+    ENV["scan of 1.9 M compiled constants<br/>no axiom, no sorry ✅"]
+  end
+
+  subgraph Q3["3 · Do independent kernels accept the proofs?"]
+    LC["Lean kernel<br/>leanchecker --fresh ✅"]
+    NAN["nanoda ✅"]
+    CL["con-leche ✅"]
+    CR["con-ron ✅"]
+    LK["Lean 4.35 kernels<br/>on the export ⏳"]
+  end
+
+  subgraph Q4["4 · Are the statements the right ones?"]
+    CLEAN["clean room: same declarations<br/>in a Mathlib-only project ✅"]
+    CMP["con-leche --compare<br/>statements match ✅"]
+    COMP["comparator ⏳"]
+  end
+
+  SRC --> SCAN
+  SRC --> BUILD
+  BUILD --> MIT
+  BUILD --> AX
+  BUILD --> ENV
+  BUILD --> LC
+  BUILD -->|export| NAN & CL & CR & LK
+  CH --> CLEAN
+  CH --> CMP
+  CH --> COMP
+  BUILD --> CMP
+  BUILD --> COMP
+
+  classDef pass fill:#e6f4ea,stroke:#34a853,color:#111
+  classDef run fill:#fff4e5,stroke:#f9a825,color:#111
+  classDef input fill:#e8eefc,stroke:#4a6fd8,color:#111
+  class SCAN,BUILD,MIT,AX,ENV,LC,NAN,CL,CR,CLEAN,CMP pass
+  class LK,COMP run
+  class SRC,CH input
+```
+
+✅ passed · ⏳ still running. Details are in [Verification](#verification) and [`VERIFICATION.md`](VERIFICATION.md).
+
 ## Conclusion
 
 As of 23 November 2026, every finished check passes:
