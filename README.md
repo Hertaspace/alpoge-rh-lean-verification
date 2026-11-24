@@ -5,7 +5,7 @@ In November 2026 Levent Alpöge released a note, [remark.pdf](https://alpo.ge/re
 - **Statement:** `RiemannHypothesis` is Mathlib's own definition, not one introduced by the project (see [Main theorems](#main-theorems)).
 - **Source:** the Lean project from `https://alpo.ge/lean.tar.gz.part01` … `part14`. We do not redistribute it. [`SHA256SUMS`](SHA256SUMS) lists the hashes of the parts we checked.
 - **Size:** 175,187 Lean files and about 17.4 million lines, built on Mathlib.
-- **Status:** every check we have finished passes (see [Conclusion](#conclusion)). Three redundant checks are still running.
+- **Status:** every check we have finished passes (see [Conclusion](#conclusion)). Two redundant checks are still running.
 
 ## What we checked
 
@@ -36,7 +36,7 @@ flowchart TB
   subgraph Q4["4 · Are the statements the right ones?"]
     CLEAN["clean room: same declarations<br/>in a Mathlib-only project ✅"]
     CMP["con-leche --compare<br/>statements match ✅"]
-    COMP["comparator ⏳"]
+    COMP["comparator ✖<br/>interrupted, server<br/>out of memory"]
   end
 
   SRC --> SCAN
@@ -54,13 +54,15 @@ flowchart TB
 
   classDef pass fill:#e6f4ea,stroke:#34a853,color:#111
   classDef run fill:#fff4e5,stroke:#f9a825,color:#111
+  classDef stop fill:#eeeeee,stroke:#888888,color:#111
   classDef input fill:#e8eefc,stroke:#4a6fd8,color:#111
   class SCAN,BUILD,MIT,AX,ENV,LC,NAN,CL,CR,CLEAN,CMP pass
-  class LK,COMP run
+  class LK run
+  class COMP stop
   class SRC,CH input
 ```
 
-✅ passed · ⏳ still running. Details are in [Verification](#verification) and [`VERIFICATION.md`](VERIFICATION.md).
+✅ passed · ⏳ still running · ✖ interrupted, no result. Details are in [Verification](#verification) and [`VERIFICATION.md`](VERIFICATION.md).
 
 ## Conclusion
 
@@ -76,7 +78,7 @@ So, as far as these tools can tell, the project contains a complete formal proof
 
 We checked the formal proof only. We did not read the proof or the note.
 
-Three checks are still running: comparator, and Lean 4.35's paranoid and default kernels on the export. Each repeats a check that has already passed with another tool. We will add their results when they finish.
+Two checks are still running: Lean 4.35's paranoid and default kernels on the export. A third, comparator, was stopped by the operating system after 41 hours, when other jobs on the shared server used up its memory, and gave no result. We did not rerun it, because each of its parts has passed with another tool: the statement matching with con-leche `--compare`, the axiom check with `#print axioms` and the scan, and the replay in the Lean kernel with `leanchecker --fresh`. The MIT run reports that comparator passes on the same archive (see [Related work](#related-work)). We will add the results of the two kernels when they finish.
 
 ## Main theorems
 
@@ -130,7 +132,7 @@ def PrimitiveDirichletLZerosOnLine : Prop :=
 | `Main.olean` | our compiled main module against the MIT run | **identical**, SHA-256 `9146dfb4…` |
 | scan of the compiled environment | all 1,945,519 constants of the 175,187 project modules: declared axioms, `sorry`, and dependence on non-standard axioms | **passed**: none of each |
 | con-leche `--compare` | the five theorems proved in `Main` have exactly the statements of the challenge, with identical definitions | **passed**: all five "justified by the solution" |
-| comparator | the same statement matching and axiom check, then a replay in the Lean kernel | running (Lean kernel stage, single-threaded) |
+| comparator | the same statement matching and axiom check, then a replay in the Lean kernel | **interrupted** after 41 h, when the shared server ran out of memory. No result. Its parts are covered by the rows above and below |
 | clean-room statement check | the statements compile to the same declarations in a project that contains only Mathlib | **passed**: the two exports are byte-identical |
 | independent kernels | the proofs are replayed by Lean's paranoid and default kernels, nanoda, con-leche, con-ron and `leanchecker` | nanoda, con-leche, con-ron and Lean 4.33.1's `leanchecker --fresh` **accept**. Lean's paranoid and default kernels on the export are still running (see [`VERIFICATION.md`](VERIFICATION.md#checks-after-the-build)) |
 
@@ -200,7 +202,8 @@ One server with two AMD EPYC 7763 processors (128 cores, 256 threads) and 2 TB o
 | nanoda on the export | 57 min | 10.9 h | 84 GB |
 | con-leche, con-ron on the export | 12 min, 16 min | 5.4 h, 2.0 h | 44 GB, 42 GB |
 | `leanchecker --fresh Main` | 17 h 43 min | 17.7 h | 115 GB |
-| comparator, Lean kernels on the export | in progress | | |
+| comparator (interrupted) | 40 h 44 min | 40.8 h | 349 GB |
+| Lean kernels on the export | in progress | | |
 
 - **Disk.** The build directory takes 1.2 TB, but only 95 GB of it is compiled proofs (`.olean`). The rest is Lake's `.setup.json` files: one per module, each listing every file the module imports, up to 50 MB for modules near the top. The export takes another 62 GB.
 - **Open files.** Raise `ulimit -n` before `lake exe cache get`. With the default of 1,024, 2,531 Mathlib cache files failed to unpack and were recompiled.
@@ -208,12 +211,13 @@ One server with two AMD EPYC 7763 processors (128 cores, 256 threads) and 2 TB o
 
 ## Related work
 
-Andrew Sutherland (MIT) runs an independent check of the same archive at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/), also with Claude Code. His archive has the same SHA-256 as ours (`9631b4f0…`). As of 20 November 2026, 22:05 UTC, that page reports:
+Andrew Sutherland (MIT) runs an independent check of the same archive at [math.mit.edu/~drew/grh](https://math.mit.edu/~drew/grh/), also with Claude Code. That archive has the same SHA-256 as ours (`9631b4f0…`). As of 24 November 2026, 00:15 UTC, that page reports:
 
 - all 175,187 modules compile, and the Mathlib build files are byte-identical to the official cache,
 - `#print axioms` gives only `propext`, `Classical.choice` and `Quot.sound` for the five theorems,
 - `leanchecker`, nanoda and con-leche accept, and lean4lean accepts after five modules are rerun with a raised timeout,
-- Lean's default and paranoid kernels on the export, and the kernel stage of `lake comparator`, are still running.
+- Lean's default and paranoid kernels accept the full export, after 48 h and 72 h on one thread,
+- the unmodified comparator v4.33.0 passes (`Your solution is okay!`), and `lake comparator` of Lean 4.36 is still running.
 
 That run compiles each file by calling `lean` directly. This repository uses a plain `lake build`, so the two runs are independent in environment and in build method. Our `Main.olean` has the same SHA-256 as the one in the manifest published there. The comparison of all compiled project files is in [`VERIFICATION.md`](VERIFICATION.md#cross-checks-with-the-mit-run).
 

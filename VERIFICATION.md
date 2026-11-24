@@ -54,7 +54,7 @@ run_cmd Lean.modifyEnv fun env => Lean.LibrarySuggestions.nameDenyListExt.addEnt
 
 The two `addDecl` calls are in `src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean`. They belong to a command `cpt_copy_thms` that copies existing definitions and theorems under new names with a substitution applied. `addDecl` sends each copy to the kernel, so the copies are checked like any other declaration.
 
-A text scan cannot rule out every way to subvert a proof. The build, the axiom check and the comparator replay below are the real checks.
+A text scan cannot rule out every way to subvert a proof. The build, the axiom check and the kernel replays below are the real checks.
 
 ## Build
 
@@ -209,7 +209,7 @@ con-leche: theorem LFunction_eq_zero_re_of_isPrimitive justified by the solution
 
 Together with the clean-room check, this shows that the theorems proved in `Main` have exactly the statements of the challenge, over upstream Mathlib.
 
-comparator (check 1): in progress. It has passed the export stage and is replaying the proofs in the Lean kernel, single-threaded.
+comparator (check 1): **interrupted, no result.** It started on 21 November 2026 at 22:15 UTC and finished its build stage. On 23 November at 14:59 UTC, after 40 h 44 min and with 349 GB in use, the operating system stopped it (`Out of memory: Killed process … (comparator)` in the kernel log, exit status 137). Other jobs on the shared server had used up its memory. We did not rerun it. Its three parts are covered by other checks above: the statement matching by con-leche `--compare`, the axiom check by `#print axioms` and the scan of the compiled environment, and the replay in the Lean kernel by `leanchecker --fresh`. The MIT run reports that the unmodified comparator v4.33.0 passes on the same archive.
 
 Lake 4.33.1 has no `lake comparator` or `lake check` subcommand, which the [sic-povm-lean](https://github.com/Hertaspace/sic-povm-lean) record used. The same checks are therefore run with the standalone tools, pinned as follows.
 
