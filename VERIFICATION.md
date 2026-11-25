@@ -173,17 +173,17 @@ scanned 1945519 constants (1588253 theorems) from 175187 project modules in the 
 
 All 175,187 project modules are in the import closure of `Main`. None declares an axiom, none uses `sorry`, and no constant in them depends on an axiom other than the three standard ones.
 
-**Independent kernels (check 4), partial.** The export of the closure of `Main` has 1,080,769,508 lines and 61,571,291,492 bytes, SHA-256 `8d610b3bbc31a5c3798c5fc9539d22976546f1b4a9bd99e8f3d937ed71f9904a`. It differs from the MIT export because the two runs pass different lists of root constants to lean4export.
+**Independent kernels (check 4): passed.** The export of the closure of `Main` has 1,080,769,508 lines and 61,571,291,492 bytes, SHA-256 `8d610b3bbc31a5c3798c5fc9539d22976546f1b4a9bd99e8f3d937ed71f9904a`. It differs from the MIT export because the two runs pass different lists of root constants to lean4export.
 
 | Checker | Result |
 |---|---|
 | nanoda 0.4.17 | **accepts**, exit 0, 57 min on 32 threads, 84 GB |
-| con-leche and con-ron bundled with Lean 4.35.0-rc2, in `--verified` and in `--trusted` mode | **decline**, exit 2, not a rejection: `declined: in-process model of FunctorialResolution.EmbeddedResolution.PrincipalizationCertificate: reflexive member …`. These versions do not support reflexive inductive types. The MIT run reports the same for the versions bundled with Lean 4.36.0, and that con-leche and con-ron built from their `master` branches accept. |
+| con-leche and con-ron bundled with Lean 4.35.0-rc2, in `--verified` and in `--trusted` mode | **decline**, exit 2, not a rejection: `declined: in-process model of FunctorialResolution.EmbeddedResolution.PrincipalizationCertificate: reflexive member …`. These versions do not support reflexive inductive types. [`verification/run-kernels.sh`](verification/run-kernels.sh) labels every non-zero exit `REJECT`, so its summary shows `REJECT(rc=2)` for these two. The MIT run reports the same for the versions bundled with Lean 4.36.0, and that con-leche and con-ron built from their `master` branches accept. |
 | con-leche built from source, `master` at `cd2eceab` (Lean 4.36.0), `--verified` | **accepts**, exit 0: `accepted 1468418 declarations (--verified)`, 11.5 min on 32 threads, 44 GB. The MIT run reports the same number of declarations for the same commit. |
 | con-ron built from source, `master` at `3f22699b` (Rust), `--verified` | **accepts**, exit 0: `accepted 1468418 declarations (--verified)`, 16 min on 32 threads, 42 GB |
 | Lean 4.33.1 `leanchecker --fresh Main`, replaying every module in the import closure of `Main` from the compiled files | **accepts**, exit 0 and no output, 17 h 43 min single-threaded, 115 GB |
 | Lean 4.35.0-rc2 default kernel on the export | **accepts**, exit 0: `Lean default kernel accepts the solution`. 62 h 32 min on one thread, 87 GB, finished 24 November 2026, 15:14 UTC |
-| Lean 4.35.0-rc2 paranoid kernel on the export | running, single-threaded |
+| Lean 4.35.0-rc2 paranoid kernel on the export | **accepts**, exit 0. 92 h 26 min on one thread, 104 GB, finished 25 November 2026, 21:09 UTC. It prints the same message as the default kernel, `Lean default kernel accepts the solution` |
 
 **Clean-room comparison of the statements (check 2): passed.** [`verification/compare-challenge.sh`](verification/compare-challenge.sh) exported the challenge module twice with lean4export, once from the project and once from a separate project that contains only Mathlib at the same commit, with the official Mathlib cache. The two exports are byte-identical (23 November 2026, 01:58 UTC):
 
