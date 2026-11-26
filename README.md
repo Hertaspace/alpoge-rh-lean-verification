@@ -37,7 +37,6 @@ flowchart TB
   subgraph Q4["4 · Are the statements the right ones?"]
     CLEAN["clean room: same declarations<br/>in a Mathlib-only project ✅"]
     CMP["con-leche --compare<br/>statements match ✅"]
-    COMP["comparator ✖<br/>interrupted, server<br/>out of memory"]
   end
 
   SRC --> SCAN
@@ -49,19 +48,15 @@ flowchart TB
   BUILD -->|export| NAN & CL & CR & LK & LP
   CH --> CLEAN
   CH --> CMP
-  CH --> COMP
   BUILD --> CMP
-  BUILD --> COMP
 
   classDef pass fill:#e6f4ea,stroke:#34a853,color:#111
-  classDef stop fill:#eeeeee,stroke:#888888,color:#111
   classDef input fill:#e8eefc,stroke:#4a6fd8,color:#111
   class SCAN,BUILD,MIT,AX,ENV,LC,NAN,CL,CR,LK,LP,CLEAN,CMP pass
-  class COMP stop
   class SRC,CH input
 ```
 
-✅ passed · ✖ interrupted, no result. Details are in [Verification](#verification) and [`VERIFICATION.md`](VERIFICATION.md).
+✅ passed. Details are in [Verification](#verification) and [`VERIFICATION.md`](VERIFICATION.md).
 
 ## Conclusion
 
@@ -77,7 +72,7 @@ So, as far as these tools can tell, the project contains a complete formal proof
 
 We checked the formal proof only. We did not read the proof or the note.
 
-One check gave no result. comparator was stopped by the operating system after 41 hours, when other jobs on the shared server used up its memory, and gave no result. We did not rerun it, because each of its parts has passed with another tool: the statement matching with con-leche `--compare`, the axiom check with `#print axioms` and the scan, and the replay in the Lean kernel with `leanchecker --fresh`. The MIT run reports that comparator passes on the same archive (see [Related work](#related-work)).
+One check, comparator, gave no result: the operating system stopped it after 41 hours, when other jobs on the shared server used up its memory. We did not rerun it, because each of its parts has passed with another tool: the statement matching with con-leche `--compare`, the axiom check with `#print axioms` and the scan, and the replay in the Lean kernel with `leanchecker --fresh`. The MIT run reports that comparator passes on the same archive (see [Related work](#related-work)).
 
 ## Main theorems
 
